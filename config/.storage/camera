@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "key": "camera",
+    "data": {
+        "camera.camera_teste": {
+            "preload_stream": true
+        },
+        "camera.camera_1": {
+            "preload_stream": false
+        },
+        "camera.camera_foo": {
+            "preload_stream": false
+        }
+    }
+}

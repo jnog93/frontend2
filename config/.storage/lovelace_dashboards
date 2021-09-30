@@ -1,0 +1,40 @@
+{
+    "version": 1,
+    "key": "lovelace_dashboards",
+    "data": {
+        "items": [
+            {
+                "require_admin": true,
+                "show_in_sidebar": true,
+                "title": "DashBoardTest1",
+                "url_path": "lovelace-dashboardtest1",
+                "mode": "storage",
+                "id": "lovelace_dashboardtest1"
+            },
+            {
+                "require_admin": true,
+                "show_in_sidebar": true,
+                "title": "lights",
+                "url_path": "lovelace-lights",
+                "mode": "storage",
+                "id": "lovelace_lights"
+            },
+            {
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "testes",
+                "url_path": "lovelace-testes",
+                "mode": "storage",
+                "id": "lovelace_testes"
+            },
+            {
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "RoomVideo",
+                "url_path": "lovelace-roomvideo",
+                "mode": "storage",
+                "id": "lovelace_roomvideo"
+            }
+        ]
+    }
+}

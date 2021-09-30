@@ -1,0 +1,98 @@
+
+###########################
+# DASHBOARD  AUTOMATION ###
+###########################
+
+#Automation to create a new homekit dashboard when the user is created 
+- id: created new dashboard in homekit
+  alias: 'create_dashboard'
+  trigger: 
+    - platform: event
+      event_type: user_added
+  action:
+    - service: pyscript.create_new_dashboard
+      data_template:
+        userID: "{{ trigger.event.data.user_id }}"
+
+#Automation to remove a new dashboard when the user is removed 
+- id: Remove dashboard in homekit
+  alias: 'delete_dashboard'
+  trigger: 
+    - platform: event
+      event_type: user_removed 
+  action:
+    - service: pyscript.remove_dashboard
+      data_template:
+        userID: "{{ trigger.event.data.user_id }}"
+
+
+#Automation to import a lovelace dashboard to homekit-infused (deprecated, now the service is called direcly)
+# - id: import_dashboard 
+#   alias: "Import a lovelace dashboard to homekit-infused"
+#   trigger:
+#     - platform: state
+#       entity_id: input_boolean.dashboard_import_confirm
+#       to: 'on'
+#   action:
+#     - service: pyscript.import_lovelace_dashBoard
+#       data_template:
+#         dashboardToImport: >
+#           {{ states('input_select.dashboard_importer') }}
+#         user: >
+#           {{ states('input_select.dashboard_user_import') }} 
+
+#Automations to update the avaiable dashboard for import. When a new dashboard is created the event type is 'moved' not 'created'
+- id: folder_watcher_dashboards_moved_event
+  alias: "Update dropdown menu in for dashboards when a dashboard file is moved"
+  trigger:
+    platform: event
+    event_type: folder_watcher
+    event_data:
+      event_type: moved
+  condition:
+    condition: template
+    value_template: "{{'/config/.storage' in trigger.event.data.folder }}"
+  action:
+    - service: pyscript.updateDashboardsAvaiable
+    - service: broadlink_raceland.update_dashboards
+    - service: input_select.reload
+
+- id: folder_watcher_dashboards_delete_event
+  alias:  "Update dropdown menu in for dashboards when a dashboard file is deleted"
+  trigger:
+    platform: event
+    event_type: folder_watcher
+    event_data:
+      event_type: deleted
+  condition:
+    condition: template
+    value_template: "{{'/config/.storage' in trigger.event.data.folder }}"
+  action:
+    - service: pyscript.updateDashboardsAvaiable
+    - service: broadlink_raceland.update_dashboards
+    - service: input_select.reload
+
+- id: folder_watcher_dashboards_created_event
+  alias:  "Update dropdown menu in for dashboards when a dashboard file is created"
+  trigger:
+    platform: event
+    event_type: folder_watcher
+    event_data:
+      event_type: created
+  condition:
+    condition: template
+    value_template: "{{'/config/.storage' in trigger.event.data.folder }}"
+  action:
+    - service: pyscript.updateDashboardsAvaiable
+    - service: broadlink_raceland.update_dashboards
+    - service: input_select.reload
+
+- id: folder_watcher_dashboards_ha_start
+  alias: "Update dropdown menu in import dashboard when HA starts" 
+  trigger:
+    platform: homeassistant
+    event: start
+  action:
+    - service: pyscript.updateDashboardsAvaiable
+    - service: broadlink_raceland.update_dashboards
+    - service: input_select.reload

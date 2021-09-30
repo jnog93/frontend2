@@ -1,0 +1,35 @@
+
+###########################
+## Redirect Automation   ##
+###########################
+
+
+# - id: '1627027495847'
+#   alias: Navigate to homekit after login
+#   description: Navigates to home kit home page after log in. Uses the attributes visibility of sensor.browser_
+#   mode: parallel
+#   max: 10
+#   trigger:
+#   - platform: event
+#     event_type: state_changed
+#   condition:
+#   - condition: and
+#     conditions:
+#     - condition: template
+#       value_template: "{{ 'sensor.browser' in trigger.event.data.new_state.entity_id }}"
+#     - condition: or 
+#       conditions:
+#         - condition: template
+#           value_template: "{{ 'hidden' in  trigger.event.data.old_state.attributes.visibility }}"
+#         - condition: template
+#           value_template: "{{ 'null' in trigger.event.data.old_state }}"
+#     - condition: template
+#       value_template: "{{ 'visible' in trigger.event.data.new_state.attributes.visibility }}"
+#     - condition: template
+#       value_template: "{{ trigger.event.data.new_state.attributes.width < 900 }}"
+#   action:
+#   - service: browser_mod.navigate
+#     data_template:
+#       navigation_path: http://192.168.1.142:8123/homekit-infused-{{ trigger.event.data.new_state.attributes.currentUser.lower() |replace(' ', '-') }}/main_menu
+#       deviceID:
+#       - "{{ state_attr(trigger.event.data.entity_id, 'deviceID') }}"

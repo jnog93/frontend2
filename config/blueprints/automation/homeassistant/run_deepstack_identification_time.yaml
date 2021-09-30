@@ -1,0 +1,30 @@
+blueprint:
+  name: Run deepstack identification time
+  description: Automation to run deepstack every x seconds on a deepstack object
+  domain: automation
+  input: 
+    interval_in_seconds:
+      name: Executar o scan com que intervalo (segundos)
+      selector: 
+        select:
+          options: 
+            - /15
+            - /30
+            - /45
+            - /60
+    
+    deepstack_entity: 
+      name: Entidade de deepstack para correr o scan
+      selector:
+        entity: 
+          domain: image_processing
+
+
+trigger: 
+  - platform: time_pattern
+    seconds: !input interval_in_seconds
+
+action:
+  - alias: "Deepstack object"
+    service: image_processing.scan
+    entity_id: !input deepstack_entity

@@ -1,0 +1,1 @@
+"""Initialize RACELANDSHOP Web responses"""

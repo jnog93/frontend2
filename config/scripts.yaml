@@ -1,0 +1,180 @@
+move_camera_bar_to_preset_1:
+  alias: Move camera bar to preset 1
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_bar
+      preset_number: 1
+    service: raceland_cameras.move_to_preset
+move_camera_bar_to_preset_10:
+  alias: Move camera bar to preset 10
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_bar
+      preset_number: 10
+    service: raceland_cameras.move_to_preset
+move_camera_bar_to_preset_2:
+  alias: Move camera bar to preset 2
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_bar
+      preset_number: 2
+    service: raceland_cameras.move_to_preset
+move_camera_bar_to_preset_3:
+  alias: Move camera bar to preset 3
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_bar
+      preset_number: 3
+    service: raceland_cameras.move_to_preset
+move_camera_bar_to_preset_4:
+  alias: Move camera bar to preset 4
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_bar
+      preset_number: 4
+    service: raceland_cameras.move_to_preset
+move_camera_bar_to_preset_5:
+  alias: Move camera bar to preset 5
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_bar
+      preset_number: 5
+    service: raceland_cameras.move_to_preset
+move_camera_bar_to_preset_6:
+  alias: Move camera bar to preset 6
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_bar
+      preset_number: 6
+    service: raceland_cameras.move_to_preset
+move_camera_bar_to_preset_7:
+  alias: Move camera bar to preset 7
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_bar
+      preset_number: 7
+    service: raceland_cameras.move_to_preset
+move_camera_bar_to_preset_8:
+  alias: Move camera bar to preset 8
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_bar
+      preset_number: 8
+    service: raceland_cameras.move_to_preset
+move_camera_bar_to_preset_9:
+  alias: Move camera bar to preset 9
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_bar
+      preset_number: 9
+    service: raceland_cameras.move_to_preset
+move_camera_foo_to_preset_1:
+  alias: Move camera foo to preset 1
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_foo
+      preset_number: 1
+    service: raceland_cameras.move_to_preset
+move_camera_foo_to_preset_10:
+  alias: Move camera foo to preset 10
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_foo
+      preset_number: 10
+    service: raceland_cameras.move_to_preset
+move_camera_foo_to_preset_2:
+  alias: Move camera foo to preset 2
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_foo
+      preset_number: 2
+    service: raceland_cameras.move_to_preset
+move_camera_foo_to_preset_3:
+  alias: Move camera foo to preset 3
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_foo
+      preset_number: 3
+    service: raceland_cameras.move_to_preset
+move_camera_foo_to_preset_4:
+  alias: Move camera foo to preset 4
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_foo
+      preset_number: 4
+    service: raceland_cameras.move_to_preset
+move_camera_foo_to_preset_5:
+  alias: Move camera foo to preset 5
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_foo
+      preset_number: 5
+    service: raceland_cameras.move_to_preset
+move_camera_foo_to_preset_6:
+  alias: Move camera foo to preset 6
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_foo
+      preset_number: 6
+    service: raceland_cameras.move_to_preset
+move_camera_foo_to_preset_7:
+  alias: Move camera foo to preset 7
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_foo
+      preset_number: 7
+    service: raceland_cameras.move_to_preset
+move_camera_foo_to_preset_8:
+  alias: Move camera foo to preset 8
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_foo
+      preset_number: 8
+    service: raceland_cameras.move_to_preset
+move_camera_foo_to_preset_9:
+  alias: Move camera foo to preset 9
+  mode: single
+  sequence:
+  - data:
+      camera_entity_id: camera.camera_foo
+      preset_number: 9
+    service: raceland_cameras.move_to_preset
+toggle_discover:
+  alias: Toggle input_boolean and Discover Broadlink devices
+  description: Toggle the input_bolean and discover Broadlink devices
+  fields:
+    entity_id:
+      description: Input boolean to toggle
+      example: input_boolean.learning_mode_1
+    mac_adress:
+      description: Mac adress of the broadlink device
+      example: 24:fd:a7:ff:20:26
+  mode: single
+  sequence:
+  - service: input_boolean.toggle
+    target:
+      entity_id: '{{ entity_id }}'
+  - alias: Update Broadlink remotes
+    data:
+      input_bool: '{{ entity_id }}'
+      mac_adress: '{{ mac_adress }}'
+    service: broadlink_raceland.update_broadink_on_toogle

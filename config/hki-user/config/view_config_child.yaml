@@ -1,0 +1,10 @@
+view_config_child:
+  home:
+    icon: mdi:home
+    menu:
+      Title: "Divisões"
+    show_in_menu: false
+    show_in_navbar: true
+    title: Menu Principal
+    show_header: true
+    hki_menu: null

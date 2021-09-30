@@ -1,0 +1,158 @@
+# lovelace_gen
+
+# Card
+type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - !include
+        - '../button/button.yaml'
+        - entity: {{ input_boolean }}
+          name: {{ name_preset_button_1|default('Aprender') }}
+          icon: {{ icon_preset_button_1|default('mdi:access-point') }}
+          opacity_off: 1
+          icon_color_off: {{ icon_color_preset_button_1|default('red') }}
+          tap_action: call-service
+          script: script.toggle_discover
+          mac: {{ mac }}
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:skip-backward
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: reverse_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:play
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: play_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0   
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:skip-forward
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: forward_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0   
+  - type: horizontal-stack
+    cards:
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:chevron-up-circle
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: channel_up_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0   
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:power
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: power_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0   
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:arrow-up-drop-circle-outline
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: up_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0   
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:power-off
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: power_off_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0   
+  - type: horizontal-stack
+    cards:
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:chevron-down-circle
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: channel_down_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0   
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:arrow-left-drop-circle-outline
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: left_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0  
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:crop-square
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: enter_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0  
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:arrow-right-drop-circle-outline
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: right_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0  
+  - type: horizontal-stack
+    cards:
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:netflix
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: netflix_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0  
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:keyboard-return
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: return_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0  
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:arrow-down-drop-circle-outline
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: down_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0  
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:home
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: home_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0  
+  - type: horizontal-stack
+    cards:
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:television
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: tv_av_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0  
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:volume-plus
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: volume_up_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0  
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:volume-minus
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: volume_down_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0  
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:volume-mute
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: mute_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0  

@@ -1,0 +1,702 @@
+2021-09-29 16:13:14 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration pyscript which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2021-09-29 16:13:14 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration racelandshop which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2021-09-29 16:13:14 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration raceland which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2021-09-29 16:13:14 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration deepstack_face which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2021-09-29 16:13:14 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration deepstack_object which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2021-09-29 16:13:14 WARNING (SyncWorker_5) [homeassistant.loader] We found a custom integration favicon which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2021-09-29 16:13:14 WARNING (SyncWorker_6) [homeassistant.loader] We found a custom integration lovelace_gen which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2021-09-29 16:13:14 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain logger took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up http
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain http took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up system_log
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain system_log took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain recorder took 0.1 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 1: {'search', 'websocket_api', 'onboarding', 'config', 'image', 'frontend', 'webhook', 'api', 'person', 'device_automation', 'system_log', 'auth', 'http', 'lovelace', 'analytics', 'cloud'}
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up websocket_api
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain websocket_api took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up config
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up image
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up webhook
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain webhook took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up api
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain api took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up device_automation
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain device_automation took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up auth
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain auth took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up lovelace
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain config took 0.1 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up analytics
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up search
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain search took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain image took 0.1 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain lovelace took 0.1 seconds
+2021-09-29 16:13:15 INFO (SyncWorker_7) [homeassistant.loader] Loaded google_assistant from homeassistant.components.google_assistant
+2021-09-29 16:13:15 INFO (SyncWorker_3) [homeassistant.loader] Loaded alexa from homeassistant.components.alexa
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up person
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain analytics took 0.0 seconds
+2021-09-29 16:13:15 INFO (SyncWorker_6) [homeassistant.loader] Loaded media_player from homeassistant.components.media_player
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up cloud
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain person took 0.3 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up onboarding
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain cloud took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain onboarding took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up frontend
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain frontend took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.bootstrap] Setting up stage 2: {'browser_mod', 'my', 'panel_custom', 'counter', 'lovelace_gen', 'network', 'persistent_notification', 'script', 'input_datetime', 'tts', 'mobile_app', 'zone', 'dhcp', 'met', 'input_boolean', 'default_config', 'updater', 'pyscript', 'media_source', 'ssdp', 'zeroconf', 'scene', 'favicon', 'camera', 'energy', 'system_health', 'sun', 'racelandshop', 'input_select', 'sensor', 'history', 'logbook', 'blueprint', 'map', 'automation', 'tag', 'trace', 'timer', 'group', 'raceland', 'mqtt', 'input_text', 'input_number'}
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up browser_mod
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain browser_mod took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up my
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain my took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up panel_custom
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain panel_custom took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up counter
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up lovelace_gen
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain lovelace_gen took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up input_datetime
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up zone
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up dhcp
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain dhcp took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up met
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain met took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up input_boolean
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up updater
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain updater took 0.0 seconds
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up media_source
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up scene
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.components.scene] Setting up scene.homeassistant
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up favicon
+2021-09-29 16:13:15 INFO (SyncWorker_7) [custom_components.favicon] Looking for icons in: /workspaces/config/www/logos/
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up system_health
+2021-09-29 16:13:15 INFO (SyncWorker_7) [custom_components.favicon] Found icon: /local/logos/favicon-317x223.png
+2021-09-29 16:13:15 INFO (SyncWorker_7) [custom_components.favicon] Found favicon: /local/logos/favicon.ico
+2021-09-29 16:13:15 INFO (SyncWorker_7) [custom_components.favicon] Found apple icon: /local/logos/favicon-apple-logoauto.png
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setting up sun
+2021-09-29 16:13:15 INFO (SyncWorker_0) [homeassistant.loader] Loaded generic from homeassistant.components.generic
+2021-09-29 16:13:15 INFO (MainThread) [homeassistant.setup] Setup of domain sun took 0.0 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up input_select
+2021-09-29 16:13:16 INFO (SyncWorker_2) [homeassistant.loader] Loaded template from homeassistant.components.template
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up history
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain history took 0.0 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up logbook
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up blueprint
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain blueprint took 0.0 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up map
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain map took 0.0 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up tag
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up trace
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain trace took 0.0 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up timer
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up group
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up input_text
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up input_number
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up media_player
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain media_player took 0.0 seconds
+2021-09-29 16:13:16 INFO (SyncWorker_0) [homeassistant.loader] Loaded binary_sensor from homeassistant.components.binary_sensor
+2021-09-29 16:13:16 INFO (SyncWorker_1) [homeassistant.loader] Loaded light from homeassistant.components.light
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain favicon took 0.1 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up camera
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up network
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain media_source took 0.2 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain scene took 0.2 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain system_health took 0.2 seconds
+2021-09-29 16:13:16 INFO (SyncWorker_3) [homeassistant.loader] Loaded google_translate from homeassistant.components.google_translate
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up racelandshop
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain racelandshop took 0.0 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain logbook took 0.3 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up mqtt
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain mqtt took 0.0 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up binary_sensor
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain binary_sensor took 0.0 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up light
+2021-09-29 16:13:16 INFO (SyncWorker_6) [custom_components.favicon] Looking for icons in: /workspaces/config/www/logos/
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up energy
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain energy took 0.0 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain tag took 0.3 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.browser_mod
+2021-09-29 16:13:16 INFO (SyncWorker_6) [custom_components.favicon] Found icon: /local/logos/favicon-317x223.png
+2021-09-29 16:13:16 INFO (SyncWorker_6) [custom_components.favicon] Found favicon: /local/logos/favicon.ico
+2021-09-29 16:13:16 INFO (SyncWorker_6) [custom_components.favicon] Found apple icon: /local/logos/favicon-apple-logoauto.png
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setting up tts
+2021-09-29 16:13:16 INFO (SyncWorker_0) [homeassistant.loader] Loaded time_date from homeassistant.components.time_date
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.browser_mod
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.browser_mod
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain camera took 0.3 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain input_datetime took 0.7 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain light took 0.1 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain network took 0.3 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.components.camera] Setting up camera.generic
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.components.camera] Setting up camera.generic
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain timer took 0.4 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.components.http] Now listening on port 8123
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.browser_mod
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.updater
+2021-09-29 16:13:16 INFO (SyncWorker_2) [homeassistant.loader] Loaded systemmonitor from homeassistant.components.systemmonitor
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.components.camera] Setting up camera.browser_mod
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.components.light] Setting up light.browser_mod
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain group took 0.4 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.setup] Setup of domain zone took 0.7 seconds
+2021-09-29 16:13:16 INFO (MainThread) [homeassistant.components.camera] Setting up camera.browser_mod
+2021-09-29 16:13:16 INFO (SyncWorker_5) [homeassistant.loader] Loaded version from homeassistant.components.version
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setting up pyscript
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain pyscript took 0.0 seconds
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.light] Setting up light.browser_mod
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setting up zeroconf
+2021-09-29 16:13:17 INFO (SyncWorker_6) [homeassistant.loader] Loaded notify from homeassistant.components.notify
+2021-09-29 16:13:17 INFO (SyncWorker_4) [homeassistant.loader] Loaded command_line from homeassistant.components.command_line
+2021-09-29 16:13:17 INFO (Thread-3) [homeassistant.components.mqtt] Connected to MQTT server racelandsa.dyndns.org:1883 (0)
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setting up automation
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain zeroconf took 0.0 seconds
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setting up sensor
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain sensor took 0.0 seconds
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain tts took 1.1 seconds
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.time_date
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.systemmonitor
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.version
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.command_line
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.version
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setting up mobile_app
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setting up template
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain template took 0.0 seconds
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.browser_mod
+2021-09-29 16:13:17 INFO (MainThread) [custom_components.racelandshop] 
+-------------------------------------------------------------------
+RACELANDSHOP (Home Assistant Community Store)
+
+Version: 1.0.0
+This is a custom integration
+If you have any issues with this you need to open an issue here:
+https://github.com/racelandshop/integration/issues
+-------------------------------------------------------------------
+
+2021-09-29 16:13:17 INFO (MainThread) [custom_components.racelandshop] Setup task RacelandshopSetupTask.WEBSOCKET
+2021-09-29 16:13:17 INFO (MainThread) [custom_components.racelandshop] Setup task RacelandshopSetupTask.FRONTEND
+2021-09-29 16:13:17 INFO (MainThread) [custom_components.racelandshop] LovelaceMode.STORAGE mode, cache for /racelandshopfiles/: True
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.browser_mod
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.energy
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain counter took 1.8 seconds
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setting up ssdp
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain ssdp took 0.0 seconds
+2021-09-29 16:13:17 INFO (MainThread) [custom_components.racelandshop] Setup task RacelandshopSetupTask.CATEGORIES
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain mobile_app took 0.2 seconds
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setting up notify
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain notify took 0.0 seconds
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain automation took 0.2 seconds
+2021-09-29 16:13:17 INFO (MainThread) [custom_components.racelandshop] RACELANDSHOP is enabled
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.components.notify] Setting up notify.mobile_app
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain input_boolean took 1.7 seconds
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain input_number took 1.7 seconds
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain input_select took 1.7 seconds
+2021-09-29 16:13:17 INFO (MainThread) [homeassistant.setup] Setup of domain input_text took 1.7 seconds
+2021-09-29 16:13:17 INFO (SyncWorker_0) [homeassistant.loader] Loaded tasmota from homeassistant.components.tasmota
+2021-09-29 16:13:18 INFO (SyncWorker_0) [homeassistant.loader] Loaded weather from homeassistant.components.weather
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setting up weather
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setup of domain weather took 0.0 seconds
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.components.weather] Setting up weather.met
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setting up raceland
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setup of domain raceland took 0.0 seconds
+2021-09-29 16:13:18 ERROR (MainThread) [custom_components.pyscript.apps.broadlink-raceland] Exception in </workspaces/config/pyscript/apps/broadlink-raceland.py> line 8:
+    import broadlink as blk
+    ^
+ModuleNotFoundError: No module named 'broadlink'
+2021-09-29 16:13:18 INFO (MainThread) [custom_components.racelandshop] Setup task RacelandshopSetupTask.RACELANDSHOP_REPO
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.raceland
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.components.light] Setting up light.raceland
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.raceland
+2021-09-29 16:13:18 INFO (SyncWorker_1) [homeassistant.loader] Loaded fan from homeassistant.components.fan
+2021-09-29 16:13:18 INFO (SyncWorker_2) [homeassistant.loader] Loaded switch from homeassistant.components.switch
+2021-09-29 16:13:18 INFO (SyncWorker_6) [homeassistant.loader] Loaded cover from homeassistant.components.cover
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setting up fan
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setup of domain fan took 0.0 seconds
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setting up switch
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setup of domain switch took 0.0 seconds
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setting up cover
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setup of domain cover took 0.0 seconds
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.components.fan] Setting up fan.raceland
+2021-09-29 16:13:18 INFO (MainThread) [custom_components.pyscript.global_ctx] Reloaded /workspaces/config/pyscript/apps/camera-ai-raceland.py
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.components.switch] Setting up switch.raceland
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.components.cover] Setting up cover.raceland
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setting up script
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setup of domain script took 0.0 seconds
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setting up default_config
+2021-09-29 16:13:18 INFO (MainThread) [homeassistant.setup] Setup of domain default_config took 0.0 seconds
+2021-09-29 16:13:18 INFO (MainThread) [custom_components.pyscript.global_ctx] Reloaded /workspaces/config/pyscript/apps/cameras-raceland.py
+2021-09-29 16:13:18 INFO (MainThread) [custom_components.pyscript.global_ctx] Reloaded /workspaces/config/pyscript/apps/dinamicBackground.py
+2021-09-29 16:13:18 INFO (MainThread) [custom_components.pyscript.global_ctx] Reloaded /workspaces/config/pyscript/apps/homekitRedirect.py
+2021-09-29 16:13:18 INFO (MainThread) [custom_components.pyscript.global_ctx] Reloaded /workspaces/config/pyscript/apps/importDashBoard.py
+2021-09-29 16:13:18 INFO (MainThread) [custom_components.pyscript.global_ctx] Reloaded /workspaces/config/pyscript/apps/manageDashboards.py
+2021-09-29 16:13:19 INFO (MainThread) [custom_components.racelandshop] <Integration racelandshop/integration> Registration completed
+2021-09-29 16:13:20 INFO (MainThread) [custom_components.racelandshop] Restore started
+2021-09-29 16:13:20 INFO (MainThread) [custom_components.racelandshop] Restore done
+2021-09-29 16:13:20 INFO (MainThread) [custom_components.racelandshop] Setup task RacelandshopSetupTask.SENSOR
+2021-09-29 16:13:20 INFO (MainThread) [custom_components.racelandshop] Stage changed: RacelandshopStage.WAITING
+2021-09-29 16:13:20 INFO (MainThread) [custom_components.racelandshop] Setup complete, waiting for Home Assistant before startup tasks starts
+2021-09-29 16:13:20 INFO (MainThread) [custom_components.racelandshop] RACELANDSHOP is enabled
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.racelandshop
+2021-09-29 16:13:20 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 140, in async_wrapper
+    await async_func(*args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/mqtt/discovery.py", line 287, in async_integration_message_received
+    result = await hass.config_entries.flow.async_init(
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 153, in async_init
+    flow, result = await task
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 179, in _async_init
+    result = await self._async_handle_step(flow, flow.init_step, data, init_done)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 260, in _async_handle_step
+    result: FlowResult = await getattr(flow, method)(user_input)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/tasmota/config_flow.py", line 33, in async_step_mqtt
+    prefix = cast(ReceiveMessage, discovery_info).subscribed_topic
+AttributeError: 'dict' object has no attribute 'subscribed_topic'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 142, in async_wrapper
+    log_exception(format_err, *args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 104, in log_exception
+    friendly_msg = format_err(*args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/mqtt/__init__.py", line 373, in <lambda>
+    f"Exception in {msg_callback.__name__} when handling msg on "
+AttributeError: 'functools.partial' object has no attribute '__name__'
+2021-09-29 16:13:20 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 140, in async_wrapper
+    await async_func(*args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/mqtt/discovery.py", line 287, in async_integration_message_received
+    result = await hass.config_entries.flow.async_init(
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 153, in async_init
+    flow, result = await task
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 179, in _async_init
+    result = await self._async_handle_step(flow, flow.init_step, data, init_done)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 260, in _async_handle_step
+    result: FlowResult = await getattr(flow, method)(user_input)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/tasmota/config_flow.py", line 33, in async_step_mqtt
+    prefix = cast(ReceiveMessage, discovery_info).subscribed_topic
+AttributeError: 'dict' object has no attribute 'subscribed_topic'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 142, in async_wrapper
+    log_exception(format_err, *args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 104, in log_exception
+    friendly_msg = format_err(*args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/mqtt/__init__.py", line 373, in <lambda>
+    f"Exception in {msg_callback.__name__} when handling msg on "
+AttributeError: 'functools.partial' object has no attribute '__name__'
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.bootstrap] Home Assistant initialized in 5.14s
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.core] Starting Home Assistant
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.core] Timer:starting
+2021-09-29 16:13:20 INFO (MainThread) [custom_components.racelandshop] Stage changed: RacelandshopStage.STARTUP
+2021-09-29 16:13:20 INFO (MainThread) [custom_components.racelandshop] setup task RacelandshopSetupTask.CATEGORIES
+2021-09-29 16:13:20 INFO (SyncWorker_1) [custom_components.racelandshop] Enable category: RacelandshopCategory.INTEGRATION
+2021-09-29 16:13:20 INFO (SyncWorker_1) [custom_components.racelandshop] Enable category: RacelandshopCategory.PLUGIN
+2021-09-29 16:13:20 INFO (SyncWorker_1) [custom_components.racelandshop] Enable category: RacelandshopCategory.THEME
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.zeroconf] Starting Zeroconf broadcast
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.populate_view_input_select_after_picking_a_dashboard] Initialized trigger Populate view input select after picking a dashboard
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.create_dashboard] Initialized trigger create_dashboard
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.delete_dashboard] Initialized trigger delete_dashboard
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.update_dropdown_menu_in_for_dashboards_when_a_dashboard_file_is_moved] Initialized trigger Update dropdown menu in for dashboards when a dashboard file is moved
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.update_dropdown_menu_in_for_dashboards_when_a_dashboard_file_is_deleted] Initialized trigger Update dropdown menu in for dashboards when a dashboard file is deleted
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.update_dropdown_menu_in_for_dashboards_when_a_dashboard_file_is_created] Initialized trigger Update dropdown menu in for dashboards when a dashboard file is created
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.update_dropdown_menu_in_import_dashboard_when_ha_starts] Update dropdown menu in import dashboard when HA starts: Running automation actions
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.update_dropdown_menu_in_import_dashboard_when_ha_starts] Update dropdown menu in import dashboard when HA starts: Executing step call service
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.update_dropdown_menu_in_import_dashboard_when_ha_starts] Initialized trigger Update dropdown menu in import dashboard when HA starts
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.themes] Initialized trigger themes
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.avaiable_wallpaper_update] Initialized trigger Avaiable wallpaper update
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.avaiable_wallpaper_update_on_ha_start] Avaiable wallpaper update on HA start: Running automation actions
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.avaiable_wallpaper_update_on_ha_start] Avaiable wallpaper update on HA start: Executing step call service
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.avaiable_wallpaper_update_on_ha_start] Initialized trigger Avaiable wallpaper update on HA start
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.wallpaper_selector] Initialized trigger Wallpaper Selector
+2021-09-29 16:13:20 ERROR (MainThread) [custom_components.pyscript.apps.importDashBoard.updateDashboardsAvaiable] Exception in <apps.importDashBoard.updateDashboardsAvaiable> line 17:
+        dashboardsAvaiable = [f for f in os.listdir(storageFolder) if os.path.isfile(os.path.join(storageFolder, f)) and (f.startswith('lovelace.lovelace') or f == 'lovelace')]
+                                                    ^
+FileNotFoundError: [Errno 2] No such file or directory: '/config/.storage'
+2021-09-29 16:13:20 ERROR (MainThread) [custom_components.pyscript.apps.dinamicBackground.update_wallpaper_options] Exception in <apps.dinamicBackground.update_wallpaper_options> line 27:
+        for file in os.listdir(pyscript.app_config['wallpaper_folder']):
+                                                   ^
+FileNotFoundError: [Errno 2] No such file or directory: '/config/www/images/wallpapers'
+2021-09-29 16:13:20 INFO (MainThread) [custom_components.racelandshop] Loading known repositories
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.update_dropdown_menu_in_import_dashboard_when_ha_starts] Update dropdown menu in import dashboard when HA starts: Executing step call service
+2021-09-29 16:13:20 INFO (MainThread) [homeassistant.components.automation.avaiable_wallpaper_update_on_ha_start] Avaiable wallpaper update on HA start: Executing step call service
+2021-09-29 16:13:20 ERROR (MainThread) [homeassistant.components.automation.update_dropdown_menu_in_import_dashboard_when_ha_starts] Update dropdown menu in import dashboard when HA starts: Error executing script. Service not found for call_service at pos 2: Unable to find service broadlink_raceland.update_dashboards
+2021-09-29 16:13:20 ERROR (MainThread) [homeassistant.components.automation.update_dropdown_menu_in_import_dashboard_when_ha_starts] Error while executing automation automation.update_dropdown_menu_in_import_dashboard_when_ha_starts: Unable to find service broadlink_raceland.update_dashboards
+2021-09-29 16:13:22 INFO (MainThread) [custom_components.racelandshop] <Integration kraineff/minecraft-version> Registration completed
+2021-09-29 16:13:22 INFO (MainThread) [custom_components.racelandshop] <Integration kraineff/philips-airpurifier> Registration completed
+2021-09-29 16:13:23 INFO (MainThread) [custom_components.racelandshop] <Integration scottyphillips/echonetlite_homeassistant> Registration completed
+2021-09-29 16:13:41 INFO (MainThread) [custom_components.racelandshop] Stage changed: RacelandshopStage.RUNNING
+2021-09-29 16:15:42 ERROR (MainThread) [frontend.js_dev.latest.202108041] http://localhost:8123/developer-tools/service:0:0 ResizeObserver loop limit exceeded
+2021-09-29 16:15:51 INFO (MainThread) [homeassistant.helpers.script.websocket_api_script] websocket_api script: Running websocket_api script
+2021-09-29 16:15:51 INFO (MainThread) [homeassistant.helpers.script.websocket_api_script] websocket_api script: Executing step call service
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded simplisafe from homeassistant.components.simplisafe
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded bmw_connected_drive from homeassistant.components.bmw_connected_drive
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded toon from homeassistant.components.toon
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded zerproc from homeassistant.components.zerproc
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded pi_hole from homeassistant.components.pi_hole
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded gree from homeassistant.components.gree
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded fireservicerota from homeassistant.components.fireservicerota
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded dsmr from homeassistant.components.dsmr
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded foscam from homeassistant.components.foscam
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded syncthru from homeassistant.components.syncthru
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded ambee from homeassistant.components.ambee
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded devolo_home_control from homeassistant.components.devolo_home_control
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded twentemilieu from homeassistant.components.twentemilieu
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded pvpc_hourly_pricing from homeassistant.components.pvpc_hourly_pricing
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded solaredge from homeassistant.components.solaredge
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded asuswrt from homeassistant.components.asuswrt
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded ios from homeassistant.components.ios
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded ondilo_ico from homeassistant.components.ondilo_ico
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded heos from homeassistant.components.heos
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded forked_daapd from homeassistant.components.forked_daapd
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded hyperion from homeassistant.components.hyperion
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded velbus from homeassistant.components.velbus
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded gdacs from homeassistant.components.gdacs
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded meteo_france from homeassistant.components.meteo_france
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded fritzbox from homeassistant.components.fritzbox
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded somfy_mylink from homeassistant.components.somfy_mylink
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded alarmdecoder from homeassistant.components.alarmdecoder
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded somfy from homeassistant.components.somfy
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded wilight from homeassistant.components.wilight
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded esphome from homeassistant.components.esphome
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded nexia from homeassistant.components.nexia
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded progettihwsw from homeassistant.components.progettihwsw
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded adguard from homeassistant.components.adguard
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded wolflink from homeassistant.components.wolflink
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded litterrobot from homeassistant.components.litterrobot
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded minecraft_server from homeassistant.components.minecraft_server
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded nuheat from homeassistant.components.nuheat
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded nzbget from homeassistant.components.nzbget
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded rituals_perfume_genie from homeassistant.components.rituals_perfume_genie
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded vizio from homeassistant.components.vizio
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded switcher_kis from homeassistant.components.switcher_kis
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded lutron_caseta from homeassistant.components.lutron_caseta
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded nut from homeassistant.components.nut
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded gios from homeassistant.components.gios
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded control4 from homeassistant.components.control4
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded ps4 from homeassistant.components.ps4
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded plugwise from homeassistant.components.plugwise
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded cert_expiry from homeassistant.components.cert_expiry
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded transmission from homeassistant.components.transmission
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded harmony from homeassistant.components.harmony
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded ring from homeassistant.components.ring
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded smhi from homeassistant.components.smhi
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded tado from homeassistant.components.tado
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded kostal_plenticore from homeassistant.components.kostal_plenticore
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded eafm from homeassistant.components.eafm
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded elgato from homeassistant.components.elgato
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded keenetic_ndms2 from homeassistant.components.keenetic_ndms2
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded syncthing from homeassistant.components.syncthing
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded ipp from homeassistant.components.ipp
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded wemo from homeassistant.components.wemo
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded ecobee from homeassistant.components.ecobee
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded nest from homeassistant.components.nest
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded neato from homeassistant.components.neato
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded system_bridge from homeassistant.components.system_bridge
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded bsblan from homeassistant.components.bsblan
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded mailgun from homeassistant.components.mailgun
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded hunterdouglas_powerview from homeassistant.components.hunterdouglas_powerview
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded metoffice from homeassistant.components.metoffice
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded soma from homeassistant.components.soma
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded ovo_energy from homeassistant.components.ovo_energy
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded wallbox from homeassistant.components.wallbox
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded sentry from homeassistant.components.sentry
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded emulated_roku from homeassistant.components.emulated_roku
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded zha from homeassistant.components.zha
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded rpi_power from homeassistant.components.rpi_power
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded modern_forms from homeassistant.components.modern_forms
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded elkm1 from homeassistant.components.elkm1
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded yale_smart_alarm from homeassistant.components.yale_smart_alarm
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded hangouts from homeassistant.components.hangouts
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded zwave from homeassistant.components.zwave
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded gogogate2 from homeassistant.components.gogogate2
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded home_connect from homeassistant.components.home_connect
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded icloud from homeassistant.components.icloud
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded plex from homeassistant.components.plex
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded mullvad from homeassistant.components.mullvad
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded august from homeassistant.components.august
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded shopping_list from homeassistant.components.shopping_list
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded srp_energy from homeassistant.components.srp_energy
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded tibber from homeassistant.components.tibber
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded garages_amsterdam from homeassistant.components.garages_amsterdam
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded sharkiq from homeassistant.components.sharkiq
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded sms from homeassistant.components.sms
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded canary from homeassistant.components.canary
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded hue from homeassistant.components.hue
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded philips_js from homeassistant.components.philips_js
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded econet from homeassistant.components.econet
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded rainmachine from homeassistant.components.rainmachine
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded sonarr from homeassistant.components.sonarr
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded homekit_controller from homeassistant.components.homekit_controller
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded zwave_js from homeassistant.components.zwave_js
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded axis from homeassistant.components.axis
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded prosegur from homeassistant.components.prosegur
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded cloudflare from homeassistant.components.cloudflare
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded kulersky from homeassistant.components.kulersky
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded coinbase from homeassistant.components.coinbase
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded tellduslive from homeassistant.components.tellduslive
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded vilfo from homeassistant.components.vilfo
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded freedompro from homeassistant.components.freedompro
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded sma from homeassistant.components.sma
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded squeezebox from homeassistant.components.squeezebox
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded flo from homeassistant.components.flo
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded apple_tv from homeassistant.components.apple_tv
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded volumio from homeassistant.components.volumio
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded picnic from homeassistant.components.picnic
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded hlk_sw16 from homeassistant.components.hlk_sw16
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded speedtestdotnet from homeassistant.components.speedtestdotnet
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded vera from homeassistant.components.vera
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded verisure from homeassistant.components.verisure
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded kraken from homeassistant.components.kraken
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded litejet from homeassistant.components.litejet
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded geonetnz_volcano from homeassistant.components.geonetnz_volcano
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded co2signal from homeassistant.components.co2signal
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded konnected from homeassistant.components.konnected
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded onvif from homeassistant.components.onvif
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded flume from homeassistant.components.flume
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded sia from homeassistant.components.sia
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded iaqualink from homeassistant.components.iaqualink
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded juicenet from homeassistant.components.juicenet
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded goalzero from homeassistant.components.goalzero
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded hive from homeassistant.components.hive
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded blink from homeassistant.components.blink
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded islamic_prayer_times from homeassistant.components.islamic_prayer_times
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded sonos from homeassistant.components.sonos
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded spotify from homeassistant.components.spotify
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded xbox from homeassistant.components.xbox
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded ipma from homeassistant.components.ipma
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded flipr from homeassistant.components.flipr
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded homekit from homeassistant.components.homekit
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded denonavr from homeassistant.components.denonavr
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded withings from homeassistant.components.withings
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded bond from homeassistant.components.bond
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded climacell from homeassistant.components.climacell
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded mazda from homeassistant.components.mazda
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded guardian from homeassistant.components.guardian
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded doorbird from homeassistant.components.doorbird
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded coronavirus from homeassistant.components.coronavirus
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded lifx from homeassistant.components.lifx
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded monoprice from homeassistant.components.monoprice
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded panasonic_viera from homeassistant.components.panasonic_viera
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded rachio from homeassistant.components.rachio
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded roon from homeassistant.components.roon
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded solarlog from homeassistant.components.solarlog
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded tplink from homeassistant.components.tplink
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded lyric from homeassistant.components.lyric
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded nuki from homeassistant.components.nuki
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded youless from homeassistant.components.youless
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded smartthings from homeassistant.components.smartthings
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded wled from homeassistant.components.wled
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded izone from homeassistant.components.izone
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded mutesync from homeassistant.components.mutesync
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded recollect_waste from homeassistant.components.recollect_waste
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded subaru from homeassistant.components.subaru
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded freebox from homeassistant.components.freebox
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded dexcom from homeassistant.components.dexcom
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded yamaha_musiccast from homeassistant.components.yamaha_musiccast
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded broadlink from homeassistant.components.broadlink
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded airnow from homeassistant.components.airnow
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded powerwall from homeassistant.components.powerwall
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded dunehd from homeassistant.components.dunehd
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded ifttt from homeassistant.components.ifttt
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded yeelight from homeassistant.components.yeelight
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded nightscout from homeassistant.components.nightscout
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded coolmaster from homeassistant.components.coolmaster
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded acmeda from homeassistant.components.acmeda
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded openweathermap from homeassistant.components.openweathermap
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded iqvia from homeassistant.components.iqvia
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded met_eireann from homeassistant.components.met_eireann
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded screenlogic from homeassistant.components.screenlogic
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded samsungtv from homeassistant.components.samsungtv
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded blebox from homeassistant.components.blebox
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded deconz from homeassistant.components.deconz
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded synology_dsm from homeassistant.components.synology_dsm
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded ambient_station from homeassistant.components.ambient_station
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded upnp from homeassistant.components.upnp
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded plum_lightpad from homeassistant.components.plum_lightpad
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded gpslogger from homeassistant.components.gpslogger
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded smart_meter_texas from homeassistant.components.smart_meter_texas
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded starline from homeassistant.components.starline
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded life360 from homeassistant.components.life360
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded enphase_envoy from homeassistant.components.enphase_envoy
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded atag from homeassistant.components.atag
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded dialogflow from homeassistant.components.dialogflow
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded google_travel_time from homeassistant.components.google_travel_time
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded songpal from homeassistant.components.songpal
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded tesla from homeassistant.components.tesla
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded braviatv from homeassistant.components.braviatv
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded sense from homeassistant.components.sense
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded meteoclimatic from homeassistant.components.meteoclimatic
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded risco from homeassistant.components.risco
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded smarttub from homeassistant.components.smarttub
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded ruckus_unleashed from homeassistant.components.ruckus_unleashed
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded advantage_air from homeassistant.components.advantage_air
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded waze_travel_time from homeassistant.components.waze_travel_time
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded directv from homeassistant.components.directv
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded totalconnect from homeassistant.components.totalconnect
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded insteon from homeassistant.components.insteon
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded upb from homeassistant.components.upb
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded opentherm_gw from homeassistant.components.opentherm_gw
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded ialarm from homeassistant.components.ialarm
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded mikrotik from homeassistant.components.mikrotik
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded home_plus_control from homeassistant.components.home_plus_control
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded mill from homeassistant.components.mill
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded arcam_fmj from homeassistant.components.arcam_fmj
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded kmtronic from homeassistant.components.kmtronic
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded traccar from homeassistant.components.traccar
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded aemet from homeassistant.components.aemet
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded agent_dvr from homeassistant.components.agent_dvr
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded nam from homeassistant.components.nam
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded accuweather from homeassistant.components.accuweather
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded airvisual from homeassistant.components.airvisual
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded notion from homeassistant.components.notion
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded openuv from homeassistant.components.openuv
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded flick_electric from homeassistant.components.flick_electric
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded fritzbox_callmonitor from homeassistant.components.fritzbox_callmonitor
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded glances from homeassistant.components.glances
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded brother from homeassistant.components.brother
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded fritz from homeassistant.components.fritz
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded unifi from homeassistant.components.unifi
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded profiler from homeassistant.components.profiler
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded buienradar from homeassistant.components.buienradar
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded motion_blinds from homeassistant.components.motion_blinds
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded daikin from homeassistant.components.daikin
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded xiaomi_miio from homeassistant.components.xiaomi_miio
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded netatmo from homeassistant.components.netatmo
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded dynalite from homeassistant.components.dynalite
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded point from homeassistant.components.point
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded flunearyou from homeassistant.components.flunearyou
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded myq from homeassistant.components.myq
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded awair from homeassistant.components.awair
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded ozw from homeassistant.components.ozw
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded ezviz from homeassistant.components.ezviz
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded abode from homeassistant.components.abode
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded kodi from homeassistant.components.kodi
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded roku from homeassistant.components.roku
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded honeywell from homeassistant.components.honeywell
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded logi_circle from homeassistant.components.logi_circle
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded spider from homeassistant.components.spider
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded upcloud from homeassistant.components.upcloud
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded huawei_lte from homeassistant.components.huawei_lte
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded epson from homeassistant.components.epson
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded vesync from homeassistant.components.vesync
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded omnilogic from homeassistant.components.omnilogic
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded melcloud from homeassistant.components.melcloud
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded locative from homeassistant.components.locative
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded wiffi from homeassistant.components.wiffi
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded ambiclimate from homeassistant.components.ambiclimate
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded local_ip from homeassistant.components.local_ip
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded hisense_aehw4a1 from homeassistant.components.hisense_aehw4a1
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded enocean from homeassistant.components.enocean
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded luftdaten from homeassistant.components.luftdaten
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded nws from homeassistant.components.nws
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded shelly from homeassistant.components.shelly
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded homematicip_cloud from homeassistant.components.homematicip_cloud
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded poolsense from homeassistant.components.poolsense
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded adax from homeassistant.components.adax
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded airly from homeassistant.components.airly
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded owntracks from homeassistant.components.owntracks
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded aurora from homeassistant.components.aurora
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded habitica from homeassistant.components.habitica
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded cast from homeassistant.components.cast
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded mysensors from homeassistant.components.mysensors
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded onewire from homeassistant.components.onewire
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded azure_devops from homeassistant.components.azure_devops
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded plaato from homeassistant.components.plaato
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded rfxtrx from homeassistant.components.rfxtrx
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded bosch_shc from homeassistant.components.bosch_shc
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded huisbaasje from homeassistant.components.huisbaasje
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded hvv_departures from homeassistant.components.hvv_departures
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded tuya from homeassistant.components.tuya
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded faa_delays from homeassistant.components.faa_delays
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded tradfri from homeassistant.components.tradfri
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded renault from homeassistant.components.renault
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded twinkly from homeassistant.components.twinkly
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded growatt_server from homeassistant.components.growatt_server
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded tile from homeassistant.components.tile
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded motioneye from homeassistant.components.motioneye
+2021-09-29 16:20:30 INFO (SyncWorker_1) [homeassistant.loader] Loaded smappee from homeassistant.components.smappee
+2021-09-29 16:20:30 INFO (SyncWorker_5) [homeassistant.loader] Loaded forecast_solar from homeassistant.components.forecast_solar
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded geonetnz_quakes from homeassistant.components.geonetnz_quakes
+2021-09-29 16:20:30 INFO (SyncWorker_7) [homeassistant.loader] Loaded almond from homeassistant.components.almond
+2021-09-29 16:20:30 INFO (SyncWorker_4) [homeassistant.loader] Loaded roomba from homeassistant.components.roomba
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded smarthab from homeassistant.components.smarthab
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded xiaomi_aqara from homeassistant.components.xiaomi_aqara
+2021-09-29 16:20:30 INFO (SyncWorker_3) [homeassistant.loader] Loaded nfandroidtv from homeassistant.components.nfandroidtv
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded isy994 from homeassistant.components.isy994
+2021-09-29 16:20:30 INFO (SyncWorker_6) [homeassistant.loader] Loaded twilio from homeassistant.components.twilio
+2021-09-29 16:20:30 INFO (SyncWorker_0) [homeassistant.loader] Loaded geofency from homeassistant.components.geofency
+2021-09-29 16:20:30 INFO (SyncWorker_2) [homeassistant.loader] Loaded emonitor from homeassistant.components.emonitor
+2021-09-30 07:15:18 ERROR (Thread-3) [paho.mqtt.client] failed to receive on socket: [Errno 104] Connection reset by peer
+2021-09-30 07:15:18 WARNING (Thread-3) [homeassistant.components.mqtt] Disconnected from MQTT server racelandsa.dyndns.org:1883 (1)
+2021-09-30 07:15:19 INFO (Thread-3) [homeassistant.components.mqtt] Connected to MQTT server racelandsa.dyndns.org:1883 (0)
+2021-09-30 07:15:19 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 140, in async_wrapper
+    await async_func(*args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/mqtt/discovery.py", line 287, in async_integration_message_received
+    result = await hass.config_entries.flow.async_init(
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 153, in async_init
+    flow, result = await task
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 179, in _async_init
+    result = await self._async_handle_step(flow, flow.init_step, data, init_done)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 260, in _async_handle_step
+    result: FlowResult = await getattr(flow, method)(user_input)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/tasmota/config_flow.py", line 33, in async_step_mqtt
+    prefix = cast(ReceiveMessage, discovery_info).subscribed_topic
+AttributeError: 'dict' object has no attribute 'subscribed_topic'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 142, in async_wrapper
+    log_exception(format_err, *args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 104, in log_exception
+    friendly_msg = format_err(*args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/mqtt/__init__.py", line 373, in <lambda>
+    f"Exception in {msg_callback.__name__} when handling msg on "
+AttributeError: 'functools.partial' object has no attribute '__name__'
+2021-09-30 07:15:19 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 140, in async_wrapper
+    await async_func(*args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/mqtt/discovery.py", line 287, in async_integration_message_received
+    result = await hass.config_entries.flow.async_init(
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 153, in async_init
+    flow, result = await task
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 179, in _async_init
+    result = await self._async_handle_step(flow, flow.init_step, data, init_done)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/data_entry_flow.py", line 260, in _async_handle_step
+    result: FlowResult = await getattr(flow, method)(user_input)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/tasmota/config_flow.py", line 33, in async_step_mqtt
+    prefix = cast(ReceiveMessage, discovery_info).subscribed_topic
+AttributeError: 'dict' object has no attribute 'subscribed_topic'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 142, in async_wrapper
+    log_exception(format_err, *args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/util/logging.py", line 104, in log_exception
+    friendly_msg = format_err(*args)
+  File "/workspaces/homeassistant-homekit-raceland/homeassistant/homeassistant/components/mqtt/__init__.py", line 373, in <lambda>
+    f"Exception in {msg_callback.__name__} when handling msg on "
+AttributeError: 'functools.partial' object has no attribute '__name__'
+2021-09-30 08:57:28 INFO (MainThread) [homeassistant.helpers.entity_registry] Registered new media_player.browser_mod entity: media_player.browser_ec6b01ae_ec7daa83
+2021-09-30 08:57:28 INFO (MainThread) [homeassistant.helpers.entity_registry] Registered new light.browser_mod entity: light.browser_ec6b01ae_ec7daa83
+2021-09-30 08:57:28 INFO (MainThread) [homeassistant.helpers.entity_registry] Registered new sensor.browser_mod entity: sensor.browser_ec6b01ae_ec7daa83
+2021-09-30 09:14:18 INFO (MainThread) [custom_components.racelandshop] <Plugin racelandshop/light-card> Registration completed
+2021-09-30 09:14:30 INFO (MainThread) [custom_components.racelandshop] Running pre installation steps
+2021-09-30 09:14:30 INFO (MainThread) [custom_components.racelandshop] Pre installation steps completed
+2021-09-30 09:14:30 INFO (MainThread) [custom_components.racelandshop] Running installation steps
+2021-09-30 09:14:31 INFO (MainThread) [custom_components.racelandshop] Download of light-card.js completed
+2021-09-30 09:14:31 INFO (MainThread) [custom_components.racelandshop] Installation steps completed
+2021-09-30 09:14:31 INFO (MainThread) [custom_components.racelandshop] Running post installation steps
+2021-09-30 09:14:31 INFO (MainThread) [custom_components.racelandshop] Post installation steps completed
+2021-09-30 09:14:34 ERROR (MainThread) [frontend.js_dev.latest.202108041] http://localhost:8123/racelandshop/frontend:0:0 Uncaught 

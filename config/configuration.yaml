@@ -1,0 +1,110 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+favicon:
+  title: Raceland Home Assistant
+  icon_path: /local/logos/
+
+homeassistant:
+  packages: !include_dir_named packages
+  customize: !include customize.yaml
+  #allowlist_external_dirs:
+  #  - '/config/'
+  #whitelist_external_dirs:
+  #  - /config/www/camera_screenshots/
+  #  - /config/www/facial_recognition/
+  #  - /config/www/camera_videos/
+
+  #media_dirs:
+  #  local_camera_screenshots: www/camera_screenshots/
+  #  local_camera_recordings: www/camera_videos/
+  # local_camera_facial_recognition: www/facial_recognition/
+
+media_source:
+
+#This dashboard will be used to show configuration related to Raceland integrations
+lovelace:
+  dashboards:
+    raceland-dashboard:
+      mode: yaml
+      title: Raceland Dashboard
+      icon: mdi:cogs
+      show_in_sidebar: true
+      filename: raceland-dashboard.yaml
+      require_admin: true
+
+    pic-elem-dashboard:
+      mode: yaml
+      title: Picture Dashboard
+      icon: mdi:cogs
+      show_in_sidebar: true
+      filename: pic-elem-dashboard.yaml
+      require_admin: true
+
+frontend:
+  themes: !include_dir_merge_named themes
+  extra_module_url:
+    - /racelandfiles/custom-sidebar/custom-sidebar.js
+  development_repo: /workspaces/frontend/
+
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+logger:
+  default: info
+  logs:
+    homeassistant.components.cloud: debug
+
+mqtt:
+  broker: !secret mybroker
+
+pyscript: !include pyscript/configs.yaml
+
+browser_mod:
+  prefix: "browser_"
+
+counter:
+  remote_number_counter:
+    initial: 1
+    step: 1
+    restore: True
+
+
+camera: !include cameras.yaml
+input_select: !include input_select.yaml
+input_boolean: !include input_boolean.yaml
+
+#image_processing: !include deepstack.yaml
+
+# docker run -e VISION-DETECTION=True VISION-FACE=True -v localstorage:/datastore -d -p 80:5000 deepquestai/deepstack
+# binary_sensor:
+#   - platform: hikvision
+#     host: 192.168.1.50
+#     port: 80
+#     ssl: false
+#     username: admin
+#     password: raceland2015
+#     customize:
+#       motion:
+#         delay: 1
+#       line_crossing:
+#         ignored: true
+
+panel_custom:
+  - name: panel-redirect
+    # url_path needs to be unique for each panel_custom config
+    url_path: redirect-server-controls
+    sidebar_title: Automation Blueprints
+    sidebar_icon: mdi:server
+    module_url: /local/panel-redirect/panel-redirect.js
+    config:
+      # Where you want to redirect to
+      target: /config/blueprint/dashboard
+

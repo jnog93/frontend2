@@ -1,0 +1,455 @@
+entities:
+  - cards:
+      - icon: mdi:access-point
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 3px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:power
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+          }
+        styles:
+          card:
+            - width: 60px
+            - height: 60px
+            - margin: 10px 10px 10px 10px
+            - border-radius: 100px
+            - background-color: var(--primary-background-color)
+            - box-shadow: ''
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:power-off
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+          }
+        styles:
+          card:
+            - width: 60px
+            - height: 60px
+            - margin: 10px 10px 10px 1px
+            - border-radius: 100px
+            - background-color: var(--primary-background-color)
+            - box-shadow: ''
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+    type: custom:hui-horizontal-stack-card
+  - cards:
+      - entities:
+          - cards:
+              - icon: mdi:skip-backward
+                show_icon: true
+                show_name: false
+                size: 100%
+                styles:
+                  card:
+                    - margin-left: 30px
+                    - box-shadow: none
+                    - width: 30px
+                    - height: 30px
+                    - background-color: var(--primary-background-color)
+                  icon:
+                    - color: var(--primary-text-color)
+                type: custom:button-card
+              - icon: mdi:play
+                show_icon: true
+                show_name: false
+                size: 100%
+                styles:
+                  card:
+                    - margin-left: 10px
+                    - box-shadow: none
+                    - width: 30px
+                    - height: 30px
+                    - background-color: var(--primary-background-color)
+                  icon:
+                    - color: var(--primary-text-color)
+                type: custom:button-card
+              - icon: mdi:skip-forward
+                show_icon: true
+                show_name: false
+                size: 100%
+                styles:
+                  card:
+                    - margin-left: 10px
+                    - box-shadow: none
+                    - width: 30px
+                    - height: 30px
+                    - background-color: var(--primary-background-color)
+                  icon:
+                    - color: var(--primary-text-color)
+                type: custom:button-card
+            type: custom:hui-horizontal-stack-card
+        show_header_toggle: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+            border-radius: 10px;
+            background-color: var(--primary-background-color);
+          }
+        type: custom:hui-entities-card
+    type: custom:hui-horizontal-stack-card
+  - show_icon: false
+    show_name: false
+    styles:
+      card:
+        - width: 3px
+        - height: 3px
+        - box-shadow: none
+        - background-color: var(--primary-background-color)
+    type: custom:button-card
+  - cards:
+      - entities:
+          - cards:
+              - tap_action:
+                  action: call-service
+                  service: broadlink_raceland.send_request
+                  service_data:
+                    command_name: up_number
+                    mac_adress: mac
+                icon: mdi:menu-up
+                show_icon: true
+                show_name: false
+                size: 100%
+                styles:
+                  card:
+                    - width: 50px
+                    - height: 50px
+                    - margin-left: 69px
+                    - box-shadow: none
+                    - background-color: var(--primary-background-color)
+                  icon:
+                    - color: var(--primary-text-color)
+                type: custom:button-card
+            type: custom:hui-horizontal-stack-card
+          - cards:
+              - icon: mdi:menu-left
+                show_icon: true
+                show_name: false
+                size: 100%
+                styles:
+                  card:
+                    - width: 50px
+                    - height: 50px
+                    - margin-left: 11px
+                    - box-shadow: none
+                    - background-color: var(--primary-background-color)
+                  icon:
+                    - color: var(--primary-text-color)
+                type: custom:button-card
+              - name: OK
+                show_icon: false
+                show_name: true
+                styles:
+                  card:
+                    - width: 50px
+                    - height: 50px
+                    - border-radius: 100px
+                    - background-color: var(--primary-background-color)
+                  name:
+                    - font-size: 20px
+                    - font-weight: bold
+                style: |
+                  ha-card {
+                    box-shadow:
+                      -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+                  }
+                type: custom:button-card
+              - icon: mdi:menu-right
+                show_icon: true
+                show_name: false
+                size: 100%
+                styles:
+                  card:
+                    - box-shadow: none
+                    - width: 50px
+                    - height: 50px
+                    - background-color: var(--primary-background-color)
+                  icon:
+                    - color: var(--primary-text-color)
+                type: custom:button-card
+            type: custom:hui-horizontal-stack-card
+          - cards:
+              - icon: mdi:menu-down
+                show_icon: true
+                show_name: false
+                size: 100%
+                styles:
+                  card:
+                    - margin-left: 69px
+                    - box-shadow: none
+                    - width: 50px
+                    - height: 50px
+                    - background-color: var(--primary-background-color)
+                  icon:
+                    - color: var(--primary-text-color)
+                type: custom:button-card
+            type: custom:hui-horizontal-stack-card
+        show_header_toggle: false
+        style: |
+          ha-card {
+            box-shadow: 
+                inset -2px -2px 5px #2c2c2c , inset 2px 2px 5px #191919;
+             border-radius: 30px;
+             background-color: var(--primary-background-color)
+          }
+        type: custom:hui-entities-card
+    type: custom:hui-horizontal-stack-card
+  - show_icon: false
+    show_name: false
+    styles:
+      card:
+        - width: 3px
+        - height: 3px
+        - box-shadow: none
+        - background-color: var(--primary-background-color)
+    type: custom:button-card
+  - cards:
+      - entities:
+          - cards:
+              - icon: mdi:plus
+                show_icon: true
+                show_name: false
+                size: 100%
+                styles:
+                  card:
+                    - box-shadow: none
+                    - width: 30px
+                    - height: 30px
+                    - background-color: var(--primary-background-color)
+                  icon:
+                    - color: var(--primary-text-color)
+                type: custom:button-card
+              - name: VOL
+                show_icon: false
+                show_name: true
+                styles:
+                  card:
+                    - box-shadow: none
+                    - width: 30px
+                    - height: 30px
+                    - border-radius: 100px
+                    - background-color: var(--primary-background-color)
+                  name:
+                    - font-size: 10px
+                    - font-weight: bold
+                    - font-family: Helvetica
+                    - letter-spacing: '-0.01em'
+                type: custom:button-card
+              - icon: mdi:minus
+                show_icon: true
+                show_name: false
+                size: 100%
+                styles:
+                  card:
+                    - box-shadow: none
+                    - width: 30px
+                    - height: 30px
+                    - background-color: var(--primary-background-color)
+                  icon:
+                    - color: var(--primary-text-color)
+                type: custom:button-card
+            type: custom:hui-vertical-stack-card
+        show_header_toggle: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+            border-radius: 10px;
+            background-color: var(--primary-background-color);
+          }
+        type: custom:hui-entities-card
+      - cards:
+          - icon: mdi:volume-mute
+            show_icon: true
+            show_name: false
+            style: |
+              ha-card {
+                box-shadow:
+                  -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+              }
+            styles:
+              card:
+                - width: 50px
+                - height: 50px
+                - margin: 10px 10px 01px 10px
+                - border-radius: 10px
+                - background-color: var(--primary-background-color)
+                - box-shadow: ''
+              icon:
+                - color: var(--primary-text-color)
+            type: custom:button-card
+          - icon: mdi:television
+            show_icon: true
+            show_name: false
+            style: |
+              ha-card {
+                box-shadow:
+                  -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+              }
+            styles:
+              card:
+                - width: 50px
+                - height: 50px
+                - margin: 10px 10px 10px 10px
+                - border-radius: 10px
+                - background-color: var(--primary-background-color)
+                - box-shadow: ''
+              icon:
+                - color: var(--primary-text-color)
+            type: custom:button-card
+        type: custom:hui-vertical-stack-card
+      - entities:
+          - cards:
+              - icon: mdi:plus
+                show_icon: true
+                show_name: false
+                size: 100%
+                styles:
+                  card:
+                    - box-shadow: none
+                    - width: 30px
+                    - height: 30px
+                    - background-color: var(--primary-background-color)
+                  icon:
+                    - color: var(--primary-text-color)
+                type: custom:button-card
+              - name: P
+                show_icon: false
+                show_name: true
+                styles:
+                  card:
+                    - box-shadow: none
+                    - width: 30px
+                    - height: 30px
+                    - border-radius: 100px
+                    - background-color: var(--primary-background-color)
+                  name:
+                    - font-size: 10px
+                    - font-weight: bold
+                    - font-family: Helvetica
+                    - letter-spacing: '-0.01em'
+                type: custom:button-card
+              - icon: mdi:minus
+                show_icon: true
+                show_name: false
+                size: 100%
+                styles:
+                  card:
+                    - box-shadow: none
+                    - width: 30px
+                    - height: 30px
+                    - background-color: var(--primary-background-color)
+                  icon:
+                    - color: var(--primary-text-color)
+                type: custom:button-card
+            type: custom:hui-vertical-stack-card
+        show_header_toggle: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+            border-radius: 10px;
+            background-color: var(--primary-background-color);
+          }
+        type: custom:hui-entities-card
+    type: custom:hui-horizontal-stack-card
+  - cards:
+      - icon: mdi:home
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+               -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+             border-radius: 30px;
+             background-color: var(--primary-background-color)
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 3px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:netflix
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+             border-radius: 30px;
+             background-color: var(--primary-background-color)
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 8px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:keyboard-return
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 8px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+    type: custom:hui-horizontal-stack-card
+show_header_toggle: false
+style: |
+  ha-card {
+    box-shadow:
+        -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+    background-color: var(--primary-background-color);
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px auto;
+  }
+type: entities

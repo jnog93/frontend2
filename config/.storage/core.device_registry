@@ -1,0 +1,1943 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "c9c2d38217cce977b1cefe67ac5725fa"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "f1e0384c1839b165c9bb07a5ad41a82e",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1848135a94c787e06a52f12f7817bf88"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "98:f4:ab:d0:b9:e4"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "Shelly i3",
+                "name": "racelandcover",
+                "sw_version": "1.3.1",
+                "entry_type": null,
+                "id": "bbb1f6ffe425e4cfc715c6fe951289cf",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1848135a94c787e06a52f12f7817bf88"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "98:f4:ab:d0:b7:25"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "Shelly 1",
+                "name": "Raceland",
+                "sw_version": "9.5.0",
+                "entry_type": null,
+                "id": "66ad53f8fc6c9b6cc48f48e0863bda5f",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1848135a94c787e06a52f12f7817bf88"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ec:fa:bc:6c:ef:ff"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "Shelly RGBW2",
+                "name": "Raceland",
+                "sw_version": "9.5.0",
+                "entry_type": null,
+                "id": "c5ca0ca7ace6d7ce7e23f6f485b9e501",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1848135a94c787e06a52f12f7817bf88"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "2c:f4:32:bf:73:10"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "Sonoff Touch",
+                "name": "Raceland",
+                "sw_version": "9.5.0",
+                "entry_type": null,
+                "id": "78901eddbc4fd8b4acfb3db73ec81da7",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1848135a94c787e06a52f12f7817bf88"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "d8:bf:c0:1a:05:bb"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "Sonoff Basic",
+                "name": "Raceland",
+                "sw_version": "9.5.0",
+                "entry_type": null,
+                "id": "25366bfe52bf9b3b18358bfc9cbd11bc",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1848135a94c787e06a52f12f7817bf88"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "e0:98:06:8d:03:fe"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "Shelly 1",
+                "name": "Raceland",
+                "sw_version": "9.5.0.2",
+                "entry_type": null,
+                "id": "ac3bb359ca3adea62312a114d5a83de0",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1848135a94c787e06a52f12f7817bf88"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "a4:cf:12:db:06:17"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "Sonoff Basic",
+                "name": "TasmotaTest",
+                "sw_version": "9.4.0.5",
+                "entry_type": null,
+                "id": "db450615730c9e345cca5c1edf7e0618",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1848135a94c787e06a52f12f7817bf88"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ec:fa:bc:6e:a1:63"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "ShellyRGBW2",
+                "name": "Raceland",
+                "sw_version": "9.5.0.2",
+                "entry_type": null,
+                "id": "427d5dfeec9ead15812a2a2e5bad34e7",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "9a914cd7-d78449e8"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "9a914cd7-d78449e8",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "15d4ebbcb80d8a68caa020e03eb1377c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "aae815d6-a17551ca"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "aae815d6-a17551ca",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "09033a0cd047ecac07a12fe5c5c46021",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "71d53331-65499bf9"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "71d53331-65499bf9",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "d99c50943f41d9822fbc5168effcaa9b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "4988d1d2-4a34da33"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "4988d1d2-4a34da33",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "f5da99ad4983586e537e2ae721e6d617",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "b326ba82-c1a9afd0"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "b326ba82-c1a9afd0",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "bc781a1e03af51d0ac44977d5d89caca",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "a4cdc9b7-1e20f2e7"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "a4cdc9b7-1e20f2e7",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "23351771e9e3d1559cb6ac1eb2e6ed44",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "6082cca9-97bb96e5"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "6082cca9-97bb96e5",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "58de78c7ea7157b57483dc1ecd772ace",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "c01d711d-ee26ae8e"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "c01d711d-ee26ae8e",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "e4de7cc46f2718c0ae75f187b68866c9",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "de7f7393-276b1f2e"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "de7f7393-276b1f2e",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "f44a681c6d4fec3efaf3e0de143ba730",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "e5c72bff-79ad1e64"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "e5c72bff-79ad1e64",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "d90f7737ae318b16829b271c9e22c2cf",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "da05f0eb-ffd9b29c"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "da05f0eb-ffd9b29c",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b4eba629dc97258b82851319512fa222",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "a5256912-f3666983"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "a5256912-f3666983",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "a1fda088d682e41fa93082e106ec6d6d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "9d5c9928-a825b04f"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "9d5c9928-a825b04f",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c200488754a5ddebf5bf36212ed53b53",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "aabbf88d-2f70b47c"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "aabbf88d-2f70b47c",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "7ffd8dd1da1a92b5f8e1eff87588f1d6",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "f14bf6af-c33a0bf3"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "f14bf6af-c33a0bf3",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "9d87eb68bcf1deb58617bf38d1139a1d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "8865feb0-85854568"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "8865feb0-85854568",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "4a7a4a2527b439dced6b8c0531985ea3",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "30c690c7-cff9bb01"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "30c690c7-cff9bb01",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "9179861ad4b998b8fb742c429e140ead",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "07916103-ffc91cef"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "07916103-ffc91cef",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c5708af7715c1c949ec9862e2a52b081",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "00ba3614-c40b8b08"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "00ba3614-c40b8b08",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b0bfbfbaf4d86955c665c9846c54c5ae",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "de679249-a95cfb74"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "de679249-a95cfb74",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "26dd3dfba3d9174d5988b24a01eed97c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "77bcb87e-0c693d44"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "77bcb87e-0c693d44",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "a07ec621eb60b39423738bfb4df75d6f",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "6b304632-e24a5f06"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "6b304632-e24a5f06",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "17cd85853f2a0f1bd01b0e523552f680",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "0baba5fe-d843e81a"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "0baba5fe-d843e81a",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "836bdc271742820604cab355a1e54282",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "9a866e4e-09bff514"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "9a866e4e-09bff514",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "2b966b64057eb5826e6f88abed1bf0af",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "d25bf81f-41f4d686"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "d25bf81f-41f4d686",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c2c30d15e39f0212837fb95793f1b13e",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "6bc23d68-aec7edf7"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "6bc23d68-aec7edf7",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "74eaed39b09c2c7c5732fb492314b50c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "a7b4377f-7f6fdaf4"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "a7b4377f-7f6fdaf4",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "a827f5f4b160ad25facb57dc3e8c7fc4",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "e3e8a05c-ff4da97f"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "e3e8a05c-ff4da97f",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "49bab910eef378ad37d77342bf00a812",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "cf618f92-ace2f65a"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "cf618f92-ace2f65a",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "93b57848d3905183384e7477a648d75b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "d52bc86e-8c7ab65b"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "d52bc86e-8c7ab65b",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "5ddfd81ef3441dd63ce3b35c7a553b36",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "fa7dd78c-b948e397"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "fa7dd78c-b948e397",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "d27eb5d022ba6de11ce19913b3dfec84",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "9149f707-c2fcd134"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "9149f707-c2fcd134",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ccf8bb7f42397a7967877c519edb430c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "a126dc19-efea8c5b"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "a126dc19-efea8c5b",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "d2f6edc2446db1861705ebc58c7530ec",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "300da00e-286d907e"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "300da00e-286d907e",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "6cab133c389744bd422403da637668b9",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "a144e230-401b9766"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "a144e230-401b9766",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "a9768abbc76a5dce2651b95dfb6942bf",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "9765b9f2-d767a747"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "9765b9f2-d767a747",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "bddb475336cc76b19a06a3e64ca9c8ff",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "c1d4dbbf-33920059"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "c1d4dbbf-33920059",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "a66ec44916ae6504875b5e7106974117",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "947af9ca-30fa7814"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "947af9ca-30fa7814",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "80823f4665c5ed3eb23856d69860e50e",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "99894134-390002f8"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "99894134-390002f8",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "bc07fa24d86c50ae58c841712c935de9",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "aa36f28c-93b00cb7"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "aa36f28c-93b00cb7",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "43edfe4d3d9e0eb7b0162ef54d296713",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "bb5b839d-0500b294"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "bb5b839d-0500b294",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "8ec22844c844d7ab71a29c70980d0fd2",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "5813b431-768e1345"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "5813b431-768e1345",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b15a65494dac761899307d779c7af1ab",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "418ae976-f719ecee"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "418ae976-f719ecee",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "4131584d6137076374e027872141cfe3",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "baa2e39f-3bf29195"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "baa2e39f-3bf29195",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "427b02221db2705ba4fc2f6b93e79048",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "a162a1a6-8e3ce904"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "a162a1a6-8e3ce904",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "24e9a48ad2d1e424d725f3ce8befdaa4",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "2dc93b95-c89f608b"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "2dc93b95-c89f608b",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "99f891ac072de081e5ed97a38c50bc4a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "b608ad54-12265c8e"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "b608ad54-12265c8e",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "1fc0b8b8417de8972025fcec8cab59e0",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "9c2fd3e0-d15449a9"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "9c2fd3e0-d15449a9",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "5903fb05afab9acfc12c4a6e160481f8",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "003196f9-7df0cdfd"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "003196f9-7df0cdfd",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "12420ed2c40a59ca59cc404ff4c4500b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "fa50e9fa-94bd10ff"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "fa50e9fa-94bd10ff",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "f732d998a2ed32a11104bd4c5a03b58b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d045267922ed78793eb725f6e22ca7a1"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "racelandshop",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "racelandshop.xyz",
+                "model": "",
+                "name": "RACELANDSHOP",
+                "sw_version": "1.0.0",
+                "entry_type": "service",
+                "id": "86570113bd7d595d5b6a21275927990b",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "a83cbb42-3c54b8bd"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "a83cbb42-3c54b8bd",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "f049855166bbcd23b29b9a9b49e37f3d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "eb62f9b4-ef40eea2"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "eb62f9b4-ef40eea2",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "5e0241249211ffaa5f690a9b017cfa15",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "99102b66-291d63d9"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "99102b66-291d63d9",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "2d9c3ae3f41bb8bcc77e17bd642fa739",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "30c3afa0-40afacb4"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "30c3afa0-40afacb4",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "3e4b0cd078c3083ac59efa0b92d2a443",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "39913a10-648bf99c"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "39913a10-648bf99c",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "901675c7bcf3f54923379bd250c52e62",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1848135a94c787e06a52f12f7817bf88"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "60:01:94:ff:79:84"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "Generic Touch",
+                "name": "Beddy",
+                "sw_version": "1.3.1",
+                "entry_type": null,
+                "id": "ddcf0816f5c8897d0cfdc659c1418b09",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "f781ffa4-b6918e80"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "f781ffa4-b6918e80",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "75d171ff8d43ad5d4a2fdbd4f39fd03d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "3177d15c-5f9dfd30"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "3177d15c-5f9dfd30",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "0bc9e11e956fc9425ca31d4deb15c55d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "eb66e444-2d40a1b0"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "eb66e444-2d40a1b0",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "7a7fa014305722eeb192dee9bcaaa9a1",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "82b4f631-13d48363"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "82b4f631-13d48363",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "5c85da3f6fd80b3fa0ea3176080be035",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "29e28ad9-8ef67499"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "29e28ad9-8ef67499",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "4cb890a1ba238116248d0e5566459066",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "ec6b01ae-ec7daa83"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "ec6b01ae-ec7daa83",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "93f77449b6a4429448ff8193961f52ee",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [
+                    "004af5d401676e6909125cf15dd27cde"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "33bfdb22c261ea42"
+                    ]
+                ],
+                "id": "8a9aff254505bdbea77bd32dda965c6e",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "f133e4d7-a1949d6d"
+                    ]
+                ],
+                "id": "0a8509d454655622576ebe5e0d179f6d",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "d1351622-1b00c605"
+                    ]
+                ],
+                "id": "43aedae3838e8b2db2f17192e064d23e",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "1babdeb8-5eb3ca65"
+                    ]
+                ],
+                "id": "66b71a5fac88e1145dff3f9dd3264471",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "95d1c080-0593fbaf"
+                    ]
+                ],
+                "id": "1a65ae4082e1099a64f1eed35f39301f",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "2c1fc388-437cceca"
+                    ]
+                ],
+                "id": "47ac3eb27b846c5174b6cece0a1630aa",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "14af27cf-f371ab51"
+                    ]
+                ],
+                "id": "1bbcff1616322ba4ff26d008a54f39dd",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "3bacb4e7-25b49fc8"
+                    ]
+                ],
+                "id": "ed001538e33d5753f5172ef0ff373db5",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "03f380a2-942407d6"
+                    ]
+                ],
+                "id": "4c2c4f7b91646f50f97ee77bfb47d68e",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "6613108b-d71c9166"
+                    ]
+                ],
+                "id": "6343058d44d67461013ec2e413cf8897",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "933a8a96-ff13c5eb"
+                    ]
+                ],
+                "id": "6258658cb61b91d1115b71099c9d9a5f",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "aaacae05-2e9a872c"
+                    ]
+                ],
+                "id": "bf8783eda4a2318b6ddd4f50f29aec20",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "31c7ee9b-472d9287"
+                    ]
+                ],
+                "id": "810c966212227b9a6d9c5426c47f3c1b",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "4f1213f2-09c2ae0b"
+                    ]
+                ],
+                "id": "19f8f2471533fb9fe210b3b023210b03",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "a707d588-317c42e7"
+                    ]
+                ],
+                "id": "7c56dfdd7c1f6276522b8297e6638daf",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "0c36009c-ace81a8f"
+                    ]
+                ],
+                "id": "cc70896285aab26f955a432de1923040",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "6effeee1-72dd1234"
+                    ]
+                ],
+                "id": "e649a61b93e19c1c04518b981b171e5e",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "b3cf83d5-87cef699"
+                    ]
+                ],
+                "id": "9bd881ab29b7b5cbc21a5d1db606db73",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "547de67c-b0ee2209"
+                    ]
+                ],
+                "id": "8e73039205db11a4880035732ef05590",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "5b12c81d-f6e0349f"
+                    ]
+                ],
+                "id": "210844b4d6b9e00a63c9bb817a1f51d6",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "199ff5c2-a9266741"
+                    ]
+                ],
+                "id": "caf97af35cef9bfd5166fc9dc9e630ad",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "8dd8cc34-9863f38b"
+                    ]
+                ],
+                "id": "260da03e958dbe4a9c2c0f2479b4aef7",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "b8747493-85abc228"
+                    ]
+                ],
+                "id": "6a3f50d869373a6cc793b44a44a2fb92",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "1af324ee-f48f7b9d"
+                    ]
+                ],
+                "id": "872905c1527c65bc2c30810296c1d9f1",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "d58bfeaa150e7fb603d2334091169dd7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "browser_mod",
+                        "b4e3e2b7-10d134dc"
+                    ]
+                ],
+                "id": "3d9b59f758ca0f0b96bbb64f06468bd6",
+                "orphaned_timestamp": null
+            }
+        ]
+    }
+}

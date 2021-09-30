@@ -1,0 +1,20 @@
+# Main Lovelace Config
+
+## Button Card Templates
+button_card_templates: !include_dir_named templates/button/button-card-templates/
+
+
+#Kiosk configuration
+kiosk_mode:
+  mobile_settings:
+    hide_sidebar: true
+    ignore_entity_settings: true
+    custom_width: 768
+
+
+## Base Configuration
+title: Home
+background: 'center / cover no-repeat url("/local/images/wallpapers/blue-wood.png") fixed'
+popup_cards: !include templates/popup-cards/popup-cards.yaml
+views: 
+  !include base.yaml

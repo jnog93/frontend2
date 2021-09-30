@@ -1,0 +1,29 @@
+- always_save_latest_file: true
+  ip_address: localhost
+  platform: deepstack_object
+  port: 80
+  roi_x_max: 1
+  roi_y_max: 1
+  save_file_folder: /config/www/camera_screenshots
+  save_file_format: png
+  save_timestamped_file: true
+  source:
+  - entity_id: camera.camera_foo
+  targets:
+  - confidence: '10.0'
+    target: person
+  - confidence: '10.0'
+    target: animal
+  - confidence: '10.0'
+    target: vehicle
+  - confidence: '10.0'
+    target: others
+- detect_only: false
+  ip_address: localhost
+  platform: deepstack_face
+  port: 80
+  save_faces: false
+  save_file_folder: /config/www/facial_recognition
+  save_timestamped_file: true
+  source:
+  - entity_id: camera.camera_bar

@@ -1,0 +1,22 @@
+type: vertical-stack
+cards:
+  - type: markdown
+    style: |
+      ha-card {
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+        margin-left: {{ _global.general_config.margins }};
+        margin-right: {{ _global.general_config.margins }};
+      }
+    content: >
+      **WELCOME:**
+
+
+      You have succesfully installed Homekit Infused. Please read the documentation on https://github.com/jimz011/homekit-infused.
+
+
+      You must setup some views for this dashboard to be functional. You can turn this message off by removing the `welcome_message:` line in your `/hki-user/config/view_config.yaml` file.
+
+
+      Enjoy Homekit Infused!
+

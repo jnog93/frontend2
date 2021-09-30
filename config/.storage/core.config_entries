@@ -1,0 +1,214 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "a6f254d38e6ae46f8e881e6b065df5e3",
+                "version": 1,
+                "domain": "mqtt",
+                "title": "configuration.yaml",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "c9c2d38217cce977b1cefe67ac5725fa",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d58bfeaa150e7fb603d2334091169dd7",
+                "version": 1,
+                "domain": "browser_mod",
+                "title": "Browser Mod",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e3a0620bb5bdc775a1fbded0b1fe1fb1",
+                "version": 1,
+                "domain": "pyscript",
+                "title": "pyscript",
+                "data": {
+                    "allow_all_imports": true,
+                    "hass_is_global": true,
+                    "apps": {
+                        "dinamicBackground": {
+                            "wallpaper_folder": "/config/www/images/wallpapers",
+                            "homekit_infused_folder": "/config/hki-base/",
+                            "wallpaper_selector_config_file": "/config/hki-user/wallpaper_selector_configs"
+                        },
+                        "importDashBoard": {
+                            "homekit_dashboard_view_file": "/config/hki-user/config/view_config",
+                            "homekit_dashboard_list_file": "/config/hki-user/dashboard_importer_configs",
+                            "storage_folder": "/config/.storage",
+                            "devive_counter_file": "/config/hki-user/device_counters",
+                            "entities_to_import": [
+                                "switch",
+                                "light",
+                                "sensor",
+                                "weather",
+                                "camera"
+                            ],
+                            "cards_to_import": [
+                                "button",
+                                "entities",
+                                "light",
+                                "entity",
+                                "sensor",
+                                "weather-forecast",
+                                "picture-entity",
+                                "picture-glance"
+                            ]
+                        },
+                        "manageDashboards": {
+                            "file_auth": "/config/.storage/auth",
+                            "file_person": "/config/.storage/person",
+                            "hki_main_config_file": "/config/packages/homekit_infused/hki_configuration",
+                            "hki_infused_template": "/config/hki-base/homekit-infused",
+                            "base_template": "/config/hki-base/base",
+                            "header_base_template": "/config/hki-base/templates/header/header-base-template",
+                            "user_sensors_file": "/config/hki-user/user_sensors",
+                            "view_config_template": "/config/hki-user/config/view_config",
+                            "general_config_template": "/config/hki-user/config/general_config",
+                            "device_counter_file": "/config/hki-user/device_counters",
+                            "dashboard_users_file": "/config/hki-user/dashboard_user_import_configs"
+                        },
+                        "homekitRedirect": null,
+                        "broadlink-raceland": {
+                            "broadlink_config_file": "/config/broadlink_config/",
+                            "storage_file": "configured_broadlink.json",
+                            "storage_folder": "/config/.storage",
+                            "input_select_yaml_file": "/config/input_select.yaml",
+                            "input_bool_yaml_file": "/config/input_boolean.yaml",
+                            "input_select_dashboard": "dashboard_to_add",
+                            "input_select_division": "division_to_add",
+                            "input_select_remote": "broadlink_remote",
+                            "remote_template_folder": "/config/remote_templates",
+                            "remote_counter_name": "counter.remote_number_counter",
+                            "base_bool_name": "learning_mode_remote"
+                        },
+                        "cameras-raceland": {
+                            "camera_yaml_file": "/config/cameras.yaml",
+                            "scrip_yaml_file": "/config/scripts.yaml",
+                            "cameras_to_be_recorded": "/config/cameras_to_be_recorded.json",
+                            "recordings_folder": "/config/www/camera_videos/",
+                            "registered_cameras": "input_select.registered_cameras",
+                            "input_select_file": "input_select",
+                            "number_of_presets": 10
+                        },
+                        "camera-ai-raceland": {
+                            "deepstack_yaml": "/config/deepstack",
+                            "teach_face_preview_folder": "/config/www/screenshots_for_preview/",
+                            "registered_cameras": "input_select.registered_cameras",
+                            "current_camera_entity_id": "input_text.registered_cameras_entity_id"
+                        }
+                    }
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": "pyscript",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "1848135a94c787e06a52f12f7817bf88",
+                "version": 1,
+                "domain": "raceland",
+                "title": "Tasmota",
+                "data": {
+                    "discovery_prefix": "raceland/discovery"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "5dbb9697b8a42daf26bedc60c7e6a2c1",
+                "version": 1,
+                "domain": "wemo",
+                "title": "Belkin WeMo",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ignore",
+                "unique_id": "wemo",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "fb4448c3a654c792bd49bf6e06cda9a3",
+                "version": 1,
+                "domain": "upnp",
+                "title": "MediaAccess TG789vac v2 (1750SAJEH)",
+                "data": {
+                    "hostname": "192.168.1.254"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ignore",
+                "unique_id": "uuid:02e435e9-e613-52bd-959c-406c7eee7feb::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "126deb54241ecc728f9a66f626f99bdb",
+                "version": 1,
+                "domain": "favicon",
+                "title": "",
+                "data": {
+                    "icon_path": "/local/logos/logo.png",
+                    "title": "Raceland Home Assistant"
+                },
+                "options": {
+                    "title": "Raceland HA",
+                    "icon_path": "/local/logos/"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d045267922ed78793eb725f6e22ca7a1",
+                "version": 1,
+                "domain": "racelandshop",
+                "title": "",
+                "data": {
+                    "token": "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"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            }
+        ]
+    }
+}

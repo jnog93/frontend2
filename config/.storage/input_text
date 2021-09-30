@@ -1,0 +1,192 @@
+{
+    "version": 1,
+    "key": "input_text",
+    "data": {
+        "items": [
+            {
+                "name": "change_name",
+                "mode": "text",
+                "min": 0,
+                "max": 100,
+                "id": "change_name",
+                "pattern": "test"
+            },
+            {
+                "max": 500,
+                "name": "camera_form_rtsp",
+                "mode": "text",
+                "min": 0,
+                "id": "camera_form_rspt",
+                "icon": "mdi:cctv"
+            },
+            {
+                "name": "camera_form_still_image",
+                "icon": "mdi:camera",
+                "mode": "text",
+                "min": 0,
+                "max": 500,
+                "id": "camera_form_still_image"
+            },
+            {
+                "name": "camera_form_username",
+                "icon": "mdi:account",
+                "mode": "text",
+                "min": 0,
+                "max": 100,
+                "id": "camera_form_username"
+            },
+            {
+                "name": "camera_form_camera_name",
+                "icon": "mdi:rename-box",
+                "mode": "text",
+                "min": 0,
+                "max": 100,
+                "id": "camera_form_camera_name"
+            },
+            {
+                "name": "camera_form_password",
+                "mode": "password",
+                "min": 0,
+                "max": 100,
+                "id": "camera_form_password"
+            },
+            {
+                "name": "camera_config_authenication",
+                "icon": "mdi:check-circle",
+                "max": 100,
+                "mode": "text",
+                "min": 0,
+                "id": "camera_config_authenication"
+            },
+            {
+                "name": "camera_config_camera_name",
+                "max": 100,
+                "mode": "text",
+                "min": 0,
+                "id": "camera_config_camera_name",
+                "icon": "mdi:rename-box"
+            },
+            {
+                "name": "camera_config_framerate",
+                "icon": "mdi:monitor",
+                "max": 100,
+                "mode": "text",
+                "min": 0,
+                "id": "camera_config_framerate"
+            },
+            {
+                "name": "camera_config_password",
+                "mode": "text",
+                "max": 100,
+                "min": 0,
+                "id": "camera_form_password_2"
+            },
+            {
+                "name": "camera_config_rtsp",
+                "max": 500,
+                "mode": "text",
+                "min": 0,
+                "id": "camera_config_rtsp",
+                "icon": "mdi:cctv"
+            },
+            {
+                "name": "camera_config_rtsp_transport",
+                "max": 100,
+                "mode": "text",
+                "min": 0,
+                "id": "camera_config_rtsp_transport"
+            },
+            {
+                "name": "camera_config_still_image",
+                "icon": "mdi:camera",
+                "max": 500,
+                "mode": "text",
+                "min": 0,
+                "id": "camera_config_still_image"
+            },
+            {
+                "name": "camera_config_username",
+                "icon": "mdi:account",
+                "max": 100,
+                "mode": "text",
+                "min": 0,
+                "id": "camera_form_username_2"
+            },
+            {
+                "name": "camera_config_verify_ssl",
+                "max": 100,
+                "mode": "text",
+                "min": 0,
+                "id": "camera_config_verify_ssl"
+            },
+            {
+                "name": "camera_update_username",
+                "icon": "mdi:account",
+                "max": 100,
+                "mode": "text",
+                "min": 0,
+                "id": "camera_update_username"
+            },
+            {
+                "name": "camera_update_still_image",
+                "max": 500,
+                "icon": "mdi:camera",
+                "mode": "text",
+                "min": 0,
+                "id": "camera_update_still_image"
+            },
+            {
+                "name": "camera_update_rtsp",
+                "icon": "mdi:cctv",
+                "max": 500,
+                "mode": "text",
+                "min": 0,
+                "id": "camera_update_rtsp"
+            },
+            {
+                "name": "camera_update_password",
+                "mode": "password",
+                "max": 100,
+                "min": 0,
+                "id": "camera_update_password"
+            },
+            {
+                "name": "camera_update_camera_name",
+                "icon": "mdi:rename-box",
+                "max": 100,
+                "mode": "text",
+                "min": 0,
+                "id": "camera_update_camera_name"
+            },
+            {
+                "name": "ai_form_object_ip_address",
+                "max": 500,
+                "mode": "text",
+                "min": 0,
+                "id": "ai_form_ip_address"
+            },
+            {
+                "name": "ai_face_form_ip_address",
+                "max": 100,
+                "min": 0,
+                "mode": "text",
+                "id": "ai_face_form_ip_address"
+            },
+            {
+                "pattern": "input_text.registered_cameras_entity_id",
+                "name": "registered_cameras_entity_id",
+                "max": 100,
+                "min": 0,
+                "mode": "text",
+                "id": "registered_cameras_entity_id"
+            },
+            {
+                "name": "ai_form_person_name",
+                "mode": "text",
+                "min": 0,
+                "max": 100,
+                "id": "ai_form_person_name"
+            }
+        ]
+    }
+}

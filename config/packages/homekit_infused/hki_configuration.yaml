@@ -1,0 +1,31 @@
+lovelace_gen: !include_dir_merge_named ../../hki-user/config/
+
+group:
+  !include ../../hki-user/device_counters.yaml
+
+frontend:
+  themes: !include_dir_merge_named ../../hki-base/themes/
+
+#Keep the comments coments bellow as they are required for an automation/parser
+
+# //Lovelade Dashboards
+lovelace:
+  mode: storage
+  dashboards:
+    homekit-infused:
+      mode: yaml
+      title: Homekit Infused
+      icon: mdi:home-assistant
+      show_in_sidebar: true
+      filename: hki-base/homekit-infused.yaml
+      require_admin: true
+# //End of lovelace dashboards 
+
+# folder_watcher:
+#  - folder: /config/www/images/wallpapers
+#    patterns:
+#      - '*.jpg'
+#      - '*.png'
+#  - folder: /config/.storage
+#    patterns:
+#      - 'lovelace.*'

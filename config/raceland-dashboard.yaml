@@ -1,0 +1,488 @@
+### Raceland configuration dashboard configuration file
+title: Raceland Dashboard
+views:
+  - title: Geral ###
+    cards:
+      - type: custom:button-card
+        icon: mdi:power
+        tap_action:
+          action: call-service
+          service: homeassistant.restart
+
+  #Configuration related with broadlinks
+  - title: Configurações Broadlink
+    cards:
+    - type: vertical-stack
+      cards:
+        - type: entities
+          title: Adicionar comandos
+          show_header_toggle: false
+          entities:
+            - type: call-service
+              name: ' '
+              icon: mdi:reload
+              action_name: Descobrir broadlinks!
+              service: broadlink_raceland.update_broadlink_remotes
+            - entity: input_select.broadlink_remote
+              name: Broadlink
+            - entity: input_select.dashboard_to_add
+              name: Dashboard
+            - entity: input_select.division_to_add
+              name: Escolha a divisão
+            - entity: input_select.remote_type
+              name: Tipo de comando
+            - type: call-service
+              name: Esta acção vai reiniciar o homeassistant
+              action_name: Adicionar
+              icon: ' '
+              service: broadlink_raceland.add_remote
+              service_data:
+                broadlink: input_select.broadlink_remote
+                dashboard: input_select.dashboard_to_add
+                division: input_select.division_to_add
+                remote_type: input_select.remote_type
+        - type: custom:gap-card
+          height: 10
+        - type: entities
+          entities:
+            - entity: input_text.change_name
+              type: custom:text-input-row
+              name: Mudar o nome da broadlink
+            - type: call-service
+              name: ' '
+              action_name: Renomear
+              service: broadlink_raceland.rename
+              service_data:
+                broadlink: input_select.broadlink_remote
+                new_name: input_text.change_name
+          show_header_toggle: false
+
+    - type: custom:state-switch
+      entity: input_select.remote_type
+      transition: 'flip'
+      states:
+        TV: !include remote_templates/tv-dashboard-preview.yaml
+        AC: !include remote_templates/ac-dashboard-preview.yaml
+
+
+  ### Configuration related with adding cameras
+  - title: Câmera
+    cards:
+      - type: entities
+        entities:
+          - entity: input_text.camera_form_still_image
+            type: custom:text-input-row
+            name: "URL da image da câmera estática"
+          - entity: input_text.camera_form_rtsp
+            type: custom:text-input-row
+            name: "URL da stream RTSP"
+          - entity: input_text.camera_form_username
+            type: custom:text-input-row
+            name: "Username"
+          - entity: input_text.camera_form_password
+            type: custom:text-input-row
+            name: "Password"
+          - entity: input_text.camera_form_camera_name
+            type: custom:text-input-row
+            name: "Nome da camera (obrigátorio)"
+          - entity: input_boolean.camera_form_record_video
+            name: "Gravar video da câmara"
+          - entity: input_boolean.camera_form_advanced_options
+          - type: custom:state-switch
+            entity: input_boolean.camera_form_advanced_options
+            name: Opções avançadas
+            states:
+              "on":
+                type: entities
+                entities:
+                  - entity: input_select.camera_form_authentication
+                    name: "Authentication"
+                  - entity: input_select.camera_form_verify_ssl
+                    name: "Verify SSL"
+                  - entity: input_select.camera_form_rtsp_transport
+                    name: RTSP Transport
+                  - entity: input_number.camera_form_framerate
+                    name: Framerate
+          - type: call-service
+            name: ' '
+            action_name: Adicionar Câmeras
+            service: raceland_cameras.add_camera_entity
+            service_data:
+              inp_text_camera_static: input_text.camera_form_still_image
+              inp_text_camera_stream: input_text.camera_form_rtsp
+              inp_text_username: input_text.camera_form_username
+              inp_text_password: input_text.camera_form_password
+              inp_text_camera_name:  input_text.camera_form_camera_name
+              inp_sel_authentication: input_select.camera_form_authentication
+              inp_sel_verify_ssl: input_select.camera_form_verify_ssl
+              inp_num_framerate: input_number.camera_form_framerate
+              inp_rtsp_transport: input_select.camera_form_rtsp_transport
+              inp_bool_record: input_boolean.camera_form_record_video
+        show_header_toggle: false
+      - type: custom:config-template-card  #Show preview of the camera
+        entities:
+          - input_text.camera_form_username
+          - input_text.camera_form_password
+          - input_text.camera_form_still_image
+        card:
+          type: 'picture'
+          title: Antevisão
+          image: "${ 'http://' + states['input_text.camera_form_username'].state + ':' + states['input_text.camera_form_password'].state + '@' + states['input_text.camera_form_still_image'].state.replace('http://', '') }"
+      - type: custom:button-card
+        icon:
+        name: Ir para Scripts
+        tap_action:
+          action: navigate
+          navigation_path: /config/script/edit/new
+
+  #Configuration related with camera (to modify the atribute information)
+  - title: "Configurações da Câmeras"
+    cards:
+      - type: custom:hui-vertical-stack-card
+        cards:
+          - type: custom:hui-horizontal-stack-card
+            cards:
+              - type: entities
+                entities:
+                  - entity: input_select.registered_cameras
+                    name: 'Selectione a Câmera'
+              - type: custom:button-card
+                name: 'Apagar câmera'
+                styles:
+                  card:
+                    - height: 95px #Increasing this will also increase the select camera card
+                tap_action:
+                  action: call-service
+                  service: raceland_cameras.delete_camera_entity
+                  service_data:
+                    registered_cameras_entity: input_select.registered_cameras
+
+          - type: custom:state-switch #Show the information related with the currently selected camera in the input_select.registered_cameras
+            entity: input_select.registered_cameras
+            default: "camera_entity"
+
+            states:
+              "None":
+                  type: markdown
+                  content: Selecione uma câmera para modificar
+              "camera_entity":
+                type: custom:stack-in-card #By default it stacks vertically
+                cards:
+                  - type: custom:hui-horizontal-stack-card
+                    cards:
+                      - type: markdown
+                        content: '{{ states(''input_text.camera_config_still_image'') }}'
+                        entity: input_text.camera_config_still_image
+                        title: ' '
+                      - type: custom:text-input-row
+                        entity: input_text.camera_update_still_image
+                        name: Novo URL
+                  - type: custom:hui-horizontal-stack-card
+                    cards:
+                      - type: markdown
+                        content: '{{ states("input_text.camera_config_rtsp").split("@")[0] }}@<br />{{ states("input_text.camera_config_rtsp").split("@")[1] }}'
+                        entity: input_text.camera_config_rtsp
+                        title: ' '
+                      - type: custom:text-input-row
+                        entity: input_text.camera_update_rtsp
+                        name: Novo link RTSP
+                  - type: custom:hui-horizontal-stack-card
+                    cards:
+                      - type: markdown
+                        content: '{{ states(''input_text.camera_config_username'') }}'
+                        entity: input_text.camera_config_username
+                        title: ' '
+                      - type: custom:text-input-row
+                        entity: input_text.camera_update_username
+                        name: Novo username
+                  - type: custom:hui-horizontal-stack-card
+                    cards:
+                      - type: markdown
+                        content: '{{ states(''input_text.camera_config_password'') }}'
+                        entity: input_text.camera_config_password
+                        title: ' '
+                      - type: custom:text-input-row
+                        entity: input_text.camera_update_password
+                        name: Nova password
+                  - type: custom:hui-horizontal-stack-card
+                    cards:
+                      - type: markdown
+                        content: '{{ states(''input_text.camera_config_camera_name'') }}'
+                        entity: input_text.camera_config_camera_name
+                        title: ' '
+                      - type: custom:text-input-row
+                        entity: input_text.camera_update_camera_name
+                        name: Novo nome da câmera
+                  - type: entities
+                    entities:
+                      - entity: input_boolean.camera_update_record_video
+                        name: "Gravar video da câmera"
+                      - entity: input_boolean.camera_update_advanced_options
+                        name: Opções avançadas
+                  - type: custom:state-switch
+                    entity: input_boolean.camera_update_advanced_options
+                    name: Opções avançadas
+                    states:
+                      "on":
+                          type: custom:hui-vertical-stack-card
+                          cards:
+                            - type: custom:hui-horizontal-stack-card
+                              cards:
+                                - type: markdown
+                                  content: '{{ states(''input_text.camera_config_authenication'') }}'
+                                  entity: input_text.camera_config_authenication
+                                - type: entities
+                                  entities:
+                                    - entity: input_select.camera_update_authentication
+                                      name: 'Modo de autenticação'
+                            - type: custom:hui-horizontal-stack-card
+                              cards:
+                                - type: markdown
+                                  content: '{{ states(''input_text.camera_config_verify_ssl'') }}'
+                                  entity: input_text.camera_config_verify_ssl
+                                - type: entities
+                                  entities:
+                                    - entity: input_select.camera_update_verify_ssl
+                                      name: 'Verificação SSL'
+                            - type: custom:hui-horizontal-stack-card
+                              cards:
+                                - type: markdown
+                                  content: '{{ states(''input_text.camera_config_rtsp_transport'') }}'
+                                  entity: input_text.camera_config_rtsp_transport
+                                - type: entities
+                                  entities:
+                                    - entity: input_select.camera_update_rtsp_transport
+                                      name: 'RTSP transport'
+                            - type: custom:hui-horizontal-stack-card
+                              cards:
+                                - type: markdown
+                                  content: '{{ states(''input_text.camera_config_framerate'') }}'
+                                  entity: input_text.camera_config_framerate
+                                - type: entities
+                                  entities:
+                                    - entity: input_number.camera_update_framerate
+                                      name: 'Modo de autenticação'
+                  - type: entities
+                    entities:
+                      - type: call-service
+                        action_name: 'Update'
+                        name: ' '
+                        service: raceland_cameras.update_camera_information
+                        service_data:
+                          inp_text_camera_static: input_text.camera_update_still_image
+                          inp_text_camera_stream: input_text.camera_update_rtsp
+                          inp_text_username: input_text.camera_update_username
+                          inp_text_password: input_text.camera_update_password
+                          inp_text_camera_name: input_text.camera_update_camera_name
+                          inp_selected_camera: input_select.registered_cameras
+                          inp_sel_authentication: input_select.camera_update_authentication
+                          inp_sel_verify_ssl: input_select.camera_update_verify_ssl
+                          inp_num_framerate: input_number.camera_update_framerate
+                          inp_rtsp_transport: input_select.camera_update_rtsp_transport
+                          inp_bool_record: input_boolean.camera_update_record_video
+
+      - type: custom:config-template-card
+        entities:
+          - input_text.camera_config_username
+          - input_text.camera_config_password
+          - input_text.camera_config_still_image
+        card:
+          type: 'picture'
+          title: Antevisão
+          image: "${ 'http://' + states['input_text.camera_config_username'].state + ':' + states['input_text.camera_config_password'].state + '@' + states['input_text.camera_config_still_image'].state.replace('http://', '') }"
+
+
+  - title: "Configurações Intelegência artificial"
+    cards:
+      - type: custom:hui-horizontal-stack-card
+        cards:
+          - type: custom:stack-in-card
+            cards:
+            - type: custom:hui-vertical-stack-card
+              cards:
+                - type: entities
+                  entities:
+                    - entity: input_select.registered_cameras
+                      name: 'Selectione a Câmera'
+
+            - type: custom:state-switch
+              entity: input_select.registered_cameras
+              default: 'camera_selected'
+              states:
+                "None":
+                    type: markdown
+                    content: Selecione uma câmera
+                "camera_selected":
+                  type: custom:hui-vertical-stack-card
+                  cards:
+                    - type: entities
+                      entities:
+                        - entity: input_boolean.camera_form_ai
+                          name: "Ativar reconhecimento de objectos"
+
+                        - type: custom:state-switch #Show information about the object recognition
+                          entity: input_boolean.camera_form_ai
+                          states:
+                            "on":
+                              type: custom:stack-in-card #By default it stacks vertically
+                              cards:
+                                - type: custom:text-input-row
+                                  entity: input_text.ai_form_object_ip_address
+                                  name: 'IP da máquina a correr deepstack (defaults to localhost)'
+                                - type: entities
+                                  entities:
+                                    - entity: input_boolean.ai_form_detect_person
+                                      name: "Detetar pessoas"
+                                - type: custom:state-switch
+                                  entity: input_boolean.ai_form_detect_person
+                                  states:
+                                    "on":
+                                      type: entities
+                                      entities:
+                                        - entity: input_number.ai_form_detect_person_confidence
+                                          icon: mdi:percent-outline
+                                          name: 'Confiança'
+
+                                - type: entities
+                                  entities:
+                                    - entity: input_boolean.ai_form_detect_vehicle
+                                      name: "Detetar veículos"
+                                - type: custom:state-switch
+                                  entity: input_boolean.ai_form_detect_vehicle
+                                  states:
+                                    "on":
+                                      type: entities
+                                      entities:
+                                        - entity: input_number.ai_form_detect_vehicle_confidence
+                                          icon: mdi:percent-outline
+                                          name: 'Confiança'
+
+                                - type: entities
+                                  entities:
+                                    - entity: input_boolean.ai_form_detect_animal
+                                      name: "Detetar animais"
+                                - type: custom:state-switch
+                                  entity: input_boolean.ai_form_detect_animal
+                                  states:
+                                    "on":
+                                      type: entities
+                                      entities:
+                                        - entity: input_number.ai_form_detect_animal_confidence
+                                          icon: mdi:percent-outline
+                                          name: 'Confiança'
+
+                                - type: entities
+                                  entities:
+                                    - entity: input_boolean.ai_form_detect_others
+                                      name: "Detetar outros objectos"
+                                - type: custom:state-switch
+                                  entity: input_boolean.ai_form_detect_others
+                                  states:
+                                    "on":
+                                      type: entities
+                                      entities:
+                                        - entity: input_number.ai_form_detect_others_confidence
+                                          icon: mdi:percent-outline
+                                          name: 'Confiança'
+
+                    - type: entities
+                      entities:
+                      - entity: input_boolean.camera_form_facial_recognition
+                        name: "Ativar reconhecimento de caras"
+
+                      - type: custom:state-switch #Show information about the object recognition
+                        entity: input_boolean.camera_form_facial_recognition
+                        states:
+                          "on":
+                            type: custom:stack-in-card #By default it stacks vertically
+                            cards:
+                              - type: custom:text-input-row
+                                entity: input_text.ai_face_form_ip_address
+                                name: 'IP da máquina a correr deepstack (defaults to localhost)'
+                              - type: entities
+                                entities:
+                                  - entity: input_boolean.ai_form_detect_only
+                                    name: "Realizar apenas deteção de caras"
+
+                    #Service call
+                    - type: entities
+                      entities:
+                        - type: call-service
+                          action_name: 'Adicionar/Atualizar'
+                          name: ' '
+                          service: raceland_cameras.manage_deepstack_entities
+                          service_data:
+                            camera_entity: input_select.registered_cameras
+                            object_ai_bool: input_boolean.camera_form_ai
+                            face_ai_bool: input_boolean.camera_form_facial_recognition
+                            ip_address_object: input_text.ai_form_object_ip_address
+                            ip_address_face: input_text.ai_face_form_ip_address
+                            detect_person_bool: input_boolean.ai_form_detect_person
+                            detect_person_bool_confidence: input_number.ai_form_detect_person_confidence
+                            detect_animal_bool: input_boolean.ai_form_detect_animal
+                            detect_animal_bool_confidence: input_number.ai_form_detect_animal_confidence
+                            detect_vehicle_bool: input_boolean.ai_form_detect_vehicle
+                            detect_vehicle_bool_confidence: input_number.ai_form_detect_vehicle_confidence
+                            detect_others_bool: input_boolean.ai_form_detect_others
+                            detect_others_bool_confidence: input_number.ai_form_detect_others_confidence
+                            detect_only_face_bool: input_boolean.ai_form_detect_only
+
+      - type: custom:config-template-card
+        entities:
+          - input_text.camera_config_username
+          - input_text.camera_config_password
+          - input_text.camera_config_still_image
+        card:
+          type: 'picture'
+          title: Antevisão
+          image: "${ 'http://' + states['input_text.camera_config_username'].state + ':' + states['input_text.camera_config_password'].state + '@' + states['input_text.camera_config_still_image'].state.replace('http://', '') }"
+
+  - title: "Reconhecimento facial"
+    cards:
+      - type: custom:config-template-card
+        entities:
+          - input_text.registered_cameras_entity_id #This entity is updated each time there is an update of the input_select.registered_cameras
+        card:
+          type: 'picture-glance'
+          title: Antevisão
+          entities:
+            - entity: input_select.registered_cameras
+          image: "${ states['input_text.registered_cameras_entity_id'].state }"
+      - type: custom:hui-horizontal-stack-card
+        cards:
+          - type: entities
+            entities:
+              - type: call-service
+                action_name: 'Preview' #Takes screenshot and updates de frontend (not yet working properly). Should be called before taking learning a face
+                name: ' '
+                icon: ' '
+                service: raceland_cameras.take_screenshot
+          - type: entities
+            entities:
+              - type: call-service
+                action_name: 'Learn face' #Learns a face for facial recognition
+                name: ' '
+                icon: ' '
+                service: raceland_cameras.teach_face
+                service_data:
+                  image_path: input_text.registered_cameras_entity_id
+                  person_name: input_text.ai_form_person_name
+
+      - type: custom:text-input-row
+        entity: input_text.ai_form_person_name
+        name: 'Nome da pessoa'
+
+
+
+      # Use this if I can fix the stream speed
+      # - type: custom:config-template-card
+      #   entities:
+      #     - input_text.registered_cameras_entity_id #This entity is updated each time there is an update of the input_select.registered_cameras. Shows the slugified version of the entity
+      #   card:
+      #     type: 'picture-glance'
+      #     title: Antevisão
+      #     entities:
+      #       - entity: input_select.registered_cameras
+      #       - entity: script.
+      #     camera_image: "${ states['input_text.registered_cameras_entity_id'].state }"
+      #     camera_view: live

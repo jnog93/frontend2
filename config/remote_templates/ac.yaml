@@ -1,0 +1,295 @@
+entities:
+  - cards:
+      - icon: mdi:access-point
+        entity: input_boolean.learning_mode_remote_number
+        tap_action:
+          action: call-service
+          service: script.toggle_discover
+          service_data:
+            entity_id: input_boolean.learning_mode_remote_number
+            mac_adress: mac
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              {% if is_state('input_boolean.learning_mode_remote_number', 'on') %}
+                -1px -1px 5px #0000FF , 1px 1px 0px #0000FF;
+              {% elif is_state('input_boolean.learning_mode_remote_number', 'off') %} 
+                -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+              {% endif %}
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 3px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:lightbulb-on-outline
+        tap_action:
+          action: call-service
+          service: broadlink_raceland.send_request
+          service_data:
+            command_name: light_number
+            mac_adress: mac
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              {% if is_state('input_boolean.learning_mode_remote_number', 'on') %}
+                -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;
+              {% elif is_state('input_boolean.learning_mode_remote_number', 'off') %} 
+                -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+              {% endif %}
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 10px
+            - width: 60px
+            - height: 60px
+            - border-radius: 100px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:power
+        tap_action:
+          action: call-service
+          service: broadlink_raceland.send_request
+          service_data:
+            command_name: power_number
+            mac_adress: mac
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              {% if is_state('input_boolean.learning_mode_remote_number', 'on') %}
+                -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;
+              {% elif is_state('input_boolean.learning_mode_remote_number', 'off') %} 
+                -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+              {% endif %}
+          }
+        styles:
+          card:
+            - width: 60px
+            - height: 60px
+            - margin: 10px 10px 10px 5px
+            - border-radius: 100px
+            - background-color: var(--primary-background-color)
+            - box-shadow: ''
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+    type: custom:hui-horizontal-stack-card
+  - cards:
+      - tap_action:
+          action: call-service
+          service: broadlink_raceland.send_request
+          service_data:
+            command_name: temperature_minus_number
+            mac_adress: mac
+        icon: mdi:thermometer-minus
+        show_icon: true
+        show_name: false
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 3px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+            - box-shadow: ''
+            - border-radius: 10px
+            - width: 60px
+            - height: 60px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        style: |
+          ha-card {
+            box-shadow:
+              {% if is_state('input_boolean.learning_mode_remote_number', 'on') %}
+                -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;
+              {% elif is_state('input_boolean.learning_mode_remote_number', 'off') %} 
+                -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+              {% endif %}
+          }
+        type: custom:button-card
+      - tap_action:
+          action: call-service
+          service: broadlink_raceland.send_request
+          service_data:
+            command_name: temperature_up_number
+            mac_adress: mac
+        icon: mdi:thermometer-plus
+        show_icon: true
+        show_name: false
+        styles:
+          card:
+            - box-shadow: ''
+            - margin: 10px 1px 1px 10px
+            - border-radius: 10px
+            - width: 60px
+            - height: 60px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        style: |
+          ha-card {
+            box-shadow:
+              {% if is_state('input_boolean.learning_mode_remote_number', 'on') %}
+                -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;
+              {% elif is_state('input_boolean.learning_mode_remote_number', 'off') %} 
+                -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+              {% endif %}
+          }      
+        type: custom:button-card
+      - tap_action:
+          action: call-service
+          service: broadlink_raceland.send_request
+          service_data:
+            command_name: wildcard_number
+            mac_adress: mac
+        icon: mdi:square-rounded
+        show_icon: true
+        show_name: false
+        size: 70%
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 4px
+            - border-radius: 10px
+            - width: 60px
+            - height: 60px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        style: |
+          ha-card {
+            box-shadow:
+              {% if is_state('input_boolean.learning_mode_remote_number', 'on') %}
+                -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;
+              {% elif is_state('input_boolean.learning_mode_remote_number', 'off') %} 
+                -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+              {% endif %}
+          }
+        type: custom:button-card
+    type: custom:hui-horizontal-stack-card
+    show_header_toggle: false
+  - cards:
+      - icon: mdi:fan
+        tap_action:
+          action: call-service
+          service: broadlink_raceland.send_request
+          service_data:
+            command_name: fan_number
+            mac_adress: mac
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              {% if is_state('input_boolean.learning_mode_remote_number', 'on') %}
+               -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;
+              {% elif is_state('input_boolean.learning_mode_remote_number', 'off') %} 
+               -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+              {% endif %}
+             border-radius: 30px;
+             background-color: var(--primary-background-color)
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 3px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:square-outline
+        tap_action:
+          action: call-service
+          service: broadlink_raceland.send_request
+          service_data:
+            command_name: mode_number
+            mac_adress: mac
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              {% if is_state('input_boolean.learning_mode_remote_number', 'on') %}
+                -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;
+              {% elif is_state('input_boolean.learning_mode_remote_number', 'off') %} 
+                -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+              {% endif %}
+             border-radius: 30px;
+             background-color: var(--primary-background-color)
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 8px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:power-sleep
+        tap_action:
+          action: call-service
+          service: broadlink_raceland.send_request
+          service_data:
+            command_name: sleep_number
+            mac_adress: mac
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              {% if is_state('input_boolean.learning_mode_remote_number', 'on') %}
+                -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;
+              {% elif is_state('input_boolean.learning_mode_remote_number', 'off') %} 
+                -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+              {% endif %}
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 8px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+    type: custom:hui-horizontal-stack-card
+show_header_toggle: false
+style: |
+  ha-card {
+    box-shadow:
+      {% if is_state('input_boolean.learning_mode_remote_number', 'on') %}
+        -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;
+      {% elif is_state('input_boolean.learning_mode_remote_number', 'off') %} 
+        -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+      {% endif %}
+    background-color: var(--primary-background-color);
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px auto;
+  }
+type: entities

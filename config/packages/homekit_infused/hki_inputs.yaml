@@ -1,0 +1,116 @@
+# Input Booleans
+
+#Are all these entities required?
+input_boolean:
+  dummy1:
+    initial: off
+  dummy2:
+    initial: off
+  dummy3:
+    initial: off
+  dummy4:
+    initial: on
+  update_ha:
+  update_hki:
+  day_night_cycle:
+  empty:
+  remote_control:
+  set_temperature:
+
+
+# Input Numbers
+input_number:
+  empty:
+    initial: 0
+    min: 0
+    max: 1
+  set_temperature:
+    min: 1
+    max: 30
+
+# Input Selects
+input_select:
+  theme_selector:
+    name: Theme Selector 
+    options:
+      - Home Assistant
+      - Dark theme
+      - Light theme
+      - Orange Delight
+      - Paper
+      - Silver
+      - Slate
+      - Space Gray
+      - Sweet Pink
+      - Valentine
+      
+
+  # theme_selector_day:
+  #   name: Theme Selector Day
+  #   options:
+  #     - Home Assistant
+  #     - Orange Delight
+  #     - Paper
+  #     - Silver
+  #     - Slate
+  #     - Space Gray
+  #     - Sweet Pink
+  #     - Valentine
+  #     - Dark theme
+
+  
+  # theme_selector_night:
+  #   name: Theme Selector Night
+  #   options:
+  #     - Home Assistant
+  #     - Orange Delight
+  #     - Paper
+  #     - Silver
+  #     - Slate
+  #     - Space Gray
+  #     - Sweet Pink
+  #     - Valentine
+  #     - Dark theme
+
+  wallpaper_selector: 
+    !include ../../hki-user/wallpaper_selector_configs.yaml
+
+  dashboard_user_import: #Used to select the user for which the dashboard will be imported
+    !include ../../hki-user/dashboard_user_import_configs.yaml
+  
+  dashboard_importer: 
+    !include ../../hki-user/dashboard_importer_configs.yaml
+
+
+  navigation_bar_direction:
+    options:
+      - Left
+      - Right
+
+  navigation_bar_options:
+    options:
+      - Date
+      - Time
+      - User
+      - Hide
+
+  navigation_bar:
+    options:
+      - 'Off'
+      - Top
+      - Bottom
+
+  find_my:
+    options:
+      - Persons
+      - Devices
+      - Vehicles
+
+# Input Texts
+input_text:
+  good_morning:
+  good_afternoon:
+  good_evening:
+  good_night:
+
+  button_color:

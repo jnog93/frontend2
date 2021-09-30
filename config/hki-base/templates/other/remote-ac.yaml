@@ -1,0 +1,78 @@
+# lovelace_gen
+
+# Card
+type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - !include
+        - '../button/button.yaml'
+        - entity: {{ input_boolean }}
+          name: {{ name_preset_button_1|default('Aprender') }}
+          icon: {{ icon_preset_button_1|default('mdi:access-point') }}
+          opacity_off: 1
+          icon_color_off: {{ icon_color_preset_button_1|default('red') }}
+          tap_action: call-service
+          script: script.toggle_discover
+          mac: {{ mac }}
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:lightbulb-on-outline
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: light_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:power
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: power_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0
+  - type: horizontal-stack
+    cards:
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:thermometer-minus
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: temperature_minus_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:thermometer-plus
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: temperature_plus_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0
+      - !include
+          - '../button/remote-control-broadlink.yaml'
+          - icon: mdi:square-rounded
+            service: {{ service|default('broadlink_raceland.send_request') }}
+            command_name: wildcard_{{ input_boolean.split('_')[-1] }}
+            mac: {{ mac }}
+            opacity_off: 1.0
+  - type: horizontal-stack
+    cards:
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:fan
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: fan_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:crop-square
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: mode_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0
+
+      - !include
+        - '../button/remote-control-broadlink.yaml'
+        - icon: mdi:power-sleep
+          service: {{ service|default('broadlink_raceland.send_request') }}
+          command_name: sleep_{{ input_boolean.split('_')[-1] }}
+          mac: {{ mac }}
+          opacity_off: 1.0

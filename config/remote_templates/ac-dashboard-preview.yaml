@@ -1,0 +1,202 @@
+entities:
+  - cards:
+      - icon: mdi:access-point
+        entity: input_boolean.learning_mode_remote_number
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 3px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:lightbulb-on-outline
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 10px
+            - width: 60px
+            - height: 60px
+            - border-radius: 100px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:power
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+          }
+        styles:
+          card:
+            - width: 60px
+            - height: 60px
+            - margin: 10px 10px 10px 5px
+            - border-radius: 100px
+            - background-color: var(--primary-background-color)
+            - box-shadow: ''
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+    type: custom:hui-horizontal-stack-card
+  - cards:
+      - icon: mdi:thermometer-minus
+        show_icon: true
+        show_name: false
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 3px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+            - box-shadow: ''
+            - border-radius: 10px
+            - width: 60px
+            - height: 60px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+          }
+        type: custom:button-card
+      - icon: mdi:thermometer-plus
+        show_icon: true
+        show_name: false
+        styles:
+          card:
+            - box-shadow: ''
+            - margin: 10px 1px 1px 10px
+            - border-radius: 10px
+            - width: 60px
+            - height: 60px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+          }      
+        type: custom:button-card
+
+      - icon: mdi:square-rounded
+        show_icon: true
+        show_name: false
+        size: 70%
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 4px
+            - border-radius: 10px
+            - width: 60px
+            - height: 60px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+          }
+        type: custom:button-card
+    type: custom:hui-horizontal-stack-card
+    show_header_toggle: false
+  - cards:
+      - icon: mdi:fan
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+               -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+             border-radius: 30px;
+             background-color: var(--primary-background-color)
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 3px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:square-outline
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+             border-radius: 30px;
+             background-color: var(--primary-background-color)
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 8px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+      - icon: mdi:power-sleep
+        show_icon: true
+        show_name: false
+        style: |
+          ha-card {
+            box-shadow:
+              -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+          }
+        styles:
+          card:
+            - margin-top: 10px
+            - margin-left: 8px
+            - width: 60px
+            - height: 60px
+            - border-radius: 10px
+            - background-color: var(--primary-background-color)
+          icon:
+            - color: var(--primary-text-color)
+        type: custom:button-card
+    type: custom:hui-horizontal-stack-card
+show_header_toggle: false
+style: |
+  ha-card {
+    box-shadow:
+        -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;
+    background-color: var(--primary-background-color);
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px auto;
+  }
+type: entities

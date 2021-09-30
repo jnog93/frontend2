@@ -1,0 +1,178 @@
+{
+    "version": 1,
+    "key": "lovelace_resources",
+    "data": {
+        "items": [
+            {
+                "url": "/racelandshopfiles/air-visual-card/air-visual-card.js?racelandshoptag=39235758146440",
+                "type": "module",
+                "id": "107b1868d763431691a27db214e3d0ce"
+            },
+            {
+                "url": "/racelandshopfiles/mini-media-player/mini-media-player-bundle.js?racelandshoptag=3923713971121",
+                "type": "module",
+                "id": "9e09a9582eb447bc81b047b67048b024"
+            },
+            {
+                "url": "/racelandshopfiles/mini-graph-card/mini-graph-card-bundle.js?racelandshoptag=3923714750110",
+                "type": "module",
+                "id": "17ab7fa2d70d4523870962145ecc3f30"
+            },
+            {
+                "url": "/racelandshopfiles/rgb-light-card/card.js?racelandshoptag=39234742483902",
+                "type": "module",
+                "id": "42d0dace03eb4fb1a64e2bf38c219f95"
+            },
+            {
+                "url": "/racelandshopfiles/bar-card/bar-card.js?racelandshoptag=392358104320",
+                "type": "module",
+                "id": "3d4ce93d712d407b96dc2a99a0d70fb0"
+            },
+            {
+                "url": "/racelandshopfiles/button-card/button-card.js?racelandshoptag=392360348342",
+                "type": "module",
+                "id": "c96230cb2e094c5490709a0927242950"
+            },
+            {
+                "url": "/racelandshopfiles/config-template-card/config-template-card.js?racelandshoptag=392365800131",
+                "type": "module",
+                "id": "c0f9591a9dd84d0bafd3b3f7b215d83a"
+            },
+            {
+                "url": "/racelandshopfiles/custom-sidebar/custom-sidebar.js?racelandshoptag=392366572308",
+                "type": "module",
+                "id": "cdd8e699272e49ba8e4f9dfde6c6584a"
+            },
+            {
+                "url": "/racelandshopfiles/kiosk-mode/kiosk-mode.js?racelandshoptag=3923668859526",
+                "type": "module",
+                "id": "10ff760b99724d3ab665c7995c7e5819"
+            },
+            {
+                "url": "/racelandshopfiles/light-popup-card/light-popup-card.js?racelandshoptag=22706648905",
+                "type": "module",
+                "id": "fd80fc7a50824ae6b4aee77eae8cea8f"
+            },
+            {
+                "url": "/racelandshopfiles/lovelace-auto-entities/auto-entities.js?racelandshoptag=39237020299610",
+                "type": "module",
+                "id": "791e8ff6aab340a7aa495a830c6f5f28"
+            },
+            {
+                "url": "/racelandshopfiles/lovelace-card-mod/card-mod.js?racelandshoptag=1909275243012",
+                "type": "module",
+                "id": "8163497cdfef4355a45c970fe7a9c539"
+            },
+            {
+                "url": "/racelandshopfiles/lovelace-more-info-card/more-info-card.js?racelandshoptag=3923711850994",
+                "type": "module",
+                "id": "659fd2de57774870b892f26ddfa6ee52"
+            },
+            {
+                "url": "/racelandshopfiles/lovelace-state-switch/state-switch.js?racelandshoptag=3923713203598",
+                "type": "module",
+                "id": "07f68aa1e09747f3988ccaa07ab80896"
+            },
+            {
+                "url": "/racelandshopfiles/search-card/search-card.js?racelandshoptag=197759180096038",
+                "type": "module",
+                "id": "a997b0db6cb248578d897bb6a4a24721"
+            },
+            {
+                "url": "/racelandshopfiles/simple-weather-card/simple-weather-card-bundle.js?racelandshoptag=392371694082",
+                "type": "module",
+                "id": "5c78ac0f0e3d458996dc1e7ad5ecb713"
+            },
+            {
+                "url": "/racelandshopfiles/swipe-card/swipe-card.js?racelandshoptag=3923725204986",
+                "type": "module",
+                "id": "51da2cdf20f5445c88fd427fa7bb17df"
+            },
+            {
+                "url": "/racelandshopfiles/thermostat-popup-card/thermostat-popup-card.js?racelandshoptag=3925906181330",
+                "type": "module",
+                "id": "da53da6462704621a086076b25c1e6a8"
+            },
+            {
+                "url": "/racelandshopfiles/upcoming-media-card/upcoming-media-card.js?racelandshoptag=3925908890831",
+                "type": "module",
+                "id": "f061e76276454ddb9eff725e1f1d3899"
+            },
+            {
+                "url": "/racelandshopfiles/lovelace-text-input-row/lovelace-text-input-row.js?racelandshoptag=394948421211",
+                "type": "module",
+                "id": "e3e63a7e1ffb4fd7945123ef1c4ed566"
+            },
+            {
+                "url": "/racelandshopfiles/Custom-Grid-View/grid-view.js?racelandshoptag=317590148004",
+                "type": "module",
+                "id": "b6a7b00e940d49c8b351372e9832059d"
+            },
+            {
+                "url": "/racelandshopfiles/stack-in-card/stack-in-card.js?racelandshoptag=398317545020",
+                "type": "module",
+                "id": "5ce7324bccac454fb801a8c6d4b902a9"
+            },
+            {
+                "url": "/racelandshopfiles/lovelace-card-tools/card-tools.js?racelandshoptag=39237098047734",
+                "type": "module",
+                "id": "80eca01496ee42c4bd54e5f6dfc82879"
+            },
+            {
+                "url": "/racelandshopfiles/banner-card/banner-card.js?racelandshoptag=1867657040130",
+                "type": "module",
+                "id": "3a873d4bf5b14d98929e7887d8eb2fb1"
+            },
+            {
+                "url": "/racelandshopfiles/vertical-stack-in-card/vertical-stack-in-card.js?racelandshoptag=142051833041",
+                "type": "module",
+                "id": "ed48f6b75121411e95fab2aad07992b2"
+            },
+            {
+                "url": "/racelandshopfiles/lovelace-paper-buttons-row/paper-buttons-row.js?racelandshoptag=244872232060",
+                "type": "module",
+                "id": "2d92452b6b7443bda749ee4105e7ea84"
+            },
+            {
+                "url": "/racelandshopfiles/lightalarm-card/lightalarm-card.js?racelandshoptag=235449701303",
+                "type": "module",
+                "id": "99ce4046185b40dd88f917dd3256ff6b"
+            },
+            {
+                "url": "/racelandshopfiles/Homekit-panel-card/homekit-panel-card.js?racelandshoptag=229219283061",
+                "type": "module",
+                "id": "bcc89fdfc561429a8e8bba18f905ad3b"
+            },
+            {
+                "url": "/racelandshopfiles/lovelace-animated-background/animated-background.js?racelandshoptag=39237044000723",
+                "type": "module",
+                "id": "1039fc0997db414a80c7a144515a9683"
+            },
+            {
+                "url": "http://192.168.1.125:5000/light-card.js",
+                "type": "module",
+                "id": "8c0db6a4921743c7906f1fb2ffcd6ebc"
+            },
+            {
+                "url": "/racelandshopfiles/fan-card/fan-card.js?racelandshoptag=40707523810",
+                "type": "module",
+                "id": "f17dc6d2a8644e73b004dd40179f5933"
+            },
+            {
+                "url": "http://localhost/layout-card.js",
+                "type": "module",
+                "id": "9b3156224cf04d6e8926e6f74c8797ae"
+            },
+            {
+                "url": "http://localhost:5001/layout-card.js",
+                "type": "module",
+                "id": "40201e9dc7194037956adc9612727bbf"
+            },
+            {
+                "url": "/racelandshopfiles/light-card/light-card.js?racelandshoptag=40914362310",
+                "type": "module",
+                "id": "ac98452d68e4462db5386651bdaad757"
+            }
+        ]
+    }
+}

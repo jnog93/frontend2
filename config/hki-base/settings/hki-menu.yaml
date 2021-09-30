@@ -1,0 +1,68 @@
+# lovelace_gen
+
+type: custom:mod-card
+style: |
+  ha-card {
+    margin-left: {{ _global.general_config.margins }};
+    margin-right: {{ _global.general_config.margins }};
+  }
+card:
+  type: vertical-stack
+  cards:
+    - !include
+      - '../templates/other/title-text.yaml'
+      - name: '&nbsp;Configurações'
+    - type: custom:state-switch
+      entity: group
+      default: admin
+      states: #Controls what shows for different user 
+        admin:
+          type: grid
+          columns: 3
+          cards:
+            # - !include
+            #   - '../templates/button/button-badge.yaml'
+            #   - name: About
+            #     label: HKI
+            #     icon: mdi:help-circle
+            #     navigation_path: /homekit-infused/about
+            #     notification: "[[[ if (states['sensor.hki_current_version'].state == `${states['sensor.hki_latest_version'].state}`) return `Up to Date`; if (states['sensor.hki_current_version'].state > `${states['sensor.hki_latest_version'].state}`) return `Beta!`; else return `Update`; ]]]"
+            #     background_color: "[[[ return 'var(--paper-item-icon-color)'; ]]]"    
+            - !include
+              - '../templates/button/button-badge.yaml'
+              - name: Homekit
+                label: 'Configurações'
+                icon: mdi:cellphone-cog
+                navigation_path: /homekit-infused{{ current_user }}/hki_settings
+                notification: "[[[ return '&nbsp'; ]]]"
+                background_color: "[[[ return 'rgba(0,0,0,0.0)'; ]]]" 
+            # - !include
+            #   - '../templates/button/button-badge.yaml'
+            #   - name: Homeassistant
+            #     label: Configurações
+            #     icon: mdi:cogs
+            #     navigation_path: /homekit-infused/ha_settings
+            #     notification: "[[[ return '&nbsp'; ]]]"
+            #     background_color: "[[[ return 'rgba(0,0,0,0.0)'; ]]]"
+
+      
+        # user:
+        #   type: grid
+        #   columns: 3
+        #   cards:
+        #     - !include
+        #       - '../templates/button/button-badge.yaml'
+        #       - name: About
+        #         label: HKI
+        #         icon: mdi:help-circle
+        #         navigation_path: /homekit-infused/about
+        #         notification: "[[[ if (states['sensor.hki_current_version'].state == `${states['sensor.hki_latest_version'].state}`) return `Up to Date`; if (states['sensor.hki_current_version'].state > `${states['sensor.hki_latest_version'].state}`) return `Beta!`; else return `Update`; ]]]"
+        #         background_color: "[[[ return 'var(--paper-item-icon-color)'; ]]]"  
+        #     - !include
+        #       - '../templates/button/button-badge.yaml'
+        #       - name: Go to
+        #         label: Profile
+        #         icon: mdi:account
+        #         navigation_path: /profile
+        #         notification: "[[[ return '&nbsp'; ]]]"
+        #         background_color: "[[[ return 'rgba(0,0,0,0.0)'; ]]]" 

@@ -1,0 +1,66 @@
+learning_mode_remote_1:
+  icon: mdi:router-network
+  name: input_boolean_learning_1
+learning_mode_remote_10:
+  icon: mdi:router-network
+  name: input_boolean_learning_10
+learning_mode_remote_11:
+  icon: mdi:router-network
+  name: input_boolean_learning_11
+learning_mode_remote_13:
+  icon: mdi:router-network
+  name: input_boolean_learning_13
+learning_mode_remote_17:
+  icon: mdi:router-network
+  name: input_boolean_learning_17
+learning_mode_remote_18:
+  icon: mdi:router-network
+  name: input_boolean_learning_18
+learning_mode_remote_19:
+  icon: mdi:router-network
+  name: input_boolean_learning_19
+learning_mode_remote_2:
+  icon: mdi:router-network
+  name: input_boolean_learning_3
+learning_mode_remote_20:
+  icon: mdi:router-network
+  name: input_boolean_learning_20
+learning_mode_remote_21:
+  icon: mdi:router-network
+  name: input_boolean_learning_21
+learning_mode_remote_22:
+  icon: mdi:router-network
+  name: input_boolean_learning_22
+learning_mode_remote_23:
+  icon: mdi:router-network
+  name: input_boolean_learning_23
+learning_mode_remote_24:
+  icon: mdi:router-network
+  name: input_boolean_learning_24
+learning_mode_remote_25:
+  icon: mdi:router-network
+  name: input_boolean_learning_25
+learning_mode_remote_26:
+  icon: mdi:router-network
+  name: input_boolean_learning_26
+learning_mode_remote_27:
+  icon: mdi:router-network
+  name: input_boolean_learning_27
+learning_mode_remote_28:
+  icon: mdi:router-network
+  name: input_boolean_learning_28
+learning_mode_remote_29:
+  icon: mdi:router-network
+  name: input_boolean_learning_29
+learning_mode_remote_3:
+  icon: mdi:router-network
+  name: input_boolean_learning_3
+learning_mode_remote_30:
+  icon: mdi:router-network
+  name: input_boolean_learning_30
+learning_mode_remote_31:
+  icon: mdi:router-network
+  name: input_boolean_learning_31
+learning_mode_remote_32:
+  icon: mdi:router-network
+  name: input_boolean_learning_32

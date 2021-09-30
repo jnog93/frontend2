@@ -1,0 +1,2407 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.owner",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "owner",
+                    "user_id": "6f284c8af2294017993e9c7dd44eba6a",
+                    "friendly_name": "owner"
+                },
+                "last_changed": "2021-09-29T16:13:15.687759+00:00",
+                "last_updated": "2021-09-29T16:13:20.146930+00:00",
+                "context": {
+                    "id": "edc63fa2aca40c5c16b0f6f64ab81f1c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "counter.remote_number_counter",
+                "state": "33",
+                "attributes": {
+                    "editable": false,
+                    "initial": 1,
+                    "step": 1
+                },
+                "last_changed": "2021-09-29T16:13:16.435694+00:00",
+                "last_updated": "2021-09-29T16:13:16.435694+00:00",
+                "context": {
+                    "id": "ebb8c83110186034275a3a840288ea26",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_1",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_1",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.435812+00:00",
+                "last_updated": "2021-09-29T16:13:16.435812+00:00",
+                "context": {
+                    "id": "096c85f1b01c4bbd5103be079d6ce68a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_10",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_10",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.435874+00:00",
+                "last_updated": "2021-09-29T16:13:16.435874+00:00",
+                "context": {
+                    "id": "f07c8d572ef50b8555881626f0689cf2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_11",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_11",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.435932+00:00",
+                "last_updated": "2021-09-29T16:13:16.435932+00:00",
+                "context": {
+                    "id": "c50010010cf82ad7e31faf2ef222c0a8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_13",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_13",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.435984+00:00",
+                "last_updated": "2021-09-29T16:13:16.435984+00:00",
+                "context": {
+                    "id": "94bc3f29a5014dde1099180f1b3db2af",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_17",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_17",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436032+00:00",
+                "last_updated": "2021-09-29T16:13:16.436032+00:00",
+                "context": {
+                    "id": "2d787ef88b5eae6fff8f8e5ac818a709",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_18",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_18",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436080+00:00",
+                "last_updated": "2021-09-29T16:13:16.436080+00:00",
+                "context": {
+                    "id": "0f342ed2a4307f5e05a0201db0f6b1a3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_19",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_19",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436128+00:00",
+                "last_updated": "2021-09-29T16:13:16.436128+00:00",
+                "context": {
+                    "id": "42ac20f6e2ccf7e7cd34dc5832f4cb1a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_2",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_3",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436193+00:00",
+                "last_updated": "2021-09-29T16:13:16.436193+00:00",
+                "context": {
+                    "id": "73941b14db26749d876c432ba3e56f21",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_20",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_20",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436258+00:00",
+                "last_updated": "2021-09-29T16:13:16.436258+00:00",
+                "context": {
+                    "id": "016d941059b42752d7e2734244e86352",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_21",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_21",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436483+00:00",
+                "last_updated": "2021-09-29T16:13:16.436483+00:00",
+                "context": {
+                    "id": "7be6295c5f393d229ac18aa6b47199e9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_22",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_22",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436590+00:00",
+                "last_updated": "2021-09-29T16:13:16.436590+00:00",
+                "context": {
+                    "id": "29e584468e5799a52fe8b5f4b287c533",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_23",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_23",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436652+00:00",
+                "last_updated": "2021-09-29T16:13:16.436652+00:00",
+                "context": {
+                    "id": "0b0cf95f2f5f47b3c416bf683cbec0d8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_24",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_24",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436707+00:00",
+                "last_updated": "2021-09-29T16:13:16.436707+00:00",
+                "context": {
+                    "id": "5a5c0b8798e532c006448e7062bb03ab",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_25",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_25",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436757+00:00",
+                "last_updated": "2021-09-29T16:13:16.436757+00:00",
+                "context": {
+                    "id": "cb85a656fbda52d0e680701688419899",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_26",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_26",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436805+00:00",
+                "last_updated": "2021-09-29T16:13:16.436805+00:00",
+                "context": {
+                    "id": "bb09c58bea693ccc9d1c4d94940aaed9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_27",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_27",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436852+00:00",
+                "last_updated": "2021-09-29T16:13:16.436852+00:00",
+                "context": {
+                    "id": "7f20e15859b69a40902ef4c657d2c8cb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_28",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_28",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436899+00:00",
+                "last_updated": "2021-09-29T16:13:16.436899+00:00",
+                "context": {
+                    "id": "ae3c2fe932300fce29cab15b3458f791",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_29",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_29",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436945+00:00",
+                "last_updated": "2021-09-29T16:13:16.436945+00:00",
+                "context": {
+                    "id": "0c153cf77493f9e3b6fa637afdc55fb1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_3",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_3",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.436992+00:00",
+                "last_updated": "2021-09-29T16:13:16.436992+00:00",
+                "context": {
+                    "id": "84ebffe78e9a33af3a06e81bdc86005d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_30",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_30",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.437038+00:00",
+                "last_updated": "2021-09-29T16:13:16.437038+00:00",
+                "context": {
+                    "id": "2ede9c7c60da711fccf9f831d9c01c22",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_31",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_31",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.437084+00:00",
+                "last_updated": "2021-09-29T16:13:16.437084+00:00",
+                "context": {
+                    "id": "13b4066853e8bb17d813358a0858e33f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.learning_mode_remote_32",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "input_boolean_learning_32",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.437130+00:00",
+                "last_updated": "2021-09-29T16:13:16.437130+00:00",
+                "context": {
+                    "id": "acb208cd4119299ee8307082ba1d4185",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.dummy1",
+                "state": "off",
+                "attributes": {
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.437164+00:00",
+                "last_updated": "2021-09-29T16:13:16.437164+00:00",
+                "context": {
+                    "id": "f3c5cfc4629c897da070d9eb187d1784",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.dummy2",
+                "state": "off",
+                "attributes": {
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.437247+00:00",
+                "last_updated": "2021-09-29T16:13:16.437247+00:00",
+                "context": {
+                    "id": "8364d2eef4d2cd19835ac031a1da109f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.dummy3",
+                "state": "off",
+                "attributes": {
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.437283+00:00",
+                "last_updated": "2021-09-29T16:13:16.437283+00:00",
+                "context": {
+                    "id": "fad52f42783c6d5a0f83aee1aff7100d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.dummy4",
+                "state": "on",
+                "attributes": {
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.437315+00:00",
+                "last_updated": "2021-09-29T16:13:16.437315+00:00",
+                "context": {
+                    "id": "5f9c4ece4f96c4143210db0fe9b51c06",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.update_ha",
+                "state": "off",
+                "attributes": {
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.437372+00:00",
+                "last_updated": "2021-09-29T16:13:16.437372+00:00",
+                "context": {
+                    "id": "3716c97c78dfcfa65f61b217b327b930",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.update_hki",
+                "state": "off",
+                "attributes": {
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.437419+00:00",
+                "last_updated": "2021-09-29T16:13:16.437419+00:00",
+                "context": {
+                    "id": "b59505fd3b2da95e7ad42b0c19e19b52",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.day_night_cycle",
+                "state": "off",
+                "attributes": {
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.437475+00:00",
+                "last_updated": "2021-09-29T16:13:16.437475+00:00",
+                "context": {
+                    "id": "4d623555637cfdfc0f463d2517dfa6bc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.empty",
+                "state": "off",
+                "attributes": {
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.437524+00:00",
+                "last_updated": "2021-09-29T16:13:16.437524+00:00",
+                "context": {
+                    "id": "07d58aadba8dac868d2f0d950954a669",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.remote_control",
+                "state": "off",
+                "attributes": {
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.437570+00:00",
+                "last_updated": "2021-09-29T16:13:16.437570+00:00",
+                "context": {
+                    "id": "4327486d92533f1c1e8006ca555e2c69",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.set_temperature",
+                "state": "off",
+                "attributes": {
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.437615+00:00",
+                "last_updated": "2021-09-29T16:13:16.437615+00:00",
+                "context": {
+                    "id": "a08dfd41f030f78172db6ae19d427c8b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.broadlink_remote",
+                "state": "RM4 pro",
+                "attributes": {
+                    "options": [
+                        "RM4 mini",
+                        "RM4 pro"
+                    ],
+                    "editable": false,
+                    "friendly_name": "Broadlink Remote",
+                    "icon": "mdi:router-network"
+                },
+                "last_changed": "2021-09-29T16:13:16.440196+00:00",
+                "last_updated": "2021-09-29T16:13:16.440196+00:00",
+                "context": {
+                    "id": "1de3f167894c4b33ff808488d884d942",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.dashboard_to_add",
+                "state": "Overview",
+                "attributes": {
+                    "options": [
+                        "Overview",
+                        "dashboardtest1",
+                        "lights",
+                        "testes"
+                    ],
+                    "editable": false,
+                    "friendly_name": "Dashboard",
+                    "icon": "mdi:view-dashboard"
+                },
+                "last_changed": "2021-09-29T16:13:16.440353+00:00",
+                "last_updated": "2021-09-29T16:13:16.440353+00:00",
+                "context": {
+                    "id": "b33f89a8980b2aaa5acbbb87834f5958",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.division_to_add",
+                "state": "remote",
+                "attributes": {
+                    "options": [
+                        "escrit\u00f3rio",
+                        "remote",
+                        "remote tv1",
+                        "confirmation",
+                        "teste camera"
+                    ],
+                    "editable": false,
+                    "friendly_name": "Division to add",
+                    "icon": "mdi:door"
+                },
+                "last_changed": "2021-09-29T16:13:16.440511+00:00",
+                "last_updated": "2021-09-29T16:13:16.440511+00:00",
+                "context": {
+                    "id": "b2eca49edd45e1ab092d851208fef746",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.registered_cameras",
+                "state": "camera bar",
+                "attributes": {
+                    "options": [
+                        "None",
+                        "camera foo",
+                        "camera bar"
+                    ],
+                    "editable": false,
+                    "friendly_name": "registered_cameras"
+                },
+                "last_changed": "2021-09-29T16:13:16.440567+00:00",
+                "last_updated": "2021-09-29T16:13:16.440567+00:00",
+                "context": {
+                    "id": "bfb0a2b2b43b5600af71f4c4d17aa620",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.remote_type",
+                "state": "AC",
+                "attributes": {
+                    "options": [
+                        "TV",
+                        "AC"
+                    ],
+                    "editable": false,
+                    "friendly_name": "Tipo de comando",
+                    "icon": "mdi:remote-tv"
+                },
+                "last_changed": "2021-09-29T16:13:16.440620+00:00",
+                "last_updated": "2021-09-29T16:13:16.440620+00:00",
+                "context": {
+                    "id": "4fd732777789888abb8d91c92b20fe39",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.theme_selector",
+                "state": "Dark theme",
+                "attributes": {
+                    "options": [
+                        "Home Assistant",
+                        "Dark theme",
+                        "Light theme",
+                        "Orange Delight",
+                        "Paper",
+                        "Silver",
+                        "Slate",
+                        "Space Gray",
+                        "Sweet Pink",
+                        "Valentine"
+                    ],
+                    "editable": false,
+                    "friendly_name": "Theme Selector"
+                },
+                "last_changed": "2021-09-29T16:13:16.440671+00:00",
+                "last_updated": "2021-09-29T16:13:16.440671+00:00",
+                "context": {
+                    "id": "4fc080ba808dac746075480f3cc0bcce",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.wallpaper_selector",
+                "state": "Theme wallpaper",
+                "attributes": {
+                    "options": [
+                        "Theme wallpaper",
+                        "blue-wood.png",
+                        "gray-wood.png",
+                        "home-assistant.png",
+                        "ios13-homekit-dark-blue.png",
+                        "ios13-homekit-dark-green.png",
+                        "ios13-homekit-light-green.png",
+                        "ios13-homekit-orange.png",
+                        "ios13-homekit-red.png",
+                        "love-red.jpg",
+                        "pink-flowers.jpg",
+                        "popup-wallpaper-gray.png",
+                        "popup-wallpaper-pink.png",
+                        "popup-wallpaper-red.png",
+                        "valentine-test.jpg",
+                        "valentines-day-2.jpg",
+                        "valentines-day.jpg",
+                        "white-gradient.png"
+                    ],
+                    "editable": false,
+                    "friendly_name": "Wallpaper selector"
+                },
+                "last_changed": "2021-09-29T16:13:16.440767+00:00",
+                "last_updated": "2021-09-29T16:13:16.440767+00:00",
+                "context": {
+                    "id": "a21a1afbae13e15fa6c436d9784085e5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.dashboard_user_import",
+                "state": "owner",
+                "attributes": {
+                    "options": [
+                        "owner"
+                    ],
+                    "editable": false,
+                    "friendly_name": "Dashboard User import"
+                },
+                "last_changed": "2021-09-29T16:13:16.440823+00:00",
+                "last_updated": "2021-09-29T16:13:16.440823+00:00",
+                "context": {
+                    "id": "bdbd57195e3f4e37e1fc54dfc6f243b0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.dashboard_importer",
+                "state": "lights",
+                "attributes": {
+                    "options": [
+                        "Overview",
+                        "dashboardtest1",
+                        "lights",
+                        "testes"
+                    ],
+                    "editable": false,
+                    "friendly_name": "Dashboard Importer"
+                },
+                "last_changed": "2021-09-29T16:13:16.440873+00:00",
+                "last_updated": "2021-09-29T16:13:16.440873+00:00",
+                "context": {
+                    "id": "1039c0676bb109e783d91183c417a606",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.navigation_bar_direction",
+                "state": "Left",
+                "attributes": {
+                    "options": [
+                        "Left",
+                        "Right"
+                    ],
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.440921+00:00",
+                "last_updated": "2021-09-29T16:13:16.440921+00:00",
+                "context": {
+                    "id": "a5723dfbcd0dd343b43fb755775fba0f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.navigation_bar_options",
+                "state": "Date",
+                "attributes": {
+                    "options": [
+                        "Date",
+                        "Time",
+                        "User",
+                        "Hide"
+                    ],
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.440968+00:00",
+                "last_updated": "2021-09-29T16:13:16.440968+00:00",
+                "context": {
+                    "id": "9c908bf1d3cd198ddc8c66965a1b1b3d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.navigation_bar",
+                "state": "Off",
+                "attributes": {
+                    "options": [
+                        "Off",
+                        "Top",
+                        "Bottom"
+                    ],
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.441016+00:00",
+                "last_updated": "2021-09-29T16:13:16.441016+00:00",
+                "context": {
+                    "id": "ee6647f9c321194749815e27c9da5413",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.find_my",
+                "state": "Persons",
+                "attributes": {
+                    "options": [
+                        "Persons",
+                        "Devices",
+                        "Vehicles"
+                    ],
+                    "editable": false
+                },
+                "last_changed": "2021-09-29T16:13:16.441115+00:00",
+                "last_updated": "2021-09-29T16:13:16.441115+00:00",
+                "context": {
+                    "id": "8566cd9cbcf240f307c38be8383406c5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.good_morning",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text"
+                },
+                "last_changed": "2021-09-29T16:13:16.441594+00:00",
+                "last_updated": "2021-09-29T16:13:16.441594+00:00",
+                "context": {
+                    "id": "2240682a92b8fb08f5afb7cb4a5a81af",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.good_afternoon",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text"
+                },
+                "last_changed": "2021-09-29T16:13:16.441654+00:00",
+                "last_updated": "2021-09-29T16:13:16.441654+00:00",
+                "context": {
+                    "id": "ad2ecb6c39d1a548b6986e476a290b6a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.good_evening",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text"
+                },
+                "last_changed": "2021-09-29T16:13:16.441706+00:00",
+                "last_updated": "2021-09-29T16:13:16.441706+00:00",
+                "context": {
+                    "id": "c957c2f8d03650a0b7c5a0a036527cb3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.good_night",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text"
+                },
+                "last_changed": "2021-09-29T16:13:16.441757+00:00",
+                "last_updated": "2021-09-29T16:13:16.441757+00:00",
+                "context": {
+                    "id": "03b982967a12926ab095d317e8dc8d8f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.button_color",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text"
+                },
+                "last_changed": "2021-09-29T16:13:16.441807+00:00",
+                "last_updated": "2021-09-29T16:13:16.441807+00:00",
+                "context": {
+                    "id": "3dd2d6d16844ba2468aa11c31ed4021c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_number.empty",
+                "state": "0.0",
+                "attributes": {
+                    "initial": 0.0,
+                    "editable": false,
+                    "min": 0.0,
+                    "max": 1.0,
+                    "step": 1.0,
+                    "mode": "slider"
+                },
+                "last_changed": "2021-09-29T16:13:16.441867+00:00",
+                "last_updated": "2021-09-29T16:13:16.441867+00:00",
+                "context": {
+                    "id": "3d7db8691d7074373aa42d5de06e49c2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_number.set_temperature",
+                "state": "1.0",
+                "attributes": {
+                    "initial": null,
+                    "editable": false,
+                    "min": 1.0,
+                    "max": 30.0,
+                    "step": 1.0,
+                    "mode": "slider"
+                },
+                "last_changed": "2021-09-29T16:13:16.441940+00:00",
+                "last_updated": "2021-09-29T16:13:16.441940+00:00",
+                "context": {
+                    "id": "3eeead0c485fdd535ac22922954994f0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.populate_view_input_select_after_picking_a_dashboard",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-08-24T14:01:00.643340+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "a6abcb7e7705423b8036d206dc785b36",
+                    "friendly_name": "Populate view input select after picking a dashboard"
+                },
+                "last_changed": "2021-09-29T16:13:17.501682+00:00",
+                "last_updated": "2021-09-29T16:13:17.501682+00:00",
+                "context": {
+                    "id": "bf57fdeb1f321339bf17c4d4024934fb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.create_dashboard",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-08-18T15:13:42.437049+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "created new dashboard in homekit",
+                    "friendly_name": "create_dashboard"
+                },
+                "last_changed": "2021-09-29T16:13:17.501800+00:00",
+                "last_updated": "2021-09-29T16:13:17.501800+00:00",
+                "context": {
+                    "id": "cd212c0caebf81bc3460fdec4d426a1c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.delete_dashboard",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-08-19T07:58:46.086644+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "Remove dashboard in homekit",
+                    "friendly_name": "delete_dashboard"
+                },
+                "last_changed": "2021-09-29T16:13:17.501884+00:00",
+                "last_updated": "2021-09-29T16:13:17.501884+00:00",
+                "context": {
+                    "id": "9717053df36e1145abc201a387b3cc5f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.update_dropdown_menu_in_for_dashboards_when_a_dashboard_file_is_moved",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-08-31T14:28:38.402710+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "folder_watcher_dashboards_moved_event",
+                    "friendly_name": "Update dropdown menu in for dashboards when a dashboard file is moved"
+                },
+                "last_changed": "2021-09-29T16:13:17.501965+00:00",
+                "last_updated": "2021-09-29T16:13:17.501965+00:00",
+                "context": {
+                    "id": "34dcd382d70e762461b677573a1b56e0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.update_dropdown_menu_in_for_dashboards_when_a_dashboard_file_is_deleted",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-08-27T07:27:31.710619+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "folder_watcher_dashboards_delete_event",
+                    "friendly_name": "Update dropdown menu in for dashboards when a dashboard file is deleted"
+                },
+                "last_changed": "2021-09-29T16:13:17.502053+00:00",
+                "last_updated": "2021-09-29T16:13:17.502053+00:00",
+                "context": {
+                    "id": "631fc72bea18ca256958e475252d7b0c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.update_dropdown_menu_in_for_dashboards_when_a_dashboard_file_is_created",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-08-27T07:27:31.719145+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "folder_watcher_dashboards_created_event",
+                    "friendly_name": "Update dropdown menu in for dashboards when a dashboard file is created"
+                },
+                "last_changed": "2021-09-29T16:13:17.502137+00:00",
+                "last_updated": "2021-09-29T16:13:17.502137+00:00",
+                "context": {
+                    "id": "840b0eddea3d80d808329ed488a38232",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.update_dropdown_menu_in_import_dashboard_when_ha_starts",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-09-29T16:13:20.250400+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "folder_watcher_dashboards_ha_start",
+                    "friendly_name": "Update dropdown menu in import dashboard when HA starts"
+                },
+                "last_changed": "2021-09-29T16:13:17.502216+00:00",
+                "last_updated": "2021-09-29T16:13:20.398859+00:00",
+                "context": {
+                    "id": "65d5b643cc20ad094679f90ba9f07c6b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.themes",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-09-15T11:12:31.238629+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "themes"
+                },
+                "last_changed": "2021-09-29T16:13:17.502294+00:00",
+                "last_updated": "2021-09-29T16:13:17.502294+00:00",
+                "context": {
+                    "id": "c94d29c8ad8dcd1c562e5927df9c43ff",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.avaiable_wallpaper_update",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-07-22T07:55:12.091553+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "update_wallpapers",
+                    "friendly_name": "Avaiable wallpaper update"
+                },
+                "last_changed": "2021-09-29T16:13:17.502378+00:00",
+                "last_updated": "2021-09-29T16:13:17.502378+00:00",
+                "context": {
+                    "id": "809d61454407535f1b546cc575f9c39e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.avaiable_wallpaper_update_on_ha_start",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-09-29T16:13:20.250590+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "update_wallpapers_on_start",
+                    "friendly_name": "Avaiable wallpaper update on HA start"
+                },
+                "last_changed": "2021-09-29T16:13:17.502681+00:00",
+                "last_updated": "2021-09-29T16:13:21.001865+00:00",
+                "context": {
+                    "id": "5641caf29944070a1bb76035a6988fe7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.wallpaper_selector",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-09-15T11:16:57.092241+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "Wallpaper Selector"
+                },
+                "last_changed": "2021-09-29T16:13:17.502846+00:00",
+                "last_updated": "2021-09-29T16:13:17.502846+00:00",
+                "context": {
+                    "id": "4002f53035a708cf991ad9f86e5a8226",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.camera_form_advanced_options",
+                "state": "on",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Op\u00e7\u00f5es avan\u00e7adas",
+                    "icon": "mdi:cog"
+                },
+                "last_changed": "2021-09-29T16:13:17.660123+00:00",
+                "last_updated": "2021-09-29T16:13:17.660123+00:00",
+                "context": {
+                    "id": "f60c6bae2d55019610b76376158a772c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.camera_update_advanced_options",
+                "state": "off",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "camera_update_advanced_options",
+                    "icon": "mdi:cog"
+                },
+                "last_changed": "2021-09-29T16:13:17.660220+00:00",
+                "last_updated": "2021-09-29T16:13:17.660220+00:00",
+                "context": {
+                    "id": "5d011be9492bb8dd535a459c7151f704",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.camera_form_ai",
+                "state": "on",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "camera_form_ai",
+                    "icon": "mdi:robot"
+                },
+                "last_changed": "2021-09-29T16:13:17.660275+00:00",
+                "last_updated": "2021-09-29T16:13:17.660275+00:00",
+                "context": {
+                    "id": "d6202d1ef41927d8217830dcf193c028",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.camera_form_enable_object_recognition",
+                "state": "off",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "camera_form_enable_object_recognition",
+                    "icon": "mdi:package"
+                },
+                "last_changed": "2021-09-29T16:13:17.660776+00:00",
+                "last_updated": "2021-09-29T16:13:17.660776+00:00",
+                "context": {
+                    "id": "c44bd64e4a3bdc7b6bac3c7b4da1585f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.camera_form_record_video",
+                "state": "off",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "camera_form_record_video",
+                    "icon": "mdi:film"
+                },
+                "last_changed": "2021-09-29T16:13:17.660964+00:00",
+                "last_updated": "2021-09-29T16:13:17.660964+00:00",
+                "context": {
+                    "id": "af762abc1af5ee08d31a1771f0a1342d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.camera_update_record_video",
+                "state": "off",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "camera_update_record_video",
+                    "icon": "mdi:film"
+                },
+                "last_changed": "2021-09-29T16:13:17.661029+00:00",
+                "last_updated": "2021-09-29T16:13:17.661029+00:00",
+                "context": {
+                    "id": "4e090118f844fea0832fac1ec4bd9ff3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.camera_form_facial_recognition",
+                "state": "off",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "camera_form_facial_recognition",
+                    "icon": "mdi:face-recognition"
+                },
+                "last_changed": "2021-09-29T16:13:17.661159+00:00",
+                "last_updated": "2021-09-29T16:13:17.661159+00:00",
+                "context": {
+                    "id": "b055b8c9b676d8b19e5f42c9b8c63327",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.ai_form_detect_person",
+                "state": "on",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "ai_form_detect_person",
+                    "icon": "mdi:account-alert"
+                },
+                "last_changed": "2021-09-29T16:13:17.661226+00:00",
+                "last_updated": "2021-09-29T16:13:17.661226+00:00",
+                "context": {
+                    "id": "4df830f34ba6f79b9a06c08792033edb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.ai_form_detect_animal",
+                "state": "on",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "ai_form_detect_animal",
+                    "icon": "mdi:cat"
+                },
+                "last_changed": "2021-09-29T16:13:17.661271+00:00",
+                "last_updated": "2021-09-29T16:13:17.661271+00:00",
+                "context": {
+                    "id": "fa35dbf7acd262680c916b28d3d4573f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.ai_form_detect_others",
+                "state": "on",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "ai_form_detect_others",
+                    "icon": "mdi:sofa"
+                },
+                "last_changed": "2021-09-29T16:13:17.661313+00:00",
+                "last_updated": "2021-09-29T16:13:17.661313+00:00",
+                "context": {
+                    "id": "7f54c4ae836184d044ba77541befbd9e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.ai_form_detect_only",
+                "state": "off",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "ai_form_detect_only"
+                },
+                "last_changed": "2021-09-29T16:13:17.661365+00:00",
+                "last_updated": "2021-09-29T16:13:17.661365+00:00",
+                "context": {
+                    "id": "1e1a31af2c22df8696f90d75f48ee65d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.ai_form_detect_vehicle",
+                "state": "on",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "ai_form_detect_vehicle",
+                    "icon": "mdi:car"
+                },
+                "last_changed": "2021-09-29T16:13:17.661490+00:00",
+                "last_updated": "2021-09-29T16:13:17.661490+00:00",
+                "context": {
+                    "id": "edac40ecd96dd345369c8b281e02081c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_number.camera_form_framerate",
+                "state": "60.0",
+                "attributes": {
+                    "initial": null,
+                    "editable": true,
+                    "min": 1.0,
+                    "max": 60.0,
+                    "step": 1.0,
+                    "mode": "slider",
+                    "unit_of_measurement": "fps",
+                    "friendly_name": "camera_form_framerate",
+                    "icon": "mdi:monitor"
+                },
+                "last_changed": "2021-09-29T16:13:17.661745+00:00",
+                "last_updated": "2021-09-29T16:13:17.661745+00:00",
+                "context": {
+                    "id": "969b76a8bcf6868b585466715ea6062b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_number.camera_update_framerate",
+                "state": "60.0",
+                "attributes": {
+                    "initial": null,
+                    "editable": true,
+                    "min": 0.0,
+                    "max": 60.0,
+                    "step": 2.0,
+                    "mode": "slider",
+                    "unit_of_measurement": "fps",
+                    "friendly_name": "camera_update_framerate",
+                    "icon": "mdi:monitor"
+                },
+                "last_changed": "2021-09-29T16:13:17.661819+00:00",
+                "last_updated": "2021-09-29T16:13:17.661819+00:00",
+                "context": {
+                    "id": "684f6841d36b014cda3b6b9571cae38a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_number.ai_form_detect_others_confidence",
+                "state": "10.0",
+                "attributes": {
+                    "initial": null,
+                    "editable": true,
+                    "min": 10.0,
+                    "max": 100.0,
+                    "step": 1.0,
+                    "mode": "slider",
+                    "unit_of_measurement": "%",
+                    "friendly_name": "ai_form_detect_others_confidence"
+                },
+                "last_changed": "2021-09-29T16:13:17.661869+00:00",
+                "last_updated": "2021-09-29T16:13:17.661869+00:00",
+                "context": {
+                    "id": "27686f211dd3723023d5e141f84f55ed",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_number.ai_form_detect_person_confidence",
+                "state": "10.0",
+                "attributes": {
+                    "initial": null,
+                    "editable": true,
+                    "min": 10.0,
+                    "max": 100.0,
+                    "step": 1.0,
+                    "mode": "slider",
+                    "unit_of_measurement": "%",
+                    "friendly_name": "ai_form_detect_person_confidence"
+                },
+                "last_changed": "2021-09-29T16:13:17.661918+00:00",
+                "last_updated": "2021-09-29T16:13:17.661918+00:00",
+                "context": {
+                    "id": "720b49e5556e9188538bbbd9b3eeef42",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_number.ai_form_detect_animal_confidence",
+                "state": "10.0",
+                "attributes": {
+                    "initial": null,
+                    "editable": true,
+                    "min": 10.0,
+                    "max": 100.0,
+                    "step": 1.0,
+                    "mode": "slider",
+                    "unit_of_measurement": "%",
+                    "friendly_name": "ai_form_detect_animal_confidence"
+                },
+                "last_changed": "2021-09-29T16:13:17.661969+00:00",
+                "last_updated": "2021-09-29T16:13:17.661969+00:00",
+                "context": {
+                    "id": "a2a9dbfb0ea0f7e5c1d3e2451af928a9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_number.ai_form_detect_vehicle_confidence",
+                "state": "10.0",
+                "attributes": {
+                    "initial": null,
+                    "editable": true,
+                    "min": 10.0,
+                    "max": 100.0,
+                    "step": 1.0,
+                    "mode": "slider",
+                    "unit_of_measurement": "%",
+                    "friendly_name": "ai_form_detect_vehicle_confidence"
+                },
+                "last_changed": "2021-09-29T16:13:17.662015+00:00",
+                "last_updated": "2021-09-29T16:13:17.662015+00:00",
+                "context": {
+                    "id": "1f7c66d9004f954ac5db6f0b68e7db8c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.camera_form_authentication",
+                "state": "digest",
+                "attributes": {
+                    "options": [
+                        "basic",
+                        "digest"
+                    ],
+                    "editable": true,
+                    "friendly_name": "camera_form_authentication",
+                    "icon": "mdi:check-circle"
+                },
+                "last_changed": "2021-09-29T16:13:17.662084+00:00",
+                "last_updated": "2021-09-29T16:13:17.662084+00:00",
+                "context": {
+                    "id": "364ea693ab7d11409a8a2a7ac24595c9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.camera_form_verify_ssl",
+                "state": "True",
+                "attributes": {
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "editable": true,
+                    "friendly_name": "camera_form_verify_ssl"
+                },
+                "last_changed": "2021-09-29T16:13:17.662129+00:00",
+                "last_updated": "2021-09-29T16:13:17.662129+00:00",
+                "context": {
+                    "id": "8c25fdd23952f8f716ce51fbe7b3e311",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.camera_form_rtsp_transport",
+                "state": "http",
+                "attributes": {
+                    "options": [
+                        "tcp",
+                        "udp",
+                        "adup_multicast",
+                        "http",
+                        "Default"
+                    ],
+                    "editable": true,
+                    "friendly_name": "camera_form_rtsp_transport"
+                },
+                "last_changed": "2021-09-29T16:13:17.662170+00:00",
+                "last_updated": "2021-09-29T16:13:17.662170+00:00",
+                "context": {
+                    "id": "b09c1186b29c5f389ee6b45c424784ea",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.camera_update_verify_ssl",
+                "state": "True",
+                "attributes": {
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "editable": true,
+                    "friendly_name": "camera_update_verify_ssl"
+                },
+                "last_changed": "2021-09-29T16:13:17.662210+00:00",
+                "last_updated": "2021-09-29T16:13:17.662210+00:00",
+                "context": {
+                    "id": "95764e52846820f9d0138bbc78c6226b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.camera_update_rtsp_transport",
+                "state": "udp_multicast",
+                "attributes": {
+                    "options": [
+                        "tcp",
+                        "udp",
+                        "http",
+                        "udp_multicast"
+                    ],
+                    "editable": true,
+                    "friendly_name": "camera_update_rtsp_transport"
+                },
+                "last_changed": "2021-09-29T16:13:17.662251+00:00",
+                "last_updated": "2021-09-29T16:13:17.662251+00:00",
+                "context": {
+                    "id": "56232a185e3c17e48e8834130d799910",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.camera_update_authentication",
+                "state": "Digest",
+                "attributes": {
+                    "options": [
+                        "Basic",
+                        "Digest"
+                    ],
+                    "editable": true,
+                    "friendly_name": "camera_update_authentication",
+                    "icon": "mdi:check-circle"
+                },
+                "last_changed": "2021-09-29T16:13:17.662292+00:00",
+                "last_updated": "2021-09-29T16:13:17.662292+00:00",
+                "context": {
+                    "id": "bd961a908ca71478222842ce823c446f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.testinput",
+                "state": "https://cdn.flixel.com/flixel/ypy8bw9fgw1zv2b4htp2.hd.mp4",
+                "attributes": {
+                    "options": [
+                        "https://cdn.flixel.com/flixel/ypy8bw9fgw1zv2b4htp2.hd.mp4"
+                    ],
+                    "editable": true,
+                    "friendly_name": "testinput"
+                },
+                "last_changed": "2021-09-29T16:13:17.662334+00:00",
+                "last_updated": "2021-09-29T16:13:17.662334+00:00",
+                "context": {
+                    "id": "b57a79a77f3fc9b473b8e57b81745ee9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.change_name",
+                "state": "",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": "test",
+                    "mode": "text",
+                    "friendly_name": "change_name"
+                },
+                "last_changed": "2021-09-29T16:13:17.662404+00:00",
+                "last_updated": "2021-09-29T16:13:17.662404+00:00",
+                "context": {
+                    "id": "198e19987eae37fa68836b33a98b1a22",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_form_rtsp",
+                "state": "rtsp://admin:raceland2015@192.168.1.82:554/Streaming/Channels/101/",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 500,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_form_rtsp",
+                    "icon": "mdi:cctv"
+                },
+                "last_changed": "2021-09-29T16:13:17.662453+00:00",
+                "last_updated": "2021-09-29T16:13:17.662453+00:00",
+                "context": {
+                    "id": "28abd802fbb99d81e6402c9a65ef6558",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_form_still_image",
+                "state": "http://192.168.1.82/ISAPI/Streaming/channels/101/picture",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 500,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_form_still_image",
+                    "icon": "mdi:camera"
+                },
+                "last_changed": "2021-09-29T16:13:17.662497+00:00",
+                "last_updated": "2021-09-29T16:13:17.662497+00:00",
+                "context": {
+                    "id": "4ea86956484e6a5ca48e1767b26cce04",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_form_username",
+                "state": "admin",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_form_username",
+                    "icon": "mdi:account"
+                },
+                "last_changed": "2021-09-29T16:13:17.662539+00:00",
+                "last_updated": "2021-09-29T16:13:17.662539+00:00",
+                "context": {
+                    "id": "5ed228c5e978c3e8b8de0252b24e051c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_form_camera_name",
+                "state": "camera bar",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_form_camera_name",
+                    "icon": "mdi:rename-box"
+                },
+                "last_changed": "2021-09-29T16:13:17.662580+00:00",
+                "last_updated": "2021-09-29T16:13:17.662580+00:00",
+                "context": {
+                    "id": "866ab5adaca6b60ee01fc6fb5ca65f8c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_form_password",
+                "state": "raceland2015",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "password",
+                    "friendly_name": "camera_form_password"
+                },
+                "last_changed": "2021-09-29T16:13:17.662620+00:00",
+                "last_updated": "2021-09-29T16:13:17.662620+00:00",
+                "context": {
+                    "id": "c12df5b16731120bae5f0f1cbc1f2e47",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_config_authenication",
+                "state": "Digest",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_config_authenication",
+                    "icon": "mdi:check-circle"
+                },
+                "last_changed": "2021-09-29T16:13:17.662661+00:00",
+                "last_updated": "2021-09-29T16:13:17.662661+00:00",
+                "context": {
+                    "id": "a6be73e13fe60fb2000b0da66a8fbf03",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_config_camera_name",
+                "state": "camera foo",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_config_camera_name",
+                    "icon": "mdi:rename-box"
+                },
+                "last_changed": "2021-09-29T16:13:17.662782+00:00",
+                "last_updated": "2021-09-29T16:13:17.662782+00:00",
+                "context": {
+                    "id": "5a1770e361133cfbbd55a137ac33e480",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_config_framerate",
+                "state": "60 fps",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_config_framerate",
+                    "icon": "mdi:monitor"
+                },
+                "last_changed": "2021-09-29T16:13:17.662891+00:00",
+                "last_updated": "2021-09-29T16:13:17.662891+00:00",
+                "context": {
+                    "id": "34684e0d111db1644b9ebc2c5fdf5574",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_config_password",
+                "state": "\u2022\u2022\u2022\u2022\u2022\u2022\u2022",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_config_password"
+                },
+                "last_changed": "2021-09-29T16:13:17.662934+00:00",
+                "last_updated": "2021-09-29T16:13:17.662934+00:00",
+                "context": {
+                    "id": "b2c0146b8069b3df5ded38e392692e8a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_config_rtsp",
+                "state": "rtsp://admin:raceland2015@192.168.1.82:554/Streaming/Channels/101/",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 500,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_config_rtsp",
+                    "icon": "mdi:cctv"
+                },
+                "last_changed": "2021-09-29T16:13:17.662990+00:00",
+                "last_updated": "2021-09-29T16:13:17.662990+00:00",
+                "context": {
+                    "id": "ccfc3423ace8417215cd9ad9975dad8d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_config_rtsp_transport",
+                "state": "udp_multicast",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_config_rtsp_transport"
+                },
+                "last_changed": "2021-09-29T16:13:17.663050+00:00",
+                "last_updated": "2021-09-29T16:13:17.663050+00:00",
+                "context": {
+                    "id": "96f16bfc41a03eef8e571d8f0f021e52",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_config_still_image",
+                "state": "http://192.168.1.82/ISAPI/Streaming/channels/101/picture",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 500,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_config_still_image",
+                    "icon": "mdi:camera"
+                },
+                "last_changed": "2021-09-29T16:13:17.663124+00:00",
+                "last_updated": "2021-09-29T16:13:17.663124+00:00",
+                "context": {
+                    "id": "71071dc069659cf6412169af135cb47f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_config_username",
+                "state": "admin",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_config_username",
+                    "icon": "mdi:account"
+                },
+                "last_changed": "2021-09-29T16:13:17.663288+00:00",
+                "last_updated": "2021-09-29T16:13:17.663288+00:00",
+                "context": {
+                    "id": "a0354ea94f496d8e7b1b54f6facc1c10",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_config_verify_ssl",
+                "state": "State: True",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_config_verify_ssl"
+                },
+                "last_changed": "2021-09-29T16:13:17.663428+00:00",
+                "last_updated": "2021-09-29T16:13:17.663428+00:00",
+                "context": {
+                    "id": "e8aa5f93cadc814a1e154c679e825693",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_update_username",
+                "state": "",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_update_username",
+                    "icon": "mdi:account"
+                },
+                "last_changed": "2021-09-29T16:13:17.663471+00:00",
+                "last_updated": "2021-09-29T16:13:17.663471+00:00",
+                "context": {
+                    "id": "ab322b0cae0b4a7a06a4bb64bff04e41",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_update_still_image",
+                "state": "",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 500,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_update_still_image",
+                    "icon": "mdi:camera"
+                },
+                "last_changed": "2021-09-29T16:13:17.663516+00:00",
+                "last_updated": "2021-09-29T16:13:17.663516+00:00",
+                "context": {
+                    "id": "5c9d635f2a69d4845e415f498e8e9a5d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_update_rtsp",
+                "state": "",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 500,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_update_rtsp",
+                    "icon": "mdi:cctv"
+                },
+                "last_changed": "2021-09-29T16:13:17.663559+00:00",
+                "last_updated": "2021-09-29T16:13:17.663559+00:00",
+                "context": {
+                    "id": "e6258b627fdadfac12a57488aeeec8e9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_update_password",
+                "state": "",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "password",
+                    "friendly_name": "camera_update_password"
+                },
+                "last_changed": "2021-09-29T16:13:17.663601+00:00",
+                "last_updated": "2021-09-29T16:13:17.663601+00:00",
+                "context": {
+                    "id": "5820f4caa9306681531aa7799bef982d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.camera_update_camera_name",
+                "state": "",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "camera_update_camera_name",
+                    "icon": "mdi:rename-box"
+                },
+                "last_changed": "2021-09-29T16:13:17.663642+00:00",
+                "last_updated": "2021-09-29T16:13:17.663642+00:00",
+                "context": {
+                    "id": "2939558676790ac7cf80dda6549d0c0e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.ai_form_object_ip_address",
+                "state": "",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 500,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "ai_form_object_ip_address"
+                },
+                "last_changed": "2021-09-29T16:13:17.663684+00:00",
+                "last_updated": "2021-09-29T16:13:17.663684+00:00",
+                "context": {
+                    "id": "b320b00393dcb6ded60b18ca47b944b0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.ai_face_form_ip_address",
+                "state": "",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "ai_face_form_ip_address"
+                },
+                "last_changed": "2021-09-29T16:13:17.663725+00:00",
+                "last_updated": "2021-09-29T16:13:17.663725+00:00",
+                "context": {
+                    "id": "1271e9827297f215fce519b4e822a5fd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.registered_cameras_entity_id",
+                "state": "/local/screenshots_for_preview/camera_foo_screenshot_2.png",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": "input_text.registered_cameras_entity_id",
+                    "mode": "text",
+                    "friendly_name": "registered_cameras_entity_id"
+                },
+                "last_changed": "2021-09-29T16:13:17.663766+00:00",
+                "last_updated": "2021-09-29T16:13:17.663766+00:00",
+                "context": {
+                    "id": "31bec6895644a3949c720e3ad8774d4d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_text.ai_form_person_name",
+                "state": "",
+                "attributes": {
+                    "editable": true,
+                    "min": 0,
+                    "max": 100,
+                    "pattern": null,
+                    "mode": "text",
+                    "friendly_name": "ai_form_person_name"
+                },
+                "last_changed": "2021-09-29T16:13:17.663808+00:00",
+                "last_updated": "2021-09-29T16:13:17.663808+00:00",
+                "context": {
+                    "id": "0af4fbd56a074e75a92301e3df96a406",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-30T09:16:23.571918+00:00"
+        }
+    ]
+}

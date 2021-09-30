@@ -1,0 +1,35 @@
+broadlink_remote:
+  icon: mdi:router-network
+  name: Broadlink Remote
+  options:
+  - RM4 mini
+  - RM4 pro
+dashboard_to_add:
+  icon: mdi:view-dashboard
+  name: Dashboard
+  options:
+  - Overview
+  - dashboardtest1
+  - lights
+  - testes
+division_to_add:
+  icon: mdi:door
+  name: Division to add
+  options:
+  - "escrit\xF3rio"
+  - remote
+  - remote tv1
+  - confirmation
+  - teste camera
+registered_cameras:
+  name: registered_cameras
+  options:
+  - None
+  - camera foo
+  - camera bar
+remote_type:
+  icon: mdi:remote-tv
+  name: Tipo de comando
+  options:
+  - TV
+  - AC

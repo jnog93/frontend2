@@ -1,0 +1,12 @@
+- alias: Populate view input select after picking a dashboard
+  trigger:
+  - platform: state
+    entity_id: input_select.dashboard_to_add
+  action:
+  - service: broadlink_raceland.populate_view_input_select
+    data_template:
+      dashboard_name: '{{ states(''input_select.dashboard_to_add'') }}
+
+        '
+  - service: input_select.reload
+  id: a6abcb7e7705423b8036d206dc785b36

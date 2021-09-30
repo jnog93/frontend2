@@ -1,0 +1,20 @@
+- authentication: digest
+  framerate: 60.0
+  name: camera foo
+  password: raceland2015
+  platform: generic
+  rtsp_transport: udp_multicast
+  still_image_url: http://192.168.1.82/ISAPI/Streaming/channels/101/picture
+  stream_source: rtsp://admin:raceland2015@192.168.1.82:554/Streaming/Channels/101/
+  username: admin
+  verify_ssl: 'True'
+- authentication: digest
+  framerate: 60.0
+  name: camera bar
+  password: raceland2015
+  platform: generic
+  rtsp_transport: tcp
+  still_image_url: http://192.168.1.82/ISAPI/Streaming/channels/101/picture
+  stream_source: rtsp://admin:raceland2015@192.168.1.82:554/Streaming/Channels/101/
+  username: admin
+  verify_ssl: 'True'

@@ -1,0 +1,45 @@
+order:
+  - item: Overview
+    hide: false
+  - item: homekit-infused-child1
+    hide: false
+  - item: map 
+    hide: true
+  - item: logbook
+    hide: true
+  - item: history
+    hide: true
+  - item: RACELANDSHOP
+    hide: true
+  - item: Configuration 
+    hide: false
+    bottom: true
+  - item: Developer Tools
+    hide: false
+    bottom: true
+
+exceptions:
+  - user: owner
+    base_order: true
+    order: 
+      - item: Overview 
+        hide: false
+      - item: DashBoardTest1
+      - item: map 
+        hide: false
+      - item: logbook
+        hide: false
+      - item: history
+        hide: false
+      - item: RACELANDSHOP
+        hide: false
+      - item: Configuration 
+        hide: false
+        bottom: true
+      - item: Developer Tools
+        hide: false
+        bottom: true
+  - user: child1
+    base_order: true
+    order: 
+      - item: homekit-infused-child1

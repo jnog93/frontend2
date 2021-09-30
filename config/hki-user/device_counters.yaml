@@ -1,0 +1,29 @@
+all_binary_sensor_entities:
+  entities: null
+all_climate_entities:
+  entities: null
+all_cover_entities:
+  entities: null
+all_detector_entities:
+  entities: null
+all_device_switch_entities:
+  entities: null
+all_door_sensor_entities:
+  entities: null
+all_fan_entities:
+  entities: null
+all_garage_door_entities:
+  entities: null
+all_light_entities:
+  entities:
+  - light.raceland
+  - light.raceland_2
+  - light.raceland_ecfabc6ea163_light_light_1
+  - light.raceland_ecfabc6ea163_light_light_2
+  - light.raceland_ecfabc6ea163_light_light_3
+  - light.raceland_3
+  - light.browser_d1351622_1b00c605
+all_motion_sensor_entities:
+  entities: null
+all_window_sensor_entities:
+  entities: null

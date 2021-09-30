@@ -1,0 +1,64 @@
+{
+    "version": 1,
+    "key": "input_number",
+    "data": {
+        "items": [
+            {
+                "min": 1.0,
+                "max": 60.0,
+                "name": "camera_form_framerate",
+                "icon": "mdi:monitor",
+                "mode": "slider",
+                "step": 1.0,
+                "id": "camera_form_framerate",
+                "unit_of_measurement": "fps"
+            },
+            {
+                "min": 0.0,
+                "max": 60.0,
+                "name": "camera_update_framerate",
+                "step": 2.0,
+                "mode": "slider",
+                "id": "camera_update_framerate",
+                "unit_of_measurement": "fps",
+                "icon": "mdi:monitor"
+            },
+            {
+                "min": 10.0,
+                "max": 100.0,
+                "name": "ai_form_detect_others_confidence",
+                "unit_of_measurement": "%",
+                "mode": "slider",
+                "step": 1.0,
+                "id": "ai_form_detect_others_confidence"
+            },
+            {
+                "min": 10.0,
+                "max": 100.0,
+                "name": "ai_form_detect_person_confidence",
+                "unit_of_measurement": "%",
+                "mode": "slider",
+                "step": 1.0,
+                "id": "ai_form_detect_person_confidence"
+            },
+            {
+                "min": 10.0,
+                "max": 100.0,
+                "name": "ai_form_detect_animal_confidence",
+                "unit_of_measurement": "%",
+                "mode": "slider",
+                "step": 1.0,
+                "id": "ai_form_detect_animal_confidence"
+            },
+            {
+                "min": 10.0,
+                "max": 100.0,
+                "name": "ai_form_detect_vehicle_confidence",
+                "unit_of_measurement": "%",
+                "mode": "slider",
+                "step": 1.0,
+                "id": "ai_form_detect_veihicle_confidence"
+            }
+        ]
+    }
+}

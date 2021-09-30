@@ -1,0 +1,203 @@
+{
+    "version": 1,
+    "key": "lovelace.lovelace_roomvideo",
+    "data": {
+        "config": {
+            "animated_background": {
+                "default_url": "https://cdn.flixel.com/flixel/ypy8bw9fgw1zv2b4htp2.hd.mp4",
+                "entity": "weather.home",
+                "state_url": {
+                    "sunny": [
+                        "https://cdn.flixel.com/flixel/hlhff0h8md4ev0kju5be.hd.mp4",
+                        "https://cdn.flixel.com/flixel/zjqsoc6ecqhntpl5vacs.hd.mp4",
+                        "https://cdn.flixel.com/flixel/jvw1avupguhfbo11betq.hd.mp4",
+                        "https://cdn.flixel.com/flixel/8cmeusxf3pkanai43djs.hd.mp4",
+                        "https://cdn.flixel.com/flixel/guwb10mfddctfvwioaex.hd.mp4"
+                    ],
+                    "partlycloudy": [
+                        "https://cdn.flixel.com/flixel/13e0s6coh6ayapvdyqnv.hd.mp4",
+                        "https://cdn.flixel.com/flixel/aorl3skmssy7udwopk22.hd.mp4",
+                        "https://cdn.flixel.com/flixel/qed6wvf2igukiioykg3r.hd.mp4",
+                        "https://cdn.flixel.com/flixel/3rd72eezaj6d23ahlo7y.hd.mp4",
+                        "https://cdn.flixel.com/flixel/9m11gd43m6qn3y93ntzp.hd.mp4",
+                        "https://cdn.flixel.com/flixel/hrkw2m8eofib9sk7t1v2.hd.mp4"
+                    ],
+                    "cloudy": [
+                        "https://cdn.flixel.com/flixel/13e0s6coh6ayapvdyqnv.hd.mp4",
+                        "https://cdn.flixel.com/flixel/aorl3skmssy7udwopk22.hd.mp4",
+                        "https://cdn.flixel.com/flixel/qed6wvf2igukiioykg3r.hd.mp4",
+                        "https://cdn.flixel.com/flixel/3rd72eezaj6d23ahlo7y.hd.mp4",
+                        "https://cdn.flixel.com/flixel/9m11gd43m6qn3y93ntzp.hd.mp4",
+                        "https://cdn.flixel.com/flixel/hrkw2m8eofib9sk7t1v2.hd.mp4"
+                    ],
+                    "mostlycloudy": [
+                        "https://cdn.flixel.com/flixel/e95h5cqyvhnrk4ytqt4q.hd.mp4",
+                        "https://cdn.flixel.com/flixel/l2bjw34wnusyf5q2qq3p.hd.mp4",
+                        "https://cdn.flixel.com/flixel/rrgta099ulami3zb9fd2.hd.mp4"
+                    ],
+                    "clear-night": [
+                        "https://cdn.flixel.com/flixel/x9dr8caygivq5secll7i.hd.mp4",
+                        "https://cdn.flixel.com/flixel/v26zyfd6yf0r33s46vpe.hd.mp4",
+                        "https://cdn.flixel.com/flixel/ypy8bw9fgw1zv2b4htp2.hd.mp4",
+                        "https://cdn.flixel.com/flixel/rosz2gi676xhkiw1ut6i.hd.mp4"
+                    ],
+                    "fog": [
+                        "https://cdn.flixel.com/flixel/vwqzlk4turo2449be9uf.hd.mp4",
+                        "https://cdn.flixel.com/flixel/5363uhabodwwrzgnq6vx.hd.mp4"
+                    ],
+                    "rainy": "https://cdn.flixel.com/flixel/f0w23bd0enxur5ff0bxz.hd.mp4"
+                }
+            },
+            "views": [
+                {
+                    "title": "Home",
+                    "theme": "kibibit-dark-cards",
+                    "type": "custom:vertical-layout",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "custom:search-card",
+                            "max_results": 10
+                        },
+                        {
+                            "type": "custom:banner-card",
+                            "heading": "Bedroom",
+                            "link": "bedroom",
+                            "entities": [
+                                {
+                                    "entity": "light.raceland",
+                                    "name": "Light"
+                                },
+                                {
+                                    "entity": null,
+                                    "name": "Desk"
+                                },
+                                {
+                                    "entity": "input_boolean.empty",
+                                    "name": "Power On/Off"
+                                },
+                                {
+                                    "entity": "input_boolean.empty_child1",
+                                    "name": "Sleepin"
+                                },
+                                {
+                                    "entity": "media_player.browser_4988d1d2_4a34da33",
+                                    "name": "Media Player"
+                                },
+                                {
+                                    "entity": "sensor.raceland_analog_temperature",
+                                    "name": "Temperatura"
+                                },
+                                {
+                                    "entity": "sensor.date",
+                                    "name": "Data"
+                                },
+                                {
+                                    "entity": "sensor.time",
+                                    "name": "Horas"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "switch.raceland"
+                        },
+                        {
+                            "type": "picture-glance",
+                            "title": "Kitchen",
+                            "image": "https://demo.home-assistant.io/stub_config/kitchen.png",
+                            "entities": [
+                                "binary_sensor.updater",
+                                "sensor.date_time"
+                            ]
+                        },
+                        {
+                            "type": "logbook",
+                            "entities": [
+                                "switch.raceland_2",
+                                "switch.raceland_3",
+                                "light.raceland_2"
+                            ],
+                            "hours_to_show": 24
+                        }
+                    ]
+                },
+                {
+                    "title": "Bedroom",
+                    "path": "bedroom",
+                    "theme": "kibibit-dark-cards",
+                    "type": "custom:horizontal-layout",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "custom:mini-media-player",
+                            "artwork": "cover",
+                            "speaker_group": {
+                                "plataform": "sonos",
+                                "show_group_count": true,
+                                "entities": [
+                                    {
+                                        "entity_id": "media_player.sitting_room",
+                                        "name": "Sitting room"
+                                    },
+                                    {
+                                        "entity_id": "media_player.wc",
+                                        "name": "WC"
+                                    },
+                                    {
+                                        "entity_id": "media_player.kitchen",
+                                        "name": "Kitchen"
+                                    }
+                                ]
+                            },
+                            "group": false,
+                            "entity": "media_player.browser_de7f7393_276b1f2e"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "navigate",
+                                "navigation_path": "home"
+                            },
+                            "icon": "mdi:home",
+                            "theme": "Dark theme",
+                            "hold_action": {
+                                "action": "none"
+                            },
+                            "display": "none"
+                        },
+                        {
+                            "type": "custom:vertical-stack-in-card",
+                            "title": "Lighting",
+                            "cards": [
+                                {
+                                    "type": "custom:paper-buttons-row",
+                                    "buttons": [
+                                        {
+                                            "entity": "script.bed_day",
+                                            "icon": "mdi:white-balance-sunny",
+                                            "name": false
+                                        },
+                                        {
+                                            "entity": "script.bed_relax",
+                                            "icon": "mdi:book-open-page-variant",
+                                            "name": false
+                                        },
+                                        {
+                                            "entity": "script.bed_sleep",
+                                            "icon": "mdi:sleep",
+                                            "name": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

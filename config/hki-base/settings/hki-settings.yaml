@@ -1,0 +1,281 @@
+# lovelace_gen
+
+path: hki_settings
+visible: false
+panel: true
+title: Configurações Homekit
+cards:
+  - type: vertical-stack
+    cards:
+      - !include
+        - '../templates/header/header-base-template.yaml'
+        - title: Configurações Homekit
+          subtitle: Configurações de dispositivos móveis
+          icon: mdi:cellphone-cog
+          header-bottom: header-bottom.yaml
+
+      - type: custom:layout-card
+        layout_type: custom:horizontal-layout
+        layout:
+          max_cols: 3
+        cards:
+          - type: custom:mod-card
+            style: |
+              ha-card {
+                margin-left: {{ _global.general_config.margins }};
+                margin-right: {{ _global.general_config.margins }};
+              }
+           
+            card:
+              type: vertical-stack
+              cards:
+              #Theme configurations: For now remove the light and dark theme automation. Add them later
+                - !include
+                  - '../templates/other/title-text.yaml'
+                  - name: Opções de tema
+                - type: entities
+                  style: |
+                    ha-card {
+                      border-radius: var(--border-radius);
+                      box-shadow: var(--box-shadow);
+                    }                                
+                  entities:
+                    - entity: input_select.theme_selector
+                      name: Selecione o tema
+                    - entity: input_select.wallpaper_selector
+                      name: Selecione wallpaper
+
+              #Dashboards configuration
+                - !include
+                  - '../templates/other/title-text.yaml'
+                  - name: "Importar Dashboard (Reinicia a aplicação)"
+                - type: entities
+                  style: |
+                    ha-card {
+                      border-radius: var(--border-radius);
+                      box-shadow: var(--box-shadlsow);
+                    }                                
+                  entities:
+                    - entity: input_select.dashboard_user_import
+                      name: Selecione o user
+                    - entity: input_select.dashboard_importer
+                      name: Selecione a dashboard
+                    - type: call-service
+                      action_name: "Importar"
+                      name: ' '
+                      icon: mdi:view-dashboard-variant
+                      service: pyscript.import_lovelace_dashBoard
+                      service_data: 
+                        dashboard_to_import: input_select.dashboard_importer
+                        user: input_select.dashboard_user_import
+
+                ##About section
+                - !include
+                  - '../templates/other/title-text.yaml'
+                  - name: '&nbsp;Sobre'
+                - type: picture-elements
+                  style: |
+                    ha-card {
+                      border-radius: var(--border-radius);
+                      box-shadow: var(--box-shadow);
+                      overflow: hidden;
+                    }
+                  image: "/local/images/logo_raceland.png"
+                  #We can add a bunch of information here about the company if we want
+                  elements: 
+                    - type: state-label
+                      entity: sensor.hki_current_version
+                      style:
+                        top: 0
+                        left: 0
+                        pointer-events: none
+                        transform: initial
+                        font-size: 10px
+                        font-family: var(--font-family)
+                        font-weight: bold
+                        color: var(--title-text-color)
+                        line-height: 32px
+                        padding: 0px 10px
+                
+
+                #    card:
+                #     type: entities
+                #     style: |
+                #       ha-card {
+                #         border-radius: var(--border-radius);
+                #         box-shadow: var(--box-shadow);
+                #       }
+                #     show_header_toggle: false                                   
+                #     entities: 
+                #       - entity: input_boolean.day_night_cycle
+                #         name: Light and Dark Mode
+                #       - entity: input_select.theme_selector
+                #         name: Select Palette
+                # - type: conditional
+                #   conditions:
+                #     - entity: input_boolean.day_night_cycle
+                #       state: "on"
+                #   card:
+                #     type: entities
+                #     style: |
+                #       ha-card {
+                #         border-radius: var(--border-radius);
+                #         box-shadow: var(--box-shadow);
+                #       }
+                #     show_header_toggle: false                                 
+                #     entities: 
+                #       - entity: input_boolean.day_night_cycle
+                #         name: Light and Dark Mode
+                #       - entity: input_select.theme_selector_day
+                #         name: Select Light Theme
+                #       - entity: input_select.theme_selector_night
+                #         name: Select Dark Theme
+                # - type: conditional
+                #   conditions:
+                #     - entity: input_boolean.day_night_cycle
+                #       state: "off"
+                #   card:
+                #     type: entities
+                #     style: |
+                #       ha-card {
+                #         border-radius: var(--border-radius);
+                #         box-shadow: var(--box-shadow);
+                #       }
+                #     show_header_toggle: false                                   
+                #     entities: 
+                #       - entity: input_boolean.day_night_cycle
+                #         name: Light and Dark Mode
+                #       - entity: input_select.theme_selector
+                #         name: Select Palette
+
+          # - type: custom:mod-card
+          #   style: |
+          #     ha-card {
+          #       margin-left: {{ _global.general_config.margins }};
+          #       margin-right: {{ _global.general_config.margins }};
+          #     }
+          #   card:
+          #     type: vertical-stack
+          #     cards: 
+          #       - !include
+          #         - '../templates/other/title-text.yaml'
+          #         - name: Navigation Bar Options
+          #       - type: entities
+          #         style: |
+          #           ha-card {
+          #             border-radius: var(--border-radius);
+          #             box-shadow: var(--box-shadow);
+          #           }
+          #         show_header_toggle: false              
+          #         entities: 
+          #           - entity: input_select.navigation_bar
+          #             name: HKI Navigation Bar
+          #       - type: conditional
+          #         conditions:
+          #           - entity: input_select.navigation_bar
+          #             state_not: "Off"
+          #         card:
+          #           type: vertical-stack
+          #           cards:
+          #             - type: entities
+          #               style: |
+          #                 ha-card {
+          #                   border-radius: var(--border-radius);
+          #                   box-shadow: var(--box-shadow);
+          #                 }
+          #               show_header_toggle: false              
+          #               entities: 
+          #                 - entity: input_select.navigation_bar_direction
+          #                   name: Icons
+          #                 - entity: input_select.navigation_bar_options
+          #                   name: Navigation Bar Text
+          #       - type: conditional
+          #         conditions:
+          #           - entity: input_select.navigation_bar
+          #             state: "Off"
+          #         card:
+          #           type: markdown
+          #           style: |
+          #             ha-card {
+          #               border-radius: var(--border-radius);
+          #               box-shadow: var(--box-shadow);
+          #             }              
+          #           content: >
+          #             **Note:** Enabling options for the navigation bar will enable them on ALL dashboards! This can be useful if you want to have a clock/date and such on your other dashboards to be present.
+    
+    
+          #             Turn this feature off if you don't like to use this or if it is conflicting with your other dashboards.
+    
+    
+          #             **WARNING:** Enabling the HKI navigation bar will remove the sidebar button, on iOS you can swipe from the left to open the sidebar. On Android this is probably not possible. Keep this in mind when you enable this and use other dashboards. You can always go to this dashboard and turn the feature off by going to https://YOURDOMAIN.com/homekit-infused (if you have a portnumber in the address don't forget to add that).
+    
+    
+          #             **This warning will no longer show when you enable this feature!**
+
+          # - type: custom:mod-card
+          #   style: |
+          #     ha-card {
+          #       margin-left: {{ _global.general_config.margins }};
+          #       margin-right: {{ _global.general_config.margins }};
+          #     }
+          #   card:    
+          #     type: vertical-stack
+          #     cards:
+          #       - !include
+          #         - '../templates/other/title-text.yaml'
+          #         - name: Set the Frontpage Greeting lines
+          #       - type: entities
+          #         style: |
+          #           ha-card {
+          #             border-radius: var(--border-radius);
+          #             box-shadow: var(--box-shadow);
+          #           }
+          #         show_header_toggle: false                                 
+          #         entities: 
+          #           - name: Good Morning
+          #             entity: input_text.good_morning
+          #           - name: Good Afternoon
+          #             entity: input_text.good_afternoon
+          #           - name: Good Evening
+          #             entity: input_text.good_evening
+          #           - name: Good Night
+          #             entity: input_text.good_night
+          # - type: custom:mod-card
+          #   style: |
+          #     ha-card {
+          #       margin-left: {{ _global.general_config.margins }};
+          #       margin-right: {{ _global.general_config.margins }};
+          #     }
+          #   card:
+          #     type: vertical-stack
+          #     cards:
+          #       - !include
+          #         - '../templates/other/title-text.yaml'
+          #         - name: GUI-Sandbox 
+          #       - type: custom:mod-card
+          #         style: |
+          #           ha-card {
+          #             border-radius: var(--border-radius);
+          #             box-shadow: var(--box-shadow);
+          #             color: var(--primary-text-color);
+          #             background: var(--ha-card-background);
+          #           } 
+          #         card: 
+          #           type: custom:gui-sandbox
+          #       - type: markdown
+          #         style: |
+          #           ha-card {
+          #             border-radius: var(--border-radius);
+          #             box-shadow: var(--box-shadow);
+          #           }  
+          #         content: >
+          #           **GUI Sandbox:** This tool will help you to create custom-cards visually like you would with the default Lovelace card editor.
+          #           You can NOT save the code directly, you can however copy the code to your custom views. Please read the documentation on how to use custom cards on your views!
+          #           **WARNING:** You should temporarily turn off the nav_bar features if this doesn't work right for you!
+                  
+      - !include '../includes/gap-height.yaml'
+      - !include '../includes/gap-height.yaml'
+      - !include '../includes/gap-height.yaml'
+      - !include '../includes/gap-height.yaml'
+      - !include '../includes/gap-height.yaml'
+      - !include '../includes/gap-height.yaml'

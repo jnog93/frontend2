@@ -1,0 +1,14 @@
+title: Floor plan
+views:
+  - title: Geral ###
+    panel: true
+    cards:
+      - type: picture-elements
+        image: /local/images/zone.png
+        elements:
+          - type: state-badge
+            entity: sensor.raceland_analog_ctenergy_voltage
+            style:
+              top: 12%
+              left: 32%
+              font-size: 17px

@@ -1,0 +1,70 @@
+{
+    "version": 1,
+    "key": "input_select",
+    "data": {
+        "items": [
+            {
+                "name": "camera_form_authentication",
+                "icon": "mdi:check-circle",
+                "options": [
+                    "basic",
+                    "digest"
+                ],
+                "id": "camera_form_authentication"
+            },
+            {
+                "name": "camera_form_verify_ssl",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "id": "camera_form_verify_ssl"
+            },
+            {
+                "name": "camera_form_rtsp_transport",
+                "options": [
+                    "tcp",
+                    "udp",
+                    "adup_multicast",
+                    "http",
+                    "Default"
+                ],
+                "id": "camera_form_rtsp_transport"
+            },
+            {
+                "name": "camera_update_verify_ssl",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "id": "camera_update_verify_ssl"
+            },
+            {
+                "name": "camera_update_rtsp_transport",
+                "options": [
+                    "tcp",
+                    "udp",
+                    "http",
+                    "udp_multicast"
+                ],
+                "id": "camera_form_rtsp_transport_2"
+            },
+            {
+                "name": "camera_update_authentication",
+                "icon": "mdi:check-circle",
+                "options": [
+                    "Basic",
+                    "Digest"
+                ],
+                "id": "camera_update_authentication"
+            },
+            {
+                "name": "testinput",
+                "options": [
+                    "https://cdn.flixel.com/flixel/ypy8bw9fgw1zv2b4htp2.hd.mp4"
+                ],
+                "id": "testinput"
+            }
+        ]
+    }
+}

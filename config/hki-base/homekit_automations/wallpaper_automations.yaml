@@ -1,0 +1,54 @@
+############################
+## Wallpaper automations ###
+############################
+
+#Automation which updates the dropdown menu if a file is moved (or renamed) added or removed from the /config/www/images/wallpapers and when HA is started
+#Supports png and jpg files
+- id: update_wallpapers
+  alias: "Avaiable wallpaper update"
+  trigger:
+    - platform: event
+      event_type: folder_watcher
+      event_data:
+        event_type: created
+    - platform: event
+      event_type: folder_watcher
+      event_data:
+        event_type: deleted
+    - platform: event
+      event_type: folder_watcher
+      event_data:
+        event_type: moved 
+  condition:
+    condition: template
+    value_template: "{{'/config/www/images/wallpapers' in trigger.event.data.folder }}"
+  action:
+    - service: pyscript.update_wallpaper_options
+      data: 
+        entity_id: input_select.wallpaper_selector
+    - service: input_select.reload
+  
+  #Automation that updates the dropdown menu when HA is inniatiated
+- id: update_wallpapers_on_start
+  alias: "Avaiable wallpaper update on HA start"
+  trigger:
+    - platform: homeassistant
+      event: start
+  action:
+  - service: pyscript.update_wallpaper_options
+    data: 
+      entity_id: input_select.wallpaper_selector
+  - service: input_select.reload
+
+
+##Event to update the wallpaper when the user changes it (currently updates for all users)
+- alias: 'Wallpaper Selector'
+  trigger:
+    - platform: state
+      entity_id: input_select.wallpaper_selector 
+  action:
+    - service: pyscript.change_background_image
+      data_template:
+        imagename: >
+          {{ states('input_select.wallpaper_selector') }}
+    - service: browser_mod.lovelace_reload #reloading lovelace is required for change to take effect since we are updating yaml files

@@ -1,0 +1,66 @@
+# lovelace_gen
+
+# Card 
+type: entities
+style: |
+  ha-card {
+    --ha-card-background: transparant;
+    -webkit-box-shadow: var(--header-shadow);
+    -moz-box-shadow: var(--header-shadow);
+    box-shadow: var(--header-shadow);
+    background: var(--primary-color);
+    border-radius: 0px !important;
+  }
+  .card-content {
+    padding: 0
+  }
+  :host {
+    z-index: 999;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+entities:
+  - type: custom:hui-vertical-stack-card
+    cards:
+      - type: horizontal-stack
+        cards:
+          - !include ../../includes/gap.yaml
+          - !include ../../includes/gap.yaml
+          - type: markdown
+            style: |
+              ha-card {
+                font-family: var(--font-family);
+                font-size: var(--header-font-size);
+                font-weight: var(--header-font-weight);
+                color: var(--header-text-color);
+                box-shadow: none;
+                height: 20px;
+                margin-top: 1px;
+                margin-left: -15px;
+                letter-spacing: -1px;
+                overflow: visible;
+              }
+            content: >
+              ## {{ title|default('undefined') }}
+          {% if ((_global.general_config_userteste.header is defined) and (_global.general_config_userteste.header.show_sensors is defined) and (_global.general_config_userteste.header.show_sensors is true)) %}
+          {% if ((_global.general_config_userteste.header is defined) and (_global.general_config_userteste.header.sensors is defined)) %}
+          {% for content in _global.general_config_userteste.header.sensors %}
+          - !include
+            - '../../templates/header/sensor-icons.yaml'
+            - icon: {{ content.icon }}
+              background_color: "[[[ if (states['{{ content.entity }}'].state > 0) return 'red'; else return 'rgba(0,0,0,0.0)' ]]]"
+              badge: "[[[ if (states['{{ content.entity }}'].state > 0) return states['{{ content.entity }}'].state; else return '&nbsp;'; ]]]"
+              size: 100%
+              entity: {{ content.group_entity }}
+          {% endfor %}
+          {% endif %}
+          {% endif %}
+          - !include ../../includes/gap.yaml
+          - !include ../../includes/gap.yaml
+      - !include 
+        - '../../templates/header/{{ header_bottom|default('header-bottom.yaml') }}'
+        - subtitle: "{{ subtitle|default('undefined') }}"
+          icon: "{{ icon|default('mdi:home') }}"
+          entity: {{ entity|default('input_boolean.dummy1') }}
+          spin: {{ spin|default('false') }}

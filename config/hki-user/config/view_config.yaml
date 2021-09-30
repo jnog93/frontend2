@@ -1,0 +1,17 @@
+view_config:
+  main_menu:
+    hki_menu: null
+    icon: mdi:home
+    menu:
+      title: "Divis\xF5es"
+    show_in_menu: false
+    show_in_navbar: true
+    title: Menu Principal
+  room_1:
+    devices:
+      - entities:
+        - entity: light.raceland
+          name: Luz do escritorio
+          type: rgb
+        - entity: switch.raceland
+          name: buton1

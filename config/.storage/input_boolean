@@ -1,0 +1,67 @@
+{
+    "version": 1,
+    "key": "input_boolean",
+    "data": {
+        "items": [
+            {
+                "name": "Op\u00e7\u00f5es avan\u00e7adas",
+                "id": "camera_form_advanced_options",
+                "icon": "mdi:cog"
+            },
+            {
+                "name": "camera_update_advanced_options",
+                "icon": "mdi:cog",
+                "id": "input_boolean_camera_update_advanced_options"
+            },
+            {
+                "name": "camera_form_ai",
+                "icon": "mdi:robot",
+                "id": "camera_form_ai"
+            },
+            {
+                "name": "camera_form_enable_object_recognition",
+                "icon": "mdi:package",
+                "id": "camera_form_enable_object_recognition"
+            },
+            {
+                "name": "camera_form_record_video",
+                "icon": "mdi:film",
+                "id": "record_cameras"
+            },
+            {
+                "name": "camera_update_record_video",
+                "icon": "mdi:film",
+                "id": "camera_update_record_video"
+            },
+            {
+                "name": "camera_form_facial_recognition",
+                "icon": "mdi:face-recognition",
+                "id": "input_boolean_camera_form_facial_recognition"
+            },
+            {
+                "name": "ai_form_detect_person",
+                "icon": "mdi:account-alert",
+                "id": "ai_form_detect_person"
+            },
+            {
+                "name": "ai_form_detect_animal",
+                "icon": "mdi:cat",
+                "id": "ai_form_detect_animal"
+            },
+            {
+                "name": "ai_form_detect_others",
+                "icon": "mdi:sofa",
+                "id": "ai_form_detect_others"
+            },
+            {
+                "name": "ai_form_detect_only",
+                "id": "detect_only"
+            },
+            {
+                "name": "ai_form_detect_vehicle",
+                "icon": "mdi:car",
+                "id": "ai_form_detect_vehicle"
+            }
+        ]
+    }
+}

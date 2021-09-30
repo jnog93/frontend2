@@ -1,0 +1,1265 @@
+{
+    "version": 1,
+    "key": "lovelace.lovelace_dashboardtest1",
+    "data": {
+        "config": {
+            "views": [
+                {
+                    "title": "Quarto",
+                    "path": "Quarto",
+                    "theme": "ios-dark-mode",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "light.raceland_3",
+                            "name": "Luz to Quarto"
+                        },
+                        {
+                            "type": "weather-forecast",
+                            "entity": "weather.home",
+                            "show_forecast": true
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "input_boolean.learning_mode_remote_18",
+                                            "icon": "mdi:access-point",
+                                            "show_icon": true,
+                                            "show_name": false,
+                                            "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n      -1px -1px 5px #0000FF , 1px 1px 0px #0000FF;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n      -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;\n    {% endif %}\n}\n",
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "margin-top": "10px"
+                                                    },
+                                                    {
+                                                        "margin-left": "3px"
+                                                    },
+                                                    {
+                                                        "width": "50px"
+                                                    },
+                                                    {
+                                                        "height": "60px"
+                                                    },
+                                                    {
+                                                        "border-radius": "10px"
+                                                    },
+                                                    {
+                                                        "background-color": "var(--primary-background-color)"
+                                                    }
+                                                ],
+                                                "icon": [
+                                                    {
+                                                        "color": "var(--primary-text-color)"
+                                                    }
+                                                ]
+                                            },
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.toggle_discover",
+                                                "service_data": {
+                                                    "entity_id": "input_boolean.learning_mode_remote_18",
+                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                }
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "icon": "mdi:power",
+                                            "show_icon": true,
+                                            "show_name": false,
+                                            "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n      -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n      -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;\n    {% endif %}\n}\n",
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "width": "60px"
+                                                    },
+                                                    {
+                                                        "height": "60px"
+                                                    },
+                                                    {
+                                                        "margin": "10px 10px 10px 73px"
+                                                    },
+                                                    {
+                                                        "border-radius": "100px"
+                                                    },
+                                                    {
+                                                        "background-color": "var(--primary-background-color)"
+                                                    },
+                                                    {
+                                                        "box-shadow": ""
+                                                    }
+                                                ],
+                                                "icon": [
+                                                    {
+                                                        "color": "var(--primary-text-color)"
+                                                    }
+                                                ]
+                                            },
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "broadlink_raceland.send_request",
+                                                "service_data": {
+                                                    "command_name": "power_18",
+                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                }
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "custom:hui-horizontal-stack-card"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "width": "10px"
+                                                    },
+                                                    {
+                                                        "height": "60px"
+                                                    },
+                                                    {
+                                                        "margin": "10px 10px 10px 73px"
+                                                    },
+                                                    {
+                                                        "border-radius": "100px"
+                                                    },
+                                                    {
+                                                        "background-color": "var(--primary-background-color)"
+                                                    },
+                                                    {
+                                                        "box-shadow": ""
+                                                    }
+                                                ]
+                                            },
+                                            "entities": [
+                                                {
+                                                    "cards": [
+                                                        {
+                                                            "icon": "mdi:skip-backward",
+                                                            "show_icon": true,
+                                                            "show_name": false,
+                                                            "size": "100%",
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "margin-left": "30px"
+                                                                    },
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "width": "30px"
+                                                                    },
+                                                                    {
+                                                                        "height": "30px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "icon": [
+                                                                    {
+                                                                        "color": "var(--primary-text-color)"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "reverse_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        },
+                                                        {
+                                                            "icon": "mdi:play",
+                                                            "show_icon": true,
+                                                            "show_name": false,
+                                                            "size": "100%",
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "margin-left": "10px"
+                                                                    },
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "width": "30px"
+                                                                    },
+                                                                    {
+                                                                        "height": "30px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "icon": [
+                                                                    {
+                                                                        "color": "var(--primary-text-color)"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "play_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        },
+                                                        {
+                                                            "icon": "mdi:skip-forward",
+                                                            "show_icon": true,
+                                                            "show_name": false,
+                                                            "size": "100%",
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "margin-left": "10px"
+                                                                    },
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "width": "30px"
+                                                                    },
+                                                                    {
+                                                                        "height": "30px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "icon": [
+                                                                    {
+                                                                        "color": "var(--primary-text-color)"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "foward_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        }
+                                                    ],
+                                                    "type": "custom:hui-horizontal-stack-card"
+                                                }
+                                            ],
+                                            "show_header_toggle": false,
+                                            "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n      -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n      -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;\n    {% endif %}\n  border-radius: 10px;\n  background-color: var(--primary-background-color);\n}\n",
+                                            "type": "custom:hui-entities-card"
+                                        }
+                                    ],
+                                    "type": "custom:hui-horizontal-stack-card"
+                                },
+                                {
+                                    "show_icon": false,
+                                    "show_name": false,
+                                    "styles": {
+                                        "card": [
+                                            {
+                                                "width": "3px"
+                                            },
+                                            {
+                                                "height": "3px"
+                                            },
+                                            {
+                                                "box-shadow": "none"
+                                            },
+                                            {
+                                                "background-color": "var(--primary-background-color)"
+                                            }
+                                        ]
+                                    },
+                                    "type": "custom:button-card"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entities": [
+                                                {
+                                                    "cards": [
+                                                        {
+                                                            "icon": "mdi:menu-up",
+                                                            "show_icon": true,
+                                                            "show_name": false,
+                                                            "size": "100%",
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "width": "50px"
+                                                                    },
+                                                                    {
+                                                                        "height": "50px"
+                                                                    },
+                                                                    {
+                                                                        "margin-left": "69px"
+                                                                    },
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "icon": [
+                                                                    {
+                                                                        "color": "var(--primary-text-color)"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "up_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        }
+                                                    ],
+                                                    "type": "custom:hui-horizontal-stack-card"
+                                                },
+                                                {
+                                                    "cards": [
+                                                        {
+                                                            "icon": "mdi:menu-left",
+                                                            "show_icon": true,
+                                                            "show_name": false,
+                                                            "size": "100%",
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "width": "50px"
+                                                                    },
+                                                                    {
+                                                                        "height": "50px"
+                                                                    },
+                                                                    {
+                                                                        "margin-left": "11px"
+                                                                    },
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "icon": [
+                                                                    {
+                                                                        "color": "var(--primary-text-color)"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "left_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        },
+                                                        {
+                                                            "name": "OK",
+                                                            "show_icon": false,
+                                                            "show_name": true,
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "width": "50px"
+                                                                    },
+                                                                    {
+                                                                        "height": "50px"
+                                                                    },
+                                                                    {
+                                                                        "border-radius": "100px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    },
+                                                                    {
+                                                                        "box-shadow": "[[[\n  if (states['input_boolean.learning_mode_remote_18'].state == \"off\")\n    return '-1px -1px 5px #2c2c2c,' +\n           '1px 1px 5px #191919';\n  else if (states['input_boolean.learning_mode_remote_18'].state == \"on\")\n    return '-1px -1px 5px #FFA500,' +\n           '1px 1px 5px #FFA500';\n]]]\n"
+                                                                    }
+                                                                ],
+                                                                "name": [
+                                                                    {
+                                                                        "font-size": "20px"
+                                                                    },
+                                                                    {
+                                                                        "font-weight": "bold"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "enter_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        },
+                                                        {
+                                                            "icon": "mdi:menu-right",
+                                                            "show_icon": true,
+                                                            "show_name": false,
+                                                            "size": "100%",
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "width": "50px"
+                                                                    },
+                                                                    {
+                                                                        "height": "50px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "icon": [
+                                                                    {
+                                                                        "color": "var(--primary-text-color)"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "right_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        }
+                                                    ],
+                                                    "type": "custom:hui-horizontal-stack-card"
+                                                },
+                                                {
+                                                    "cards": [
+                                                        {
+                                                            "icon": "mdi:menu-down",
+                                                            "show_icon": true,
+                                                            "show_name": false,
+                                                            "size": "100%",
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "margin-left": "69px"
+                                                                    },
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "width": "50px"
+                                                                    },
+                                                                    {
+                                                                        "height": "50px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "icon": [
+                                                                    {
+                                                                        "color": "var(--primary-text-color)"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "down_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        }
+                                                    ],
+                                                    "type": "custom:hui-horizontal-stack-card"
+                                                }
+                                            ],
+                                            "show_header_toggle": false,
+                                            "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n      inset -1px -1px 5px #FFA500 , inset 1px 1px 5px #FFA500;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n      inset -2px -2px 5px #2c2c2c , inset 2px 2px 5px #191919;\n    {% endif %}\n   border-radius: 30px;\n   background-color: var(--primary-background-color)\n}\n",
+                                            "type": "custom:hui-entities-card"
+                                        }
+                                    ],
+                                    "type": "custom:hui-horizontal-stack-card"
+                                },
+                                {
+                                    "show_icon": false,
+                                    "show_name": false,
+                                    "styles": {
+                                        "card": [
+                                            {
+                                                "width": "3px"
+                                            },
+                                            {
+                                                "height": "3px"
+                                            },
+                                            {
+                                                "box-shadow": "none"
+                                            },
+                                            {
+                                                "background-color": "var(--primary-background-color)"
+                                            }
+                                        ]
+                                    },
+                                    "type": "custom:button-card"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entities": [
+                                                {
+                                                    "cards": [
+                                                        {
+                                                            "icon": "mdi:plus",
+                                                            "show_icon": true,
+                                                            "show_name": false,
+                                                            "size": "100%",
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "width": "30px"
+                                                                    },
+                                                                    {
+                                                                        "height": "30px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "icon": [
+                                                                    {
+                                                                        "color": "var(--primary-text-color)"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "volume_up_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        },
+                                                        {
+                                                            "name": "VOL",
+                                                            "show_icon": false,
+                                                            "show_name": true,
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "width": "30px"
+                                                                    },
+                                                                    {
+                                                                        "height": "30px"
+                                                                    },
+                                                                    {
+                                                                        "border-radius": "100px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "name": [
+                                                                    {
+                                                                        "font-size": "10px"
+                                                                    },
+                                                                    {
+                                                                        "font-weight": "bold"
+                                                                    },
+                                                                    {
+                                                                        "font-family": "Helvetica"
+                                                                    },
+                                                                    {
+                                                                        "letter-spacing": "-0.01em"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        },
+                                                        {
+                                                            "icon": "mdi:minus",
+                                                            "show_icon": true,
+                                                            "show_name": false,
+                                                            "size": "100%",
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "width": "30px"
+                                                                    },
+                                                                    {
+                                                                        "height": "30px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "icon": [
+                                                                    {
+                                                                        "color": "var(--primary-text-color)"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "volume_down_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        }
+                                                    ],
+                                                    "type": "custom:hui-vertical-stack-card"
+                                                }
+                                            ],
+                                            "show_header_toggle": false,
+                                            "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n      -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n      -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;\n    {% endif %}\n  border-radius: 10px;\n  background-color: var(--primary-background-color);\n}\n",
+                                            "type": "custom:hui-entities-card"
+                                        },
+                                        {
+                                            "cards": [
+                                                {
+                                                    "icon": "mdi:volume-mute",
+                                                    "show_icon": true,
+                                                    "show_name": false,
+                                                    "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n      -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n      -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;\n    {% endif %}\n}\n",
+                                                    "styles": {
+                                                        "card": [
+                                                            {
+                                                                "width": "50px"
+                                                            },
+                                                            {
+                                                                "height": "50px"
+                                                            },
+                                                            {
+                                                                "margin": "10px 10px 01px 10px"
+                                                            },
+                                                            {
+                                                                "border-radius": "10px"
+                                                            },
+                                                            {
+                                                                "background-color": "var(--primary-background-color)"
+                                                            },
+                                                            {
+                                                                "box-shadow": ""
+                                                            }
+                                                        ],
+                                                        "icon": [
+                                                            {
+                                                                "color": "var(--primary-text-color)"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "tap_action": {
+                                                        "action": "call-service",
+                                                        "service": "broadlink_raceland.send_request",
+                                                        "service_data": {
+                                                            "command_name": "mute_18",
+                                                            "mac_adress": "24:df:a7:f1:20:27"
+                                                        }
+                                                    },
+                                                    "type": "custom:button-card"
+                                                },
+                                                {
+                                                    "icon": "mdi:television",
+                                                    "show_icon": true,
+                                                    "show_name": false,
+                                                    "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n      -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n      -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;\n    {% endif %}\n}\n",
+                                                    "styles": {
+                                                        "card": [
+                                                            {
+                                                                "width": "50px"
+                                                            },
+                                                            {
+                                                                "height": "50px"
+                                                            },
+                                                            {
+                                                                "margin": "10px 10px 10px 10px"
+                                                            },
+                                                            {
+                                                                "border-radius": "10px"
+                                                            },
+                                                            {
+                                                                "background-color": "var(--primary-background-color)"
+                                                            },
+                                                            {
+                                                                "box-shadow": ""
+                                                            }
+                                                        ],
+                                                        "icon": [
+                                                            {
+                                                                "color": "var(--primary-text-color)"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "tap_action": {
+                                                        "action": "call-service",
+                                                        "service": "broadlink_raceland.send_request",
+                                                        "service_data": {
+                                                            "command_name": "tv_av_18",
+                                                            "mac_adress": "24:df:a7:f1:20:27"
+                                                        }
+                                                    },
+                                                    "type": "custom:button-card"
+                                                }
+                                            ],
+                                            "type": "custom:hui-vertical-stack-card"
+                                        },
+                                        {
+                                            "entities": [
+                                                {
+                                                    "cards": [
+                                                        {
+                                                            "icon": "mdi:plus",
+                                                            "show_icon": true,
+                                                            "show_name": false,
+                                                            "size": "100%",
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "width": "30px"
+                                                                    },
+                                                                    {
+                                                                        "height": "30px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "icon": [
+                                                                    {
+                                                                        "color": "var(--primary-text-color)"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "channel_up_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        },
+                                                        {
+                                                            "name": "P",
+                                                            "show_icon": false,
+                                                            "show_name": true,
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "width": "30px"
+                                                                    },
+                                                                    {
+                                                                        "height": "30px"
+                                                                    },
+                                                                    {
+                                                                        "border-radius": "100px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "name": [
+                                                                    {
+                                                                        "font-size": "10px"
+                                                                    },
+                                                                    {
+                                                                        "font-weight": "bold"
+                                                                    },
+                                                                    {
+                                                                        "font-family": "Helvetica"
+                                                                    },
+                                                                    {
+                                                                        "letter-spacing": "-0.01em"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        },
+                                                        {
+                                                            "icon": "mdi:minus",
+                                                            "show_icon": true,
+                                                            "show_name": false,
+                                                            "size": "100%",
+                                                            "styles": {
+                                                                "card": [
+                                                                    {
+                                                                        "box-shadow": "none"
+                                                                    },
+                                                                    {
+                                                                        "width": "30px"
+                                                                    },
+                                                                    {
+                                                                        "height": "30px"
+                                                                    },
+                                                                    {
+                                                                        "background-color": "var(--primary-background-color)"
+                                                                    }
+                                                                ],
+                                                                "icon": [
+                                                                    {
+                                                                        "color": "var(--primary-text-color)"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tap_action": {
+                                                                "action": "call-service",
+                                                                "service": "broadlink_raceland.send_request",
+                                                                "service_data": {
+                                                                    "command_name": "channel_down_18",
+                                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                                }
+                                                            },
+                                                            "type": "custom:button-card"
+                                                        }
+                                                    ],
+                                                    "type": "custom:hui-vertical-stack-card"
+                                                }
+                                            ],
+                                            "show_header_toggle": false,
+                                            "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n      -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n      -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;\n    {% endif %}\n  border-radius: 10px;\n  background-color: var(--primary-background-color);\n}\n",
+                                            "type": "custom:hui-entities-card"
+                                        }
+                                    ],
+                                    "type": "custom:hui-horizontal-stack-card"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "icon": "mdi:home",
+                                            "show_icon": true,
+                                            "show_name": false,
+                                            "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n     -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n     -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;\n    {% endif %}\n   border-radius: 30px;\n   background-color: var(--primary-background-color)\n}\n\n\n}\n",
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "margin-top": "10px"
+                                                    },
+                                                    {
+                                                        "margin-left": "3px"
+                                                    },
+                                                    {
+                                                        "width": "60px"
+                                                    },
+                                                    {
+                                                        "height": "60px"
+                                                    },
+                                                    {
+                                                        "border-radius": "10px"
+                                                    },
+                                                    {
+                                                        "background-color": "var(--primary-background-color)"
+                                                    }
+                                                ],
+                                                "icon": [
+                                                    {
+                                                        "color": "var(--primary-text-color)"
+                                                    }
+                                                ]
+                                            },
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "broadlink_raceland.send_request",
+                                                "service_data": {
+                                                    "command_name": "home_18",
+                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                }
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "icon": "mdi:netflix",
+                                            "show_icon": true,
+                                            "show_name": false,
+                                            "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n      -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n      -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;\n    {% endif %}\n   border-radius: 30px;\n   background-color: var(--primary-background-color)\n}\n",
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "margin-top": "10px"
+                                                    },
+                                                    {
+                                                        "margin-left": "8px"
+                                                    },
+                                                    {
+                                                        "width": "60px"
+                                                    },
+                                                    {
+                                                        "height": "60px"
+                                                    },
+                                                    {
+                                                        "border-radius": "10px"
+                                                    },
+                                                    {
+                                                        "background-color": "var(--primary-background-color)"
+                                                    }
+                                                ],
+                                                "icon": [
+                                                    {
+                                                        "color": "var(--primary-text-color)"
+                                                    }
+                                                ]
+                                            },
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "broadlink_raceland.send_request",
+                                                "service_data": {
+                                                    "command_name": "netflix_18",
+                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                }
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "icon": "mdi:keyboard-return",
+                                            "show_icon": true,
+                                            "show_name": false,
+                                            "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n      -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n      -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;\n    {% endif %}\n}\n",
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "margin-top": "10px"
+                                                    },
+                                                    {
+                                                        "margin-left": "8px"
+                                                    },
+                                                    {
+                                                        "width": "60px"
+                                                    },
+                                                    {
+                                                        "height": "60px"
+                                                    },
+                                                    {
+                                                        "border-radius": "10px"
+                                                    },
+                                                    {
+                                                        "background-color": "var(--primary-background-color)"
+                                                    }
+                                                ],
+                                                "icon": [
+                                                    {
+                                                        "color": "var(--primary-text-color)"
+                                                    }
+                                                ]
+                                            },
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "broadlink_raceland.send_request",
+                                                "service_data": {
+                                                    "command_name": "return_18",
+                                                    "mac_adress": "24:df:a7:f1:20:27"
+                                                }
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "custom:hui-horizontal-stack-card"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "style": "ha-card {\n  box-shadow:\n    {% if is_state('input_boolean.learning_mode_remote_18', 'on') %}\n      -1px -1px 5px #FFA500 , 1px 1px 5px #FFA500;\n    {% elif is_state('input_boolean.learning_mode_remote_18', 'off') %} \n      -2px -2px 5px #2c2c2c , 2px 2px 5px #191919;\n    {% endif %}\n  background-color: var(--primary-background-color);\n  width: 100%;\n  border-radius: 10px;\n  margin: 10px auto;\n}\n",
+                            "type": "entities"
+                        },
+                        {
+                            "type": "custom:light-card",
+                            "entity": "light.raceland",
+                            "show_name": true,
+                            "show_state": true,
+                            "name": "raceland"
+                        }
+                    ]
+                },
+                {
+                    "title": "L\u00e2mpadas",
+                    "path": "L\u00e2mpadas",
+                    "theme": "ios-dark-mode",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "sensor",
+                            "entity": "sensor.raceland_analog_temperature",
+                            "graph": "line",
+                            "detail": 2,
+                            "hours_to_show": 24
+                        },
+                        {
+                            "type": "sensor",
+                            "entity": "sensor.raceland_analog_temperature",
+                            "hours_to_show": 24,
+                            "detail": 2,
+                            "graph": "line"
+                        },
+                        {
+                            "type": "sensor",
+                            "entity": "sensor.disk_use_percent_home",
+                            "hours_to_show": 24,
+                            "detail": 2,
+                            "graph": "line"
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "sensor.raceland_analog_temperature",
+                            "name": "entidade teste"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tempo",
+                    "path": "",
+                    "theme": "ios-dark-mode",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "weather-forecast",
+                            "entity": "weather.home",
+                            "show_forecast": true,
+                            "secondary_info_attribute": "temperature"
+                        }
+                    ]
+                },
+                {
+                    "title": "securitas",
+                    "path": "securitas",
+                    "theme": "ios-dark-mode",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "picture-glance",
+                            "entities": [
+                                "binary_sensor.updater",
+                                "binary_sensor.embedded_net_dvr_motion_1"
+                            ],
+                            "camera_image": "camera.camera_15",
+                            "title": "Camera garagem"
+                        },
+                        {
+                            "type": "picture-entity",
+                            "camera_image": "camera.camera_16",
+                            "entity": "automation.create_dashboard"
+                        }
+                    ]
+                },
+                {
+                    "title": "camera",
+                    "path": "camera",
+                    "type": "custom:masonry-layout",
+                    "theme": "ios-dark-mode",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "custom:more-info-card",
+                            "entity": "light.raceland"
+                        }
+                    ]
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "light.raceland_3"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "switch.raceland_2"
+                        }
+                    ]
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "custom:light-card",
+                            "show_name": true,
+                            "show_state": true,
+                            "entity": "light.raceland",
+                            "name": "gxdg",
+                            "icon": [
+                                "M26.5 21.8l3.8-6.1H19.7l3.8 6.1c-5 .7-6.3 5.8-5.7 10.2.7 5.1 3.2 10.1 5.7 14.4H19v2.5h11.8v-2.5h-4.5C29 42 31.4 37 32.1 32c.6-4.4-.6-9.4-5.6-10.2zm3.1 9.1c-.3 4.3-2.3 8.7-4.4 12.4l-.2.1v.1-.1c-1.8-3-3.3-6.4-4.1-9.7-.7-3.1-1-7.2 2.7-8.4 1.4-.5 3.1-.1 4.2.8 1.6 1 1.8 3 1.8 4.8z",
+                                "M38.1 20L35.7 3.8c-.3-1.9-.4-1.7-.6-2-.9-.6-2.3-.7-2.3-.7H17.4s-1.4 0-2.3.7c-.2.3-.3.1-.6 2C14 5.7 11.9 20 11.9 20s5.8.3 13.4.3h0c7.3 0 12.8-.3 12.8-.3z"
+                            ]
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "switch.raceland_5"
+                        }
+                    ]
+                },
+                {
+                    "title": "teste horizontal",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "custom:light-card",
+                            "entity": "light.raceland",
+                            "show_name": true,
+                            "show_state": true,
+                            "name": "raceland"
+                        },
+                        {
+                            "type": "custom:light-card",
+                            "entity": "light.raceland",
+                            "show_name": true,
+                            "show_state": true,
+                            "name": "raceland"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "light.raceland_2"
+                        },
+                        {
+                            "type": "picture",
+                            "image": "https://demo.home-assistant.io/stub_config/t-shirt-promo.png",
+                            "tap_action": {
+                                "action": "none"
+                            },
+                            "hold_action": {
+                                "action": "none"
+                            }
+                        },
+                        {
+                            "type": "picture-elements",
+                            "elements": [
+                                {
+                                    "type": "state-badge",
+                                    "entity": "sensor.time",
+                                    "style": {
+                                        "top": "32%",
+                                        "left": "40%"
+                                    }
+                                }
+                            ],
+                            "image": "https://demo.home-assistant.io/stub_config/floorplan.png"
+                        },
+                        {
+                            "type": "custom:light-card",
+                            "entity": "light.raceland",
+                            "show_name": true,
+                            "show_state": true,
+                            "name": "raceland"
+                        }
+                    ]
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "light.raceland_3"
+                        },
+                        {
+                            "type": "custom:light-card",
+                            "entity": "light.raceland",
+                            "name": "sgsgfs",
+                            "show_name": true,
+                            "show_state": true
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "light.raceland_3"
+                        }
+                    ]
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "custom:search-card"
+                        },
+                        {
+                            "type": "custom:search-card"
+                        },
+                        {
+                            "type": "custom:search-card"
+                        }
+                    ]
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "custom:more-info-card",
+                            "entity": "binary_sensor.updater"
+                        },
+                        {
+                            "type": "custom:more-info-card",
+                            "entity": "binary_sensor.updater"
+                        },
+                        {
+                            "type": "custom:more-info-card",
+                            "entity": "binary_sensor.updater"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

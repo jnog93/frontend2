@@ -1,0 +1,12 @@
+{
+  "domain": "raceland",
+  "name": "raceland",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/tasmota",
+  "requirements": ["hatasmota==0.2.20"],
+  "dependencies": ["mqtt"],
+  "mqtt": ["raceland/discovery/#"],
+  "codeowners": ["@zroger49"],
+  "iot_class": "local_push", 
+  "version": "0.2.0"
+}

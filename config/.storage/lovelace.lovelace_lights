@@ -1,0 +1,58 @@
+{
+    "version": 1,
+    "key": "lovelace.lovelace_lights",
+    "data": {
+        "config": {
+            "views": [
+                {
+                    "title": "Home",
+                    "cards": [
+                        {
+                            "type": "light",
+                            "entity": "light.raceland",
+                            "name": "RBG"
+                        },
+                        {
+                            "type": "light",
+                            "entity": "light.raceland_2",
+                            "name": "Dimmer"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "switch.raceland",
+                            "name": "Test switch"
+                        }
+                    ]
+                },
+                {
+                    "title": "test pannel lights",
+                    "path": "test-pannel-lights",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "light.raceland_3"
+                                },
+                                {
+                                    "entity": "light.raceland_ecfabc6ea163_light_light_1"
+                                },
+                                {
+                                    "entity": "light.raceland_ecfabc6ea163_light_light_2"
+                                },
+                                {
+                                    "entity": "light.raceland_ecfabc6ea163_light_light_3"
+                                }
+                            ],
+                            "title": "Teste Lights"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
